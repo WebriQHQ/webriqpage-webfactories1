@@ -1,6 +1,7 @@
 ---
 title:  "Escape from the Citadel (Season 6)"
 date:   2014-04-21 10:33:56
+writer: Philip Bodart
 categories: season6 episodes
 shortdesc: Finn and Jake follow the Lich to the Citadel, where Finn meets his long lost dad.
 banner: /img/citadel.jpg
