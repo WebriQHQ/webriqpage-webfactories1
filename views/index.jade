@@ -232,7 +232,7 @@ block content
                     li Posted
                       span= dateFormat(post.date, 'LL')
                 .article-body
-                  != postExcerpt(post.body)
+                  p= post.shortdesc
                 .article-more
                   a.btn.btn-primary.btn-lg.eq-ui-waves-light(href=post.permalink) Read More
         .col-md-6
