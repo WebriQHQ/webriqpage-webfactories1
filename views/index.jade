@@ -222,6 +222,8 @@ block content
                 img(src= post.banner)
               .article-title
                 h3= post.title
+              .article-publish
+                p= "Posted " + dateFormat(post.date, 'LL')
               .article-body
                 != postExcerpt(post.body)
         .col-md-6
