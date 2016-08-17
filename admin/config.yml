@@ -5,7 +5,7 @@ backend:
 production:
   backend:
     name: github-api
-    repo: WebriQHQ/webriqpage-webfactories1 # Path to your Github repository
+    repo: jemworth/webriqpage-webfactories1 # Path to your Github repository
     branch: master # Branch to update (master by default)
 
 media_folder: "assets/img/uploads" # Folder where user uploaded files should go
