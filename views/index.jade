@@ -216,7 +216,7 @@ block content
       .row
         .col-md-6
           h2.mt-0 Recent Blogs
-          each post in posts.sort('date', 'desc').slice(0,2)
+          each post in posts.orderBy('date', 'desc').slice(0,2)
             article#home-article.post-article
               .article-banner
                 img(src= post.banner)
