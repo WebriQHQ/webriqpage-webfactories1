@@ -1,15 +1,104 @@
-section#copyright
-	div.container
-		div.row
-			div.col-lg-12
-				p= records.site.sitedata[0].footer
+section.layout-footer
+  .container
+    h1.mt-0.mb-10.white-text Contact Us
+    .row
+      .col-md-4.col-sm-6.col-xs-6.col-sx-12
+        h5
+          em.fa.fa-cog  
+          | PARTNER COMPANIES
+        ul.partner-list.p-0
+          li
+            a(href='http://webriq.us', target='_blank') WebriQ
+          li
+            a(href='http://australia.webfactories.biz', target='_blank') Webfactories Australia
+          li
+            a(href='http://webfactories-africa.com', target='_blank') Webfactories Africa
+          li
+            a(href='http://webfactories.co.uk', target='_blank') Webfactories UK
+          li
+            a(href='https://usa.webfactories.biz/home', target='_blank') Webfactories USA
+          li
+            a(href='http://aspley.buzzin.today/home', target='_blank') Buzzin
+      .col-md-4.col-sm-6.col-xs-6.col-sx-12
+        h5
+          em.fa.fa-location-arrow  
+          | OUR OFFICE
+        // <p>&nbsp;<em class="fa fa-mobile">&nbsp;</em>+1 203 2856929</p>
+        p
+          em.fa.fa-mobile  
+          | + 44 7711 651633
+        p
+          em.fa.fa-laptop(style='margin-right: 4px;')  
+          a(href='mailto:partners@webfactories.co.uk', target='_blank') partners@webfactories.co.uk
+      .col-md-4.col-sm-12.col-xs-12
+        .webfactories_presentation
+          h5
+            em.fa.fa-file-powerpoint-o  
+            | PRESENTATIONS
+          ul.presentation-list.p-0
+            li
+              a.slideshare_btn(href='http://www.slideshare.net/PhilippeBodart/webfactories-web-and-digital-marketing-services-52072804', target='blank_')
+                em.fa.fa-linkedin-square  
+                | SlideShare
+            li
+              a.swipe_btn(href='https://www.swipe.to/69763p8ktrm3k37#page=l5bpRHlBR', target='blank_')
+                img(src='../img/swipe.png', alt='')
+  .container
+      p
+      p(style='text-align: right;')
+        a#page-topBtn.top(href='#')  
 
+#copyright
+    .container
+      p
+        | All rights reserved!  2016 
+        a(href='http://webriq.com/', target='_blank') WebriQ
+        |  Pte Ltd | 
+        a(href='http://webriq.us/terms', target='_blank') Terms of use
+        |  | 
+        a(href='/cookies') Cookies
+!= js()
+#cookieChoiceInfo(style='display: none;')
+  | Cookies help us deliver our services. By using our services, you agree to our use of cookies.
+  a(style='margin-left: 8px;', href='/cookies', target='_blank') learn more
+  a#cookieChoiceDismiss(style='margin-left: 24px;', href='#') Got it
 
-	!= js()
-
-
-	<!-- Google Analytics -->
-	script(type="text/javascript")
-		!= records.site.sitedata[0].analytics
-
-
+script(type="text/javascript", src="https://code.jquery.com/jquery-1.12.4.min.js")
+script(type="text/javascript", src="../js/webriq-bootstrap-material-ui.min.js")
+script(type="text/javascript", src="../js/lightbox-2.6.min.js")
+script(type="text/javascript", src="../js/modernizr.custom.js")
+script(type="text/javascript", src="../js/jasny-bootstrap.min.js")
+script(type="text/javascript", src="../js/jquery.expander.min.js")
+script(type="text/javascript", src="../js/cookies.js")
+script(type="text/javascript", src="../js/scrolld.js")
+script(type='text/javascript').
+  $(document).ready(function(){
+  $("[id*='Btn']").stop(true).on('click',function(e) {
+  e.preventDefault();
+  $(this).scrolld();
+  });
+  });
+script(type='text/javascript').
+  $(document).ready(function(){
+  $('.boxes p').expander({
+    slicePoint: 230,
+    expandText: '[more]',
+    userCollapseText: '[less]'
+  })
+  $("<div class='overlay'></div>").appendTo("#navbar");
+  $(".overlay").on('click', function(){
+  $(".navbar-header button").addClass("collapsed");
+  $("#navbar").removeClass("in");
+  });
+  });
+script.
+  // Install Cookies
+  document.addEventListener('DOMContentLoaded', function(event) {
+  cookieChoices.showCookieConsentBar('Cookies help us deliver our services. By using our services, you agree to our use of cookies.',
+  'Got it', 'learn more', '/cookies');
+  });
+script(src='https://cdn.slaask.com/chat.js')
+script.
+  _slaask.init('a2185cf7997e55eb9484fc90fe78066a');
+script(type="text/javascript")
+    != records.site.sitedata[0].analytics
