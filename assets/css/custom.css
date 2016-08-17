@@ -12,7 +12,7 @@
 .our-approach{ padding: 100px 0 !important;border-top: 1px solid #e1e1e1 !important;}
 .title-{ color: #333;font-size:36px !important;margin-top: 0px;}
 .sub-title{color: #00b4ff;font-size: 22px;font-weight: 300;}
-.subtitle .title{margin: 10px 0 0 0;font-size: 48px !important;font-weight: 300;}
+.subtitle .title{color: #333;margin: 10px 0 0 0;font-size: 48px !important;font-weight: 300;}
 .text-body{padding: 15px 0;}
 .btn-learn {margin: 5px 0 15px 0;}
 .web-services{padding: 110px 0 !important; background: url(../img/webservices-static-bg.jpg) top right;background-size: cover;}
@@ -21,8 +21,18 @@
 .icon-static li{float: left;width: 50%;margin-bottom: 25px;}
 .icon-static li p{width: 150px;border: 1px solid #fff;height: 150px;margin: auto;text-align: center;border-radius: 50%;}
 .icon-static li p em{top: 35px !important;color: #fff;position: relative;font-size: 16px;font-style: normal !important;font-weight: 400;}
+.portfolio,.blogs{padding:60px 0}
 .portfolio .span3{border: 1px solid #eeeeee;margin: 1em 0.5em;display: inline-block;padding: 6px;}
 .portfolio div.span3 img {width: auto !important;height: auto !important;max-width: 100%;}
+.blogs{border-top: 4px solid #00b4ff !important;}
+.title-border{color: #333;margin: 0 0 30px 0;padding:0 0 .8em 0;font-size: 24px;font-weight: 400;border-bottom: 1px solid #d6d6d6;}
+.social-list{display:table;padding:0;}
+.social-list li{display:table-cell;}
+.social-list li a{color:#fff;width:68px !important;height:68px;line-height:78px;display:block;margin-right:7px;text-align:center;border-radius:3px;}
+.social-list li a i{font-size:28px;}
+.social-list li a.fb{background:#53a1e0;}
+.social-list li a.twitter{background:#51b0b9;}
+.social-list li a.pinterest{background:#f23a3a;}
 
 /*Footer*/
 .layout-footer{border-top: 4px solid #00b4ff;background-color: #222222;padding:45px 0 8px 0}

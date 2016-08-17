@@ -19552,7 +19552,7 @@ html {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-weight: 400;
+  font-weight: 300;
   line-height: 1.1;
 }
 
@@ -20673,6 +20673,12 @@ fieldset[disabled] .btn-default.active {
 .btn-primary {
   color: #fff;
   background-color: #00b4ff;
+}
+.form-btn i{
+  color: #fff;
+  background-color: #00b4ff !important;
+  padding:5px 25px !important;
+  font-style:normal !important;
 }
 
 .btn-primary.eq-ui-btn-flat {
