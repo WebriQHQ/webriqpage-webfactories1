@@ -216,16 +216,21 @@ block content
       .row
         .col-md-6
           h2.mt-0 Recent Blogs
-          each post in posts.orderBy('date', 'desc').slice(0,2)
-            article#home-article.post-article
-              .article-banner
-                img(src= post.banner)
-              .article-title
-                h3= post.title
-              .article-publish
-                p= "Posted " + dateFormat(post.date, 'LL')
-              .article-body
-                != postExcerpt(post.body)
+          #home-article
+            each post in posts.orderBy('date', 'desc').slice(0,2)
+              article.post-article
+                .article-banner
+                  a(href=post.permalink)
+                    img(src= post.banner)
+                .article-title
+                  h3
+                    a(href=post.permalink)= post.title
+                .article-publish
+                  p= "Posted " + dateFormat(post.date, 'LL')
+                .article-body
+                  != postExcerpt(post.body)
+                .article-more
+                  a.btn.btn-primary.btn-lg.eq-ui-waves-light(href=post.permalink) Read More
         .col-md-6
           .newsletter
             h2.title-border Join Our Newsletter
