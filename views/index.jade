@@ -226,6 +226,7 @@ block content
                   h3
                     a(href=post.permalink)= post.title
                 .article-publish
+                  p= "Author " + post.writer
                   p= "Posted " + dateFormat(post.date, 'LL')
                 .article-body
                   != postExcerpt(post.body)
