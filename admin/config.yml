@@ -1,6 +1,6 @@
 backend:
   name: netlify-api
-  url: http://localhost:8080
+  url: https://webfactories.netlify.com
 
 production:
   backend:
