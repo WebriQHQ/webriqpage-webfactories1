@@ -27,7 +27,13 @@ html
 
   body#page-top.general.custom
     header
-      include includes/menu
+
+      if _path === "/pricing.html"
+        include includes/menu_pricing
+
+      else
+
+        include includes/menu_general
 
     section#custom
 
@@ -42,6 +48,9 @@ html
 
       if _path === "/partners.html"
         include includes/header_partners
+
+      if _path === "/pricing.html"
+        include includes/header_pricing
 
     div.main-container
       block content
