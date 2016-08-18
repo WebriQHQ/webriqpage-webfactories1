@@ -176,11 +176,7 @@ a.top:hover{background: url(../img/top.png) no-repeat bottom center;transition-d
 }
 
 /*bot page*/
-.subtitle .title {
-    margin: 10px 0 0 0;
-    font-size: 60px !important;
-    font-weight: 300;
-}
+
 .subtitle .lead {
     margin: 15px 10px 60px 10px !important;
     font-size: 24px !important;
