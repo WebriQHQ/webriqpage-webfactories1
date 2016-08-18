@@ -25,15 +25,21 @@ html
     != css()
 
 
-  body#page-top
+  body#page-top.general
+
     header
       include includes/menu
 
-    section
-      include includes/header
+    section#general
+
+      include includes/header_general
 
     div.main-container
       block content
+
+    div#btm_bg
+      
+      include includes/bot_sec_bg
 
     footer
       include includes/footer

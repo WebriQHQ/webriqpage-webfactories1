@@ -59,3 +59,511 @@ a.top:hover{background: url(../img/top.png) no-repeat bottom center;transition-d
   .icon-static li p{width: 130px;height: 130px;}
   .icon-static li img{width: 40% !important;}
 }
+
+
+/*NEIL CUSTOM CSS*/
+
+.header_bg {
+	padding: 170px 0 80px 0;
+	text-align: center;
+	background-size: cover;
+	background-attachment: fixed;
+	width: 100% !important;
+    min-width: 100% !important;
+    border-bottom: 4px solid #00b4ff;
+    color: #fff;
+	padding: 170px 0 80px 0;
+}
+
+.e-commerce
+{
+	color: #fff;
+	padding: 170px 0 80px 0;
+	background: url('/img/general-bg.jpg') center -134px;
+	text-align: center;
+	background-size: cover;
+	background-attachment: fixed;
+	width: 100% !important;
+    min-width: 100% !important;
+    border-bottom: 4px solid #00b4ff;
+}
+
+.e-commerce *
+{
+	color: #fff !important;
+	text-shadow: 1px 1px 1px #777;
+}
+
+.e-commerce .lead
+{
+	font-size: 36px;
+}
+
+
+
+
+/*general page*/
+.general p {
+    color: #7f8c8d;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+}
+.general .main-container{
+    padding:20px 0px 50px; 
+}
+.general.custom .main-container{
+    padding:20px 0px 0px; 
+}
+.general .main-container h1.title{
+    padding:0px 0px 10px;
+    color:#333;
+}
+
+#page-general .container {
+    width: 1170px;
+    margin: auto;
+    max-width: 100%;
+}
+#page-general p {
+    color: #7f8c8d;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+}
+#page-general {
+    background-color: #fff !important;
+    padding: 50px 0px;
+}
+#page-general h2 {
+    font-size: 36px;
+}
+
+#page-general h2 {
+    font-size: 36px;
+}
+
+#page-general h3,
+.h3 {
+    font-size: 24px;
+}
+
+#page-general img{
+    max-width: 100% !important;
+}
+
+/*bot page*/
+
+.botpage .title{
+	padding:40px 0px 20px;
+}
+.botpage .lead{
+	padding:0px 0px 20px;
+}
+
+.button-down img
+{
+	border: solid 1px #b2b2b2;
+	padding: 10px;
+	transition: .6s;
+	border-radius: 50%;
+	-webkit-transition: ease-in-out 500ms;
+}
+#botpage {
+	color: #fff;
+    padding: 0;
+    background: url('/img/bot-slider-bg2.jpg') bottom;
+    background-attachment: fixed;
+}
+.botpage {
+    color: #fff;
+    padding: 150px 0 130px 0;
+    text-align: center;
+}
+.bot_ttle {
+    margin: 0px 0px 5px;
+}
+.social p {
+    padding: 10px 0px;
+    line-height: 1.3;
+}
+.bot-new-apps {
+    padding: 30px 20px 40px;
+    background: #fafafa;
+    border-bottom: dotted 1px #f5f5f5;
+}
+.details.bot2 {
+    border-bottom: none !important;
+}
+.follow-us-on {
+    padding: 100px 0px 160px;
+    text-align: center;
+    background-image: url(/img/botpage/bot-social-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.button-down img {
+    border: solid 1px #b2b2b2;
+    padding: 10px;
+    transition: .6s;
+    border-radius: 50%;
+    -webkit-transition: ease-in-out 500ms;
+}
+.supp2 .social p {
+    color: #fff !important;
+}
+body .botpagespec {
+    padding-bottom: 0px !important;
+}
+.follow-us-on .supp1 {
+    padding: 20px 0px 60px;
+}
+.bot-new-apps .imgbot {
+    border: solid 1px #f3f3f3;
+}
+.follow-1 .follow-sec {
+    width: 66%;
+    margin: auto;
+}
+.button-down img:hover {
+    border: solid 1px #333;
+    padding: 10px;
+    border-radius: 50%;
+}
+.bot-new-apps .detbot p {
+    margin: 0px !important;
+    padding: 0px !important;
+}
+.botpage-nav-experience {
+    padding: 50px 0px;
+    box-shadow: 1px -2px 15px #f9f9f9;
+}
+.botpage-suppport-funct {
+    padding: 50px 0px 50px;
+    background: #fafafa;
+    text-align: center;
+}
+.follow-us-on .supp1 h3 {
+    color: #fff;
+    width: 500px;
+    border: solid 1px;
+    margin: auto;
+    padding: 10px;
+    font-weight: 100;
+}
+.bot-new-apps .detbot h3 {
+    margin: 30px 0px 0px !important;
+    padding: 10px 0px 10px !important;
+}
+.social .col-sm-4:hover p {
+    color: #e1e1e1 !important;
+}
+.botpagespec-det .col-sm-12 {
+    padding: 10px 10px;
+}
+.bot-new-apps .detbot strong {
+    font-weight: 500;
+}
+.botpagespec-det .details h3 {
+    padding: 0px 0px 20px;
+    color:#333;
+}
+.details.bot2,
+.details.bot1 {
+    border-bottom: dotted 1px #eee;
+    padding-bottom: 30px;
+}
+.botpage-nav-experience .nav2 {
+    padding: 40px 0px 50px;
+}
+.AI- .col-sm-5,
+.AI- .col-sm-7 {
+    padding: 0px;
+}
+.botpage-suppport-funct .supp2 {
+    padding: 30px;
+}
+.botpage-suppport-funct .supp2 a {
+    color: #fff !important;
+    padding: 13px 40px 13px 30px;
+    font-size: 18px;
+    background: #45d4ff;
+    box-shadow: 0px 4px 2px #ddd;
+    border-radius: 27px;
+}
+.botpage-nav-experience .nav-exp1 {
+    text-align: center;
+}
+.botpage-suppport-funct .supp1 h3 {
+    padding: 0px 0px 30px;
+}
+.botpage-nav-experience .nav2 .nav-img2 {
+    padding: 0px 0px 30px;
+}
+body .botpage-suppport-funct .supp2 a img {
+    padding: 0px 0px 6px;
+    margin-right: 8px;
+}
+#paragraph-9564-container,
+#paragraph-9539-container {
+    color: #fff;
+    padding: 0;
+    background: url('/uploads/site_phpwebfactories/pages/bot-slider-bg2.jpg') bottom;
+    background-attachment: fixed;
+}
+@media (max-width: 768px) {
+    .botpage {
+        color: #fff;
+        padding: 150px 0 40px 0;
+        text-align: center;
+    }
+    .botpagespec-det .col-xs-9 {
+        padding: 10px 20px;
+        min-width: 100% !important;
+    }
+}
+@media (max-width: 640px) {
+    .botpage {
+        color: #fff;
+        padding: 150px 0 40px 0;
+        text-align: center;
+    }
+    .AI- .col-sm-5 {
+        text-align: center;
+    }
+    .follow-1 .follow-sec {
+        width: 100%;
+        margin: auto;
+    }
+    .botpagespec-det .col-sm-12 {
+        padding: 10px 20px !important;
+    }
+    .botpage-suppport-funct .supp2 a {
+        color: #fff !important;
+        padding: 12px 20px 12px 10px;
+        font-size: 18px;
+        background: #45d4ff;
+    }
+    .botpagespec-det .thumb,
+    .botpagespec-det .thumb,
+    .botpagespec-det .col-xs-9 {
+        min-width: 100% !important;
+    }
+}
+@media (max-width: 480px) {
+    .botpage {
+        color: #fff;
+        padding: 150px 0 20px 0;
+        text-align: center;
+    }
+    .follow-us-on {
+        padding: 20px 0px 50px;
+        text-align: center;
+        background-image: url(/img/botpage/bot-social-bg.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+    }
+    .follow-us-on .supp1 h3 {
+        width: 100%;
+    }
+    .botpagespec-det .col-sm-12.sec-secbot .detbot {
+        padding: 0px;
+        text-align: center;
+    }
+    .botpagespec-det .col-sm-12.sec-secbot .detbot,
+    .botpagespec-det .col-sm-12.sec-secbot .imgbot {
+        min-width: 100% !important;
+    }
+}
+@media (max-width: 400px) {
+    .botpage {
+        color: #fff;
+        padding: 100px 0 20px 0;
+        text-align: center;
+    }
+    .botpage .subtitle .lead {
+        margin: 20px 10px 20px !important;
+    }
+    body .button-down .top img {
+        width: 20% !important;
+    }
+}
+
+.form-div {
+    background: #f6f6f6;
+    padding: 15px 30px 30px 30px;
+}
+.form-div .form-holder h3 {
+    margin-bottom: 35px;
+    font-weight: 600;
+    color:#333;
+}
+.form-div .form-holder {
+    margin-bottom: 15px;
+}
+.form-div .form-holder .form-label,
+.form-textarea {
+    margin-bottom: 5px;
+    font-weight: 700; 
+    color:#333;
+    font-size:14px;
+}
+.form-div .form-holder .form-input input {
+    border-color: #eee;
+    width: 100% !important;
+    height: 34px;
+    background: #fff;
+    padding: 10px;
+    box-shadow: 0px 0px 0px !important;
+}
+.form-div .form-holder .form-input textarea {
+    border-color: #eee;
+    background: #fff;
+    padding: 10px;
+    width: 100%;
+    height: 100px;
+    resize: none;
+    box-shadow: 0px 0px 0px
+}
+.form-div .form-holder .btn-form {
+    font-size: 14px;
+    background: #45d4ff;
+    border: 0;
+    padding: 10px 25px;
+    font-weight: 300;
+    text-transform: uppercase;
+    box-shadow: 0px 0px 0px !important;
+}
+.zoho-form .form-input input {
+    border: none;
+}
+.zoho-form .btn {
+    font-size: 14px;
+    background: #45d4ff;
+    margin-right: 10px;
+    padding: 0px 15px;
+}
+.zoho-form .btn input {
+    background: none !important;
+    border: none;
+    box-shadow: 0px 0px 0px !important;
+}
+
+
+/*static website page*/
+
+.responsive h2
+{
+    color: #01c5ff;
+    margin-bottom: 20px;
+}
+#page-general .responsive h2 {
+    font-size: 24px;
+    font-weight: 100;
+}
+
+/*responsive*/
+
+.responsive * {
+    font-weight: 300;
+}
+.innovative-technologies h2{
+    color: #8e44ad;
+}
+.innovative-technologies .subheading {
+    color: #bdc3c7;
+}
+.extra-key-features h2, .extra-key-features h3 {
+    color: #34495e;
+}
+.extra-key-features h3 {
+    margin-bottom: 15px;
+}
+
+.innovative-technologies h2
+{
+    color: #8e44ad;
+}
+.innovative-technologies li
+{
+    width: 22%;
+    border: 1px solid #eee;
+    margin: 0 5px;
+    display: inline-block;
+    text-align: center;
+}
+.innovative-technologies ul
+{
+    width: 80%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+} 
+.innovative-technologies {
+    padding-bottom: 60px;
+}
+
+
+/*bottom sec*/
+
+#btm_bg {
+   height: 150px;
+   background: transparent url(/img/bg1.png) center 10px no-repeat;
+}
+
+
+
+
+/*RESPONSIVE*/
+@media only screen and (max-width:1024px ) {
+	 .botpage-suppport-funct img,
+	 .botpage-nav-experience img{
+	 	max-width:100% !important;
+	}
+}
+
+@media only screen and (max-width:768px ) {
+	.general .main-container{
+    	padding:20px 20px 50px; 
+	}
+	.general.custom .main-container{
+	    padding:20px 0px 0px;
+	}
+	#btm_bg {
+	   height: 80px;
+	   background-size: 100% 100% !important;
+	}
+}
+
+@media only screen and (max-width:640px ) {
+	#btm_bg {
+	   height: 80px;
+	   background-size: 100% 100% !important;
+	}
+}
+@media only screen and (max-width:400px ) {
+	#btm_bg {
+	   height: 50px;
+	   background-size: 100% 100% !important;
+	}
+}
+
+@media (max-width: 480px) and (max-width: 580px) {
+p, p strong, p a, span, ul li, ul li a, ul li strong {
+    font-size: 12.5px !important;
+}
+.general p{
+    color: #7f8c8d;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+}
+.general .main-container h1.title {
+    font-size: 18px;
+}
+h1, h2, h3, h4 {
+    font-size: 18px !important;
+}
+}
