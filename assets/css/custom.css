@@ -46,6 +46,11 @@
 .article-publish ul li{display:table-cell;padding-right:10px;font-size:14px;}
 .article-publish ul li span{margin-left:5px;}
 .article-more{margin-top:30px}
+.post-article-widget{display:table;}
+.post-article-widget .article-title{margin-top:0px !important;}
+.post-article-widget-img{vertical-align:middle;display:table-cell;width:40%;padding:0 15px;}
+.post-article-widget-title{vertical-align:middle;display:table-cell;width:60%;padding:0 15px;}
+.post-article-widget-title h4{margin-top:0 !important;}
 
 /*Footer*/
 .layout-footer{border-top: 4px solid #00b4ff;background-color: #222222;padding:45px 0 8px 0}
@@ -87,39 +92,39 @@ a.top:hover{background: url(../img/top.png) no-repeat bottom center;transition-d
 /*NEIL CUSTOM CSS*/
 
 .header_bg {
-	padding: 170px 0 80px 0;
-	text-align: center;
-	background-size: cover;
-	background-attachment: fixed;
-	width: 100% !important;
+    padding: 170px 0 80px 0;
+    text-align: center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100% !important;
     min-width: 100% !important;
     border-bottom: 4px solid #00b4ff;
     color: #fff;
-	padding: 170px 0 80px 0;
+    padding: 170px 0 80px 0;
 }
 
 .e-commerce
 {
-	color: #fff;
-	padding: 170px 0 80px 0;
-	background: url('/img/general-bg.jpg') center -134px;
-	text-align: center;
-	background-size: cover;
-	background-attachment: fixed;
-	width: 100% !important;
+    color: #fff;
+    padding: 170px 0 80px 0;
+    background: url('/img/general-bg.jpg') center -134px;
+    text-align: center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100% !important;
     min-width: 100% !important;
     border-bottom: 4px solid #00b4ff;
 }
 
 .e-commerce *
 {
-	color: #fff !important;
-	text-shadow: 1px 1px 1px #777;
+    color: #fff !important;
+    text-shadow: 1px 1px 1px #777;
 }
 
 .e-commerce .lead
 {
-	font-size: 36px;
+    font-size: 36px;
 }
 
 
@@ -133,7 +138,7 @@ a.top:hover{background: url(../img/top.png) no-repeat bottom center;transition-d
     line-height: 28px;
 }
 .general .main-container{
-    padding:20px 0px 50px; 
+    padding:20px 0px 50px;
 }
 .general.custom .main-container{
     padding:20px 0px 0px; 
@@ -191,22 +196,22 @@ a.botpagespec-det:hover {
 }
 
 .botpage .title{
-	padding:40px 0px 20px;
+    padding:40px 0px 20px;
 }
 .botpage .lead{
-	padding:0px 0px 20px;
+    padding:0px 0px 20px;
 }
 
 .button-down img
 {
-	border: solid 1px #b2b2b2;
-	padding: 10px;
-	transition: .6s;
-	border-radius: 50%;
-	-webkit-transition: ease-in-out 500ms;
+    border: solid 1px #b2b2b2;
+    padding: 10px;
+    transition: .6s;
+    border-radius: 50%;
+    -webkit-transition: ease-in-out 500ms;
 }
 #botpage {
-	color: #fff;
+    color: #fff;
     padding: 0;
     background: url('/img/bot-slider-bg2.jpg') bottom;
     background-attachment: fixed;
@@ -564,36 +569,36 @@ body .botpage-suppport-funct .supp2 a img {
 
 /*RESPONSIVE*/
 @media only screen and (max-width:1024px ) {
-	 .botpage-suppport-funct img,
-	 .botpage-nav-experience img{
-	 	max-width:100% !important;
-	}
+     .botpage-suppport-funct img,
+     .botpage-nav-experience img{
+        max-width:100% !important;
+    }
 }
 
 @media only screen and (max-width:768px ) {
-	.general .main-container{
-    	padding:20px 20px 50px; 
-	}
-	.general.custom .main-container{
-	    padding:20px 0px 0px;
-	}
-	#btm_bg {
-	   height: 80px;
-	   background-size: 100% 100% !important;
-	}
+    .general .main-container{
+        padding:20px 20px 50px; 
+    }
+    .general.custom .main-container{
+        padding:20px 0px 0px;
+    }
+    #btm_bg {
+       height: 80px;
+       background-size: 100% 100% !important;
+    }
 }
 
 @media only screen and (max-width:640px ) {
-	#btm_bg {
-	   height: 80px;
-	   background-size: 100% 100% !important;
-	}
+    #btm_bg {
+       height: 80px;
+       background-size: 100% 100% !important;
+    }
 }
 @media only screen and (max-width:400px ) {
-	#btm_bg {
-	   height: 50px;
-	   background-size: 100% 100% !important;
-	}
+    #btm_bg {
+       height: 50px;
+       background-size: 100% 100% !important;
+    }
 }
 
 @media (max-width: 480px) and (max-width: 580px) {
