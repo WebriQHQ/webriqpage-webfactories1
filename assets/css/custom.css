@@ -6,7 +6,7 @@
 .trends{padding:55px 0}
 .trends-bottom p{position: relative !important;}
 .boxes{padding: 15px 0}
-.boxes-body{position:relative !important;min-height:180px;}
+.boxes-body{position:relative !important;min-height:150px;}
 .boxes-body p{position:absolute;z-index:1;background:#fff;padding-bottom:15px}
 .boxes-img{padding-bottom: 15px}
 .boxes-title h4{color: #566473;font-size: 25px !important;margin-top: 0px !important;text-align: left !important;font-weight: 300 !important;line-height: 34px;}
