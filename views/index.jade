@@ -214,7 +214,7 @@ block content
       .subtitle.mb-40
             h1.title.mt-0 Blogs
       .row
-        .col-md-6
+        .col-md-6.blog-left
           h2.mt-0.title-border Recent Blogs
           #home-article
             each post in posts.orderBy('date', 'desc').slice(0,2)
@@ -235,9 +235,9 @@ block content
                   p= post.shortdesc
                 .article-more
                   a.btn.btn-primary.btn-lg.eq-ui-waves-light(href=post.permalink) Read More
-          .more-entries
+          .more-entries.mt-20
             a(href="/recent-blog") More Entries
-        .col-md-6
+        .col-md-6.blog-right
           .newsletter
             h2.title-border Join Our Newsletter
             p.mb-30
@@ -252,7 +252,7 @@ block content
                 .clear
                   .eq-ui-form-group.eq-ui-input-field.form-btn
                     input#mc-embedded-subscribe.button.btn.btn-primary.eq-ui-waves-light(name='subscribe', type='submit', value='Subscribe')
-          .social-media.mt-40
+          .social-media.mt-50
             ul.social-list
               li
                 a.fb(href="https://www.facebook.com/WebFactories/", target="_blank")
