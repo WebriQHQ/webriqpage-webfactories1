@@ -20,17 +20,17 @@ block content
                     .entry-body
                         != entry.body
                         script(type='text/javascript', src='//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5382b46f7a18e0a7')
-                .col-md-4
-                    .side-bar-right
-                        .side-bar-header
-                            h3 Recent Post
-                        each post in posts.orderBy('date', 'desc').slice(0,10)
-                            .post-article-widget
-                                .post-article-widget-img
-                                    .article-banner
-                                        a(href=post.permalink)
-                                            img(src= post.banner)
-                                .post-article-widget-title
-                                    .article-title
-                                        h4
-                                            a(href=post.permalink)= post.title
+            .col-md-4
+                .side-bar-right
+                    .side-bar-header
+                        h3 Recent Post
+                    each post in posts.orderBy('date', 'desc').slice(0,10)
+                        .post-article-widget
+                            .post-article-widget-img
+                                .article-banner
+                                    a(href=post.permalink)
+                                        img(src= post.banner)
+                            .post-article-widget-title
+                                .article-title
+                                    h4
+                                        a(href=post.permalink)= post.title

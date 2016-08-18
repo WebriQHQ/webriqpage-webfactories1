@@ -132,9 +132,6 @@ a.top:hover{background: url(../img/top.png) no-repeat bottom center;transition-d
     font-size: 36px;
 }
 
-
-
-
 /*general page*/
 .general p {
     color: #7f8c8d;
@@ -143,7 +140,7 @@ a.top:hover{background: url(../img/top.png) no-repeat bottom center;transition-d
     line-height: 28px;
 }
 .general .main-container{
-    padding: 70px 0px 70px;
+    padding: 70px 0 0 0;
 }
 .general.custom .main-container{
     padding:20px 0px 0px; 
