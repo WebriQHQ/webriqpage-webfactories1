@@ -24,6 +24,8 @@ block content
                             a.btn.btn-primary.btn-lg.eq-ui-waves-light(href=post.permalink) Read More
             .col-md-4
                 .side-bar-right
+                    .side-bar-header
+                        h3 Recent Post
                     each post in posts.orderBy('date', 'desc').slice(0,10)
                         article.post-article-widget
                             .post-article-widget-img
