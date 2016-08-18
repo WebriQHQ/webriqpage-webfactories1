@@ -4,8 +4,9 @@
 
 /*Home Page*/
 .trends{padding:55px 0}
+.trends-bottom p{position: relative !important;}
 .boxes{padding: 15px 0}
-.boxes-body{position:relative !important;min-height:180px;}
+.boxes-body{position:relative !important;min-height:150px;}
 .boxes-body p{position:absolute;z-index:1;background:#fff;padding-bottom:15px}
 .boxes-img{padding-bottom: 15px}
 .boxes-title h4{color: #566473;font-size: 25px !important;margin-top: 0px !important;text-align: left !important;font-weight: 300 !important;line-height: 34px;}
@@ -46,20 +47,21 @@
 .article-publish ul li,.entry-publish ul li{display:table-cell;padding-right:10px;font-size: 14px;}
 .article-publish ul li span,.entry-publish ul li span{margin-left:5px;}
 .article-more{margin-top:30px}
-.entry-title h1{margin-top:0;margin-bottom:20px;}
-.entry-publish .entry-share-button{margin:20px 0 30px 0;}
+.entry-title h1{margin-top:0;margin-bottom:15px;}
+.entry-publish .entry-share-button{margin:10px 0 30px 0;}
 .post-article-widget{display:table;margin:20px 10px}
 .post-article-widget .article-title{margin-top:0px !important;}
 .post-article-widget-img{vertical-align:top;display:table-cell;width:40%;padding:0 15px;}
 .post-article-widget-title{vertical-align:top;display:table-cell;width:60%;padding:0 15px;}
-.post-article-widget-title h4{margin-top:0 !important;line-height:24px}
-.post-article-widget-title h4 a{color:#333}
+.post-article-widget-title h5{margin-top:0 !important;line-height:24px}
+.post-article-widget-title h5 a{color:#333}
 .side-bar-right{background:#f6f6f6;padding:0px 0px 10px 0px}
 .side-bar-header{background:#00b4ff;padding:20px 20px 20px 25px;margin-bottom:30px !important;}
 .side-bar-header h3{margin:0;color:#fff;font-weight:600;}
 
 /*Footer*/
 .layout-footer{border-top: 4px solid #00b4ff;background-color: #222222;padding:45px 0 8px 0}
+.layout-footer a:hover{color:#00b4ff !important;line-height:24px;}
 .layout-footer h5 {color: #ffffff;padding: 7px !important;background: #181818;margin-top:20px;}
 .layout-footer h5 .fa {color: #00b4ff;padding-right: 0.3em;}
 ul.partner-list li{background: url(../img/bullet.png) no-repeat left center;list-style: none;line-height: 35px;padding-left: 1.8em;}
@@ -102,6 +104,7 @@ body .splash-page .modal-content .e-commerce
 {
     padding: 0;
     background: none;
+    border:0px !important;
     text-shadow: 1px 1px 5px #555 !important;
 }
 .e-commerce
@@ -124,7 +127,7 @@ body .splash-page .modal-content .e-commerce .title
 body .splash-page .modal-content .e-commerce .lead
 {
     font-size: 24px;
-    margin-bottom: 35px;
+    margin-bottom: 35px !important;
 }
 body .splash-page .modal-content .e-commerce .inquiry strong
 {
