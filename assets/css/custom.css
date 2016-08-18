@@ -4,7 +4,6 @@
 
 /*Home Page*/
 .trends{padding:55px 0}
-.trends-bottom p{position:relative !important;}
 .boxes{padding: 15px 0}
 .boxes-body{position:relative !important;min-height:180px;}
 .boxes-body p{position:absolute;z-index:1;background:#fff;padding-bottom:15px}
@@ -47,8 +46,8 @@
 .article-publish ul li,.entry-publish ul li{display:table-cell;padding-right:10px;font-size: 14px;}
 .article-publish ul li span,.entry-publish ul li span{margin-left:5px;}
 .article-more{margin-top:30px}
-.entry-title h1{margin-top:0;margin-bottom:20px;}
-.entry-publish .entry-share-button{margin:20px 0 30px 0;}
+.entry-title h1{margin-top:0;margin-bottom:15px;}
+.entry-publish .entry-share-button{margin:10px 0 30px 0;}
 .post-article-widget{display:table;margin:20px 10px}
 .post-article-widget .article-title{margin-top:0px !important;}
 .post-article-widget-img{vertical-align:top;display:table-cell;width:40%;padding:0 15px;}
@@ -103,6 +102,7 @@ body .splash-page .modal-content .e-commerce
 {
     padding: 0;
     background: none;
+    border:0px !important;
     text-shadow: 1px 1px 5px #555 !important;
 }
 .e-commerce
@@ -216,6 +216,19 @@ body .splash-page .modal-content .e-commerce .inquiry strong
     border-bottom: 4px solid #00b4ff;
     color: #fff;
     padding: 170px 0 80px 0;
+}
+
+.e-commerce
+{
+    color: #fff;
+    padding: 170px 0 80px 0;
+    background: url('/img/general-bg.jpg') center -134px;
+    text-align: center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100% !important;
+    min-width: 100% !important;
+    border-bottom: 4px solid #00b4ff;
 }
 
 .e-commerce *
