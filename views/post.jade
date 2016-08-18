@@ -13,11 +13,11 @@ block content
                                 span= entry.writer
                             li Posted
                                 span= dateFormat(entry.date, 'LL')
+                        .entry-share-button
+                                .addthis_sharing_toolbox
                     .entry-banner
                             img(src= entry.banner)
                     .entry-body
-                        .entry-share-button
-                                .addthis_sharing_toolbox
                         != entry.body
                         script(type='text/javascript', src='//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5382b46f7a18e0a7')
                 .col-md-4
