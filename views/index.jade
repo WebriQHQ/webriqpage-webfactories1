@@ -217,7 +217,7 @@ block content
         .col-md-6
           h2.mt-0.title-border Recent Blogs
           #home-article
-            each post in posts.sort('date', 'desc').slice(0,2)
+            each post in posts.orderBy('date', 'desc').slice(0,2)
               article.post-article
                 .article-banner
                   a(href=post.permalink)
