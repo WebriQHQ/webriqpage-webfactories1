@@ -1,0 +1,102 @@
+section.header-menu
+  .container.hidden-xs
+    .row
+      .col-md-6.col-sm-6
+        a(href='/')
+          img(src=records.site.sitedata[0].logo)
+      .col-md-6.col-sm-6
+        .menu-btn-header
+          .navbar.navbar-default
+            button.navbar-toggle(type='button', data-toggle='offcanvas', data-target='#myNavmenu', data-canvas='body')
+              span.icon-bar
+              span.icon-bar
+              span.icon-bar
+  // Mobile nav
+  nav.navbar.navbar-default.navbar-static-top.hidden-sm.hidden-md.hidden-lg
+    .container
+      .navbar-header
+        button.navbar-toggle.collapsed(type='button', data-toggle='collapse', data-target='#navbar', aria-expanded='false', aria-controls='navbar')
+          span.sr-only Toggle navigation
+          span.icon-bar
+          span.icon-bar
+          span.icon-bar
+        a.navbar-brand(href='/home')
+          img.wt(src='../img/webfactories-white-logo.png', alt='')
+          img.nt(src='../img/webfactories-nt.png', alt='')
+      #navbar.navbar-collapse.collapse
+        ul.nav.navbar-nav
+          li
+            a(href='/home')
+              i.fa.fa-home
+              |   Home
+          li
+            a(href='http://webfactories.co.uk/home#web-services')
+              i.fa.fa-cog
+              |   Web Services
+          li
+            a(href='http://webfactories.co.uk/home#web-services-commerce')
+              i.fa.fa-shopping-cart
+              |   E-commerce
+          li
+            a(href='/bots-are-the-new-apps')
+              i.fa.fa-android(aria-hidden='true')  
+              |   BOTS
+          li
+            a(href='http://webfactories.co.uk/home#portfolio')
+              i.fa.fa-briefcase
+              |   Portfolio
+          li
+            a(href='/pricing')
+              i.fa.fa-money
+              |   Pricing
+          li
+            a(href='/partners')
+              i.fa.fa-user
+              |   Partners
+          li
+            a(href='http://webfactories.co.uk/home#blogs')
+              i.fa.fa-newspaper-o
+              |   Blog
+          li
+            a(href='http://webfactories.co.uk/home#footer_sec')
+              i.fa.fa-mobile
+              |   Contact Us
+
+  // Desktop Navs
+  nav#myNavmenu.navmenu.navmenu-default.navmenu-fixed-right.offcanvas.collapsed(data-canvas='body', data-toggle='offcanvas', role='navigation')
+        .main-menu.pt-50.pl-50.pr-20.pb-20
+          ul.dropdown.nav-navbar.p-0.menu1.navmenu-nav
+            li
+              a(href='', onclick="MyWindow=window.open('http://webfactories.co.uk/home','_self'); return false;") HOME
+            li
+              a(href='', onclick="MyWindow=window.open('http://webfactories.co.uk/home#web-services','_self'); return false;") WEB SERVICES
+            li
+              a(href='', onclick="MyWindow=window.open('http://webfactories.co.uk/home#web-services-commerce','_self'); return false;") E-COMMERCE
+            li
+              a(href='', onclick="MyWindow=window.open('http://webfactories.co.uk/bots-are-the-new-apps','_self'); return false;") BOTS
+            li
+              a(href='', onclick="MyWindow=window.open('http://webfactories.co.uk/home#portfolio','_self'); return false;") PORTFOLIO
+            li
+              a(href='', onclick="MyWindow=window.open('http://webfactories.co.uk/pricing','_self'); return false;") PRICING
+            li
+              a(href='', onclick="MyWindow=window.open('http://webfactories.co.uk/partners','_self'); return false;") PARTNERS
+            li
+              a(href='', onclick="MyWindow=window.open('http://webfactories.co.uk/home#blogs','_self'); return false;") BLOG
+            li
+              a(href='', onclick="MyWindow=window.open('http://webfactories.co.uk/home#footer_sec','_self'); return false;") CONTACT US
+          ul.dropdown.nav-navbar.p-0.mt-20.menu2.mb-0.navmenu-nav
+            li
+              a(href='', onclick="MyWindow=window.open('http://webriq.us/terms-&-conditions'); return false;") TERMS OF USE
+            li
+              a(href='', onclick="MyWindow=window.open('http://webfactories.co.uk/cookies'); return false;") COOKIES
+          .social-media.mt-40
+            ul.dropdown.nav-navbar.p-0.navmenu-nav
+              li
+                a(href='', onclick="MyWindow=window.open('https://www.facebook.com/WebFactories/'); return false;")
+                  i.fa.fa-facebook
+              li
+                a(href='', onclick="MyWindow=window.open('https://twitter.com/Webfactories'); return false;")
+                  i.fa.fa-twitter
+              li
+                a(href='', onclick="MyWindow=window.open('https://www.pinterest.com/webfactories'); return false;")
+                  i.fa.fa-pinterest-p

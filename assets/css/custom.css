@@ -218,10 +218,12 @@ body .splash-page .modal-content .e-commerce .inquiry strong
     border-bottom: 4px solid #00b4ff;
     color: #fff;
     padding: 170px 0 80px 0;
+
 }
 
-.e-commerce
-{
+
+.e-commerce{
+
     color: #fff;
     padding: 170px 0 80px 0;
     background: url('/img/general-bg.jpg') center -134px;
@@ -232,6 +234,7 @@ body .splash-page .modal-content .e-commerce .inquiry strong
     min-width: 100% !important;
     border-bottom: 4px solid #00b4ff;
 }
+
 
 .e-commerce *
 {
@@ -299,7 +302,7 @@ body .splash-page .modal-content .e-commerce .inquiry strong
 .subtitle .lead {
     margin: 15px 10px 60px 10px !important;
     font-size: 24px !important;
-    color:#fff;
+    color: #fff;
 }
 
 a.botpagespec-det:hover {
@@ -625,7 +628,321 @@ body .botpage-suppport-funct .supp2 a img {
     background-attachment: fixed;
 }
 
+
 /*responsive*/
+
+.pricing table th {
+    border: 5px solid #fff !important;
+    padding: 15px !important;
+    background: #45d4ff;
+}
+.pricing .fa {
+    color: #45d4ff;
+}
+.pricing th .plus-icon {
+    width: 18px;
+    border: 1px solid #fff;
+    display: inline-block;
+    font-style: normal;
+    line-height: 16px !important;
+    border-radius: 50%;
+}
+.pricing th .plus-icon em:before {
+    color: #fff;
+    position: relative !important;
+    font-size: 12px;
+    margin-left: 3px;
+}
+.pricing table td {
+    width: 23%;
+    border: 5px solid #fff !important;
+    padding: 15px !important;
+    background: #f0f0f0;
+    font-size: 14px !important;
+    color: #333 !important;
+}
+.pricing table th {
+    border: 5px solid #fff !important;
+    padding: 15px !important;
+    background: #45d4ff;
+}
+.pricing-tab li a {
+    border: 1px solid #e6e6e6 !important;
+    font-size: 14px !important;
+    background: #e6e6e6;
+    border-bottom: 0px solid #e6e6e6 !important;
+    text-transform: uppercase;
+}
+.pricing .panel-body {
+    color: #fff;
+    border: 0px !important;
+    padding: 8px 15px;
+    background: #45d4ff;
+    margin-top: 5px;
+}
+.pricing .pricing-nb {
+    padding: 0px !important;
+}
+.pricing .panel-group {
+    margin: auto;
+    max-width: 85%;
+}
+.pricing .pricing-nb a {
+    display: block;
+    padding: 15px 15px 13px 15px;
+    background: #45d4ff;
+    border-bottom: 2px solid #379fbf;
+    text-transform: uppercase !Important;
+    text-decoration: none !important;
+}
+.pricing td .plus-icon {
+    width: 19px;
+    border: 1px solid #45d4ff;
+    display: inline-block;
+    font-style: normal;
+    text-align: center;
+    line-height: 16px;
+    border-radius: 50%;
+}
+.pricing .panel-heading {
+    display: block;
+    padding: 8px 15px;
+    background: #f0f0f0 !Important;
+    line-height: 30px;
+    border-radius: 0px !important;
+}
+.pricing-tab li.active a {
+    color: #333 !Important;
+}
+.pricing-nb,
+.pricing table {
+    border: 0px !important;
+    background: transparent !important;
+}
+.pricing .panel-group .panel {
+    border: 0px !important;
+    border-radius: 0px !important;
+}
+.pricing table td:first-child {
+    width: 30%;
+}
+.pricing th .plus-icon em:before {
+    color: #fff;
+    position: relative !Important;
+    font-size: 12px;
+    margin-left: 3px;
+}
+.pricing td .plus-icon > em:before {
+    font-size: 12px;
+    margin-left: 4px;
+}
+.pricing .nav-tabs>li.active>a,
+.pricing .nav-tabs>li.active>a:hover,
+.pricing .nav-tabs>li.active>a:focus {
+    color: #555;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-bottom-color: transparent;
+    cursor: default;
+}
+a.btn-plus-feature {
+    color: #45d4ff !important;
+    float: right;
+    cursor: pointer;
+    padding: 0px !important;
+}
+#WebriQshops .text-white,
+#WebriQpages .text-white {
+    color: #fff !important;
+}
+.text-white {
+    color: #fff !important;
+}
+.popover.right {
+    color: #fff !important;
+    border: 0px;
+    height: 50px;
+    padding: 8px 15px !important;
+    display: table !important;
+    max-width: 100% !important;
+    background: #45d4ff;
+    box-shadow: 0px 0px;
+    margin-left: 20px !Important;
+    border-radius: 0px;
+}
+.popover.right>.arrow {
+    display: none;
+}
+.popover-content {
+    display: table-cell;
+    padding: 0px !important;
+    font-size: 13px;
+    vertical-align: middle;
+}
+.popover-content a {
+    color: #fff !Important;
+    text-decoration: underline;
+}
+.popover-content a:hover {
+    color: #fff !Important;
+    text-decoration: none !important;
+}
+#tab_cont {
+    position: relative;
+    height: auto !important;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0px 19px;
+}
+#tab_cont .eq-ui-tabs {
+    position: relative;
+    top: 0px !important;
+    width: 100%;
+    height: auto;
+}
+#tab_cont .eq-ui-tabs li {
+    padding: 0px;
+}
+#tab_cont .eq-ui-tabs li a {
+    border: 1px solid #e6e6e6 !important;
+    border-bottom: none !important;
+    font-size: 14px !important;
+    background: #ececec;
+    text-transform: uppercase;
+    height: auto !important;
+    color: #333;
+    font-weight: 100;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    padding: 10px 46px 9px;
+    opacity: 1;
+}
+#tab_cont .eq-ui-tabs li>a:hover {
+    color: #428bca;
+    background: #ececec !important;
+}
+#tab_cont .eq-ui-tabs .active a:hover {
+    background: #fff !important;
+    color: #333 !important;
+}
+#tab_cont .eq-ui-tabs .active a {
+    border: 1px solid #e6e6e6 !important;
+    font-size: 14px !important;
+    background-color: #fff !important;
+    border-bottom: 0px solid #e6e6e6 !important;
+    text-transform: uppercase;
+    padding: 10px 46px 10px !important;
+}
+#tab_cont .eq-ui-tabs .active {
+    background-color: #fff !important;
+}
+#tab_cont .eq-ui-indicator {
+    display: none;
+}
+/*PRICING MOBILE*/
+
+.accordion-btn a {
+    display: block;
+    font-size: 14px !important;
+    background: #45d4ff;
+    line-height: 40px;
+    border-bottom: 2px solid #379fbf;
+    text-transform: uppercase !Important;
+    text-decoration: none !important;
+}
+.accordion-header h3 {
+    margin: 5px 0;
+    font-size: 30px;
+    background: #45d4ff;
+    font-weight: 400;
+    line-height: 60px;
+    color: #fff !important
+}
+.pricing .panel-heading {
+    display: block;
+    padding: 8px 15px;
+    background: #f0f0f0 !Important;
+    line-height: 30px;
+    border-radius: 0px !important;
+    font-size: 14px !important
+}
+.panel-heading .plus-icon {
+    width: 18px;
+    border: 1px solid #45d4ff;
+    display: inline-block;
+    font-style: normal;
+    text-align: center;
+    line-height: 16px;
+    border-radius: 50%;
+}
+.panel-heading .plus-icon em:before {
+    font-size: 12px;
+    margin-left: 3px;
+}
+.pricing .panel-body {
+    color: #fff;
+    border: 0px !important;
+    padding: 8px 15px;
+    background: #45d4ff;
+    margin-top: 5px;
+    font-size: 14px;
+}
+.pricing .panel-body a {
+    color: #333;
+}
+/*PRICING MODAL*/
+
+body #myModal2 .modal-body,
+body #myModal .modal-body {
+    padding: 30px 35px 40px !important;
+}
+body #myModal .modal-dialog,
+body #myModal2 .modal-dialog {
+    max-width: 480px;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+}
+body #myModal .modal-header,
+body #myModal2 .modal-header {
+    color: #fff;
+    padding: 15px 30px;
+    background: #00b4ff;
+    text-align: center;
+}
+body #myModal label,
+body #myModal2 label {
+    color: #566474;
+    padding: 5px 0px;
+    font-family: "Open sans";
+    font-weight: 300 !important;
+    font-size: 14px
+}
+body #myModal .indicates-required,
+body #myModal2 .indicates-required {
+    display: none;
+}
+body #myModal form input,
+body #myModal2 form input {
+    color: #777;
+    border: 1px solid #eee !important;
+    padding: 10px;
+    font-size: 18px;
+    min-width: 100% !important;
+    background: #eee;
+    font-weight: 300;
+    font-family: "Open sans";
+}
+body #mc_embed_signup #mc_embed_signup_scroll .button {
+    border: none;
+    display: inline-block !important;
+    padding: 22px 20px !important;
+    background: #00b4ff;
+    line-height: 0px;
+    border-radius: 0px;
+    color: #fff;
+}
+
+/*Responsive Ecommerce*/
 
 .responsive * {
     font-weight: 300;
@@ -666,11 +983,43 @@ body .botpage-suppport-funct .supp2 a img {
     padding-bottom: 60px;
 } 
 
+
 /*bottom sec*/
 
 #btm_bg {
    height: 150px;
    background: transparent url(/img/bg1.png) center 10px no-repeat;
+}
+
+
+/*RESPONSIVE*/
+@media only screen and (max-width:1024px ) {
+     .botpage-suppport-funct img,
+     .botpage-nav-experience img{
+        max-width:100% !important;
+    }
+}
+
+@media only screen and (max-width:768px ) {
+    .general .main-container{
+        padding:20px 20px 50px; 
+    }
+    .general.custom .main-container{
+        padding:20px 0px 0px;
+    }
+    #btm_bg {
+       height: 80px;
+       background-size: 100% 100% !important;
+    }
+}
+
+@media only screen and (max-width:640px ) {
+    #btm_bg {
+
+        height: 50px;
+        background-size: 100% 100% !important;
+
+    }
 }
 
 /*RESPONSIVE*/
@@ -698,6 +1047,61 @@ body .botpage-suppport-funct .supp2 a img {
     #btm_bg {
        height: 80px;
        background-size: 100% 100% !important;
+    }
+}
+@media only screen and (max-width:400px ) {
+    #btm_bg {
+       height: 50px;
+       background-size: 100% 100% !important;
+    }
+}
+@media (max-width: 480px) and (max-width: 580px) {
+    p,
+    p strong,
+    p a,
+    span,
+    ul li,
+    ul li a,
+    ul li strong {
+        font-size: 12.5px !important;
+    }
+    .general p {
+        color: #7f8c8d;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 28px;
+    }
+    .general .main-container h1.title {
+        font-size: 18px;
+    }
+    h1,
+    h2,
+    h3,
+    h4 {
+        font-size: 18px !important;
+    }
+    .general .subtitle .title {
+        margin: 10px 0 0 0;
+        font-size: 18px !important;
+        font-weight: 300;
+    }
+    .general .subtitle .lead {
+        margin: 10px 0 0 0;
+        font-size: 14px !important;
+        font-weight: 300;
+    }
+    .general .subtitle .lead {
+        margin: 15px 10px 20px 10px !important;
+    }
+}
+@media (min-width: 641px) {
+    .pricing-tab li a {
+        padding: 20px 50px !Important;
+    }
+}
+@media (max-width: 640px) {
+    .pricing-tab li a {
+        padding: 15px 10px !Important;
     }
 }
 @media only screen and (max-width:400px ) {
