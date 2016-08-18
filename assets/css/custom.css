@@ -153,6 +153,23 @@ a.top:hover{background: url(../img/top.png) no-repeat bottom center;transition-d
 }
 
 /*bot page*/
+.subtitle .title {
+    margin: 10px 0 0 0;
+    font-size: 60px !important;
+    font-weight: 300;
+}
+.subtitle .lead {
+    margin: 15px 10px 60px 10px !important;
+    font-size: 24px !important;
+    color:#fff;
+}
+
+a.botpagespec-det:hover {
+    transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -webkit-transition-duration: 0.5s;
+}
 
 .botpage .title{
 	padding:40px 0px 20px;
@@ -463,6 +480,15 @@ body .botpage-suppport-funct .supp2 a img {
     font-size: 24px;
     font-weight: 100;
 }
+#paragraph-8591-container {
+    color: #fff;
+    padding: 0;
+    background: url('/uploads/site_phpwebfactories/pages/images/static-websites-bg.jpg');
+    background-attachment: fixed;
+}
+
+
+
 
 /*responsive*/
 
@@ -503,7 +529,8 @@ body .botpage-suppport-funct .supp2 a img {
 } 
 .innovative-technologies {
     padding-bottom: 60px;
-}
+} 
+
 
 
 /*bottom sec*/
@@ -565,5 +592,15 @@ p, p strong, p a, span, ul li, ul li a, ul li strong {
 }
 h1, h2, h3, h4 {
     font-size: 18px !important;
+}
+.subtitle .title {
+    margin: 10px 0 0 0;
+    font-size: 18px !important;
+    font-weight: 300;
+}
+.subtitle .lead {
+    margin: 10px 0 0 0;
+    font-size: 14px !important;
+    font-weight: 300;
 }
 }
