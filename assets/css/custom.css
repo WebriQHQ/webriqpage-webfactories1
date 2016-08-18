@@ -4,6 +4,7 @@
 
 /*Home Page*/
 .trends{padding:55px 0}
+.trends-bottom p{position: relative !important;}
 .boxes{padding: 15px 0}
 .boxes-body{position:relative !important;min-height:180px;}
 .boxes-body p{position:absolute;z-index:1;background:#fff;padding-bottom:15px}
@@ -60,6 +61,7 @@
 
 /*Footer*/
 .layout-footer{border-top: 4px solid #00b4ff;background-color: #222222;padding:45px 0 8px 0}
+.layout-footer a:hover{color:#00b4ff !important;line-height:24px;}
 .layout-footer h5 {color: #ffffff;padding: 7px !important;background: #181818;margin-top:20px;}
 .layout-footer h5 .fa {color: #00b4ff;padding-right: 0.3em;}
 ul.partner-list li{background: url(../img/bullet.png) no-repeat left center;list-style: none;line-height: 35px;padding-left: 1.8em;}

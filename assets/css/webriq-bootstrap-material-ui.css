@@ -10332,12 +10332,12 @@ textarea {
 }
 
 a {
-  color: #3498db;
+  color: #00b4ff;
   text-decoration: none;
 }
 
 a:hover, a:focus {
-  color: #0a6ebd;
+  color: #3489ff;
 }
 
 a:focus {
@@ -20707,7 +20707,7 @@ fieldset[disabled] .btn-default.active {
 .open > .btn-primary.dropdown-toggle:focus,
 .open > .btn-primary.dropdown-toggle.focus {
   color: #fff;
-  background-color: #1E88E5;
+  background-color: #3489ff;
 }
 
 .btn-primary:active, .btn-primary.active,
