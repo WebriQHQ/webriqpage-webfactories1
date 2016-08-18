@@ -19,41 +19,52 @@ block content
             .boxes-img.text-center
               img(src="../img/trend2.png")
             .boxes-title
-              h4 The Browser Is Growing Up
+              h4 Unique Way of Using the Grid
             .boxes-body
-              p The modern browser is an operating system in its own right, no longer merely displaying documents downloaded from the web, but capable of running full­fledged web applications, and even handling peer­to- peer connections to other browsers. The need for database driven websites is evaporating quickly. Many features that required dynamic code running on a single server can now be move to the browser and the client. For website builds is a sort of back to the future.
+              p 
+                a(href='http://www.curiousspace.com/', target='_blank') Curious Space
+                |  ’s website is a great example of adding a pinch of organic freedom to an ordered grid layout. You’ll quickly notice the photos of this website stacked on top of each other. Stacking them isn’t a problem, as when a user rolls over on an image, the Z-index of the selected image shifts, so it is pushed to the top of the pile of photos. Upon scroll, the haphazard arrangement of their logo falls into place to spell out their company name.
         .col-md-4.col-sm-6
           .boxes
             .boxes-img.text-center
               img(src="../img/trend3.png")
             .boxes-title
-              h4 The Browser Is Growing Up
+              h4 Custom-Drawn Illustrations
             .boxes-body
-              p The modern browser is an operating system in its own right, no longer merely displaying documents downloaded from the web, but capable of running full­fledged web applications, and even handling peer­to- peer connections to other browsers. The need for database driven websites is evaporating quickly. Many features that required dynamic code running on a single server can now be move to the browser and the client. For website builds is a sort of back to the future.
+              p
+                | We’ve all thought it - “Why should I draw another [name of object] icon, when I can just grab it off an already existing vector pack from the web?” This line of thinking does save time and budget constraints, but how about integrating custom-made illustrations, or other artwork into the project budget in the first place? Sites like 
+                a(href='http://creativefreedomguide.com/', target='_blank') Creative Freedom Guide
+                | , 
+                a(href='http://forbetter.coffee/', target='_blank') For Better Coffee
+                  | , 2015 
+                a(href='http://2015.dconstruct.org/', target='_blank') DConstruct Conference
+                | , or 
+                a(href='http://education.iceandsky.com/', target='_blank') Ice & Sky
+                |  all integrate custom-made / hand-drawn illustration work that greatly aid in telling their story and leaving a memorable experience for their users.
         .col-md-4.col-sm-6
-          .boxes
+          .boxes.trends-bottom
             .boxes-img.text-center
               img(src="../img/trend4.png")
             .boxes-title
-              h4 The Browser Is Growing Up
+              h4 Semi-flat Design
             .boxes-body
-              p The modern browser is an operating system in its own right, no longer merely displaying documents downloaded from the web, but capable of running full­fledged web applications, and even handling peer­to- peer connections to other browsers. The need for database driven websites is evaporating quickly. Many features that required dynamic code running on a single server can now be move to the browser and the client. For website builds is a sort of back to the future.
+              p Flat design has slowly morphed over the past few years to semi-flat design. After Windows launched its Metro style, the design world became inundated with this trend. Unfortunately, this style did come with its usability pitfalls. This trend has slowly morphed into semi-flat design, largely in part due to both Android’s and Apple’s releases using this type of style. By integrating depth and dimension through the use of subtle shadows, card / tile concepts, and well-thought out transitions to help guide and orient users, semi-flat design aims to eliminate the problems that flat design had created.
         .col-md-4.col-sm-6
-          .boxes
+          .boxes.trends-bottom
             .boxes-img.text-center
               img(src="../img/trend5.png")
             .boxes-title
-              h4 The Browser Is Growing Up
+              h4 Responsive Web Design
             .boxes-body
-              p The modern browser is an operating system in its own right, no longer merely displaying documents downloaded from the web, but capable of running full­fledged web applications, and even handling peer­to- peer connections to other browsers. The need for database driven websites is evaporating quickly. Many features that required dynamic code running on a single server can now be move to the browser and the client. For website builds is a sort of back to the future.
+              p Let’s face it, after the implementation of RWD, there was no turning back. There will only be more devices sold on the market, so embracing and integrating responsive practices on websites will make the web sphere a better place for all.
         .col-md-4.col-sm-6
-          .boxes
+          .boxes.trends-bottom
             .boxes-img.text-center
               img(src="../img/trend6.png")
             .boxes-title
-              h4 The Browser Is Growing Up
+              h4 Lazy Loading
             .boxes-body
-              p The modern browser is an operating system in its own right, no longer merely displaying documents downloaded from the web, but capable of running full­fledged web applications, and even handling peer­to- peer connections to other browsers. The need for database driven websites is evaporating quickly. Many features that required dynamic code running on a single server can now be move to the browser and the client. For website builds is a sort of back to the future.
+              p On websites that feed content continuously, Lazy Loading aids in viewing immediate website content without waiting for the entire page to load. This is especially helpful for websites that are highly visual, such as Facebook, Instagram, or Pinterest. In a society where information is constantly being fed into our lives, lazy loading helps to simplify viewing of said content by loading only small chunks at a time.
   #our-approach.our-approach
     .container
       .row
@@ -214,7 +225,7 @@ block content
       .subtitle.mb-40
             h1.title.mt-0 Blogs
       .row
-        .col-md-6
+        .col-md-6.blog-left
           h2.mt-0.title-border Recent Blogs
           #home-article
             each post in posts.orderBy('date', 'desc').slice(0,2)
@@ -235,7 +246,9 @@ block content
                   p= post.shortdesc
                 .article-more
                   a.btn.btn-primary.btn-lg.eq-ui-waves-light(href=post.permalink) Read More
-        .col-md-6
+          .more-entries.mt-20
+            a(href="/recent-blog") More Entries
+        .col-md-6.blog-right
           .newsletter
             h2.title-border Join Our Newsletter
             p.mb-30
@@ -250,7 +263,7 @@ block content
                 .clear
                   .eq-ui-form-group.eq-ui-input-field.form-btn
                     input#mc-embedded-subscribe.button.btn.btn-primary.eq-ui-waves-light(name='subscribe', type='submit', value='Subscribe')
-          .social-media.mt-40
+          .social-media.mt-50
             ul.social-list
               li
                 a.fb(href="https://www.facebook.com/WebFactories/", target="_blank")

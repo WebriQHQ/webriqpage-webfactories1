@@ -1,8 +1,36 @@
-extends layout
+extends general
 
 block content
-  article.box.page
     .container
-      header
-        h2= entry.title
-      != entry.body
+        .row
+            .col-md-8
+                article.box.page
+                    .entry-title
+                        h1= entry.title
+                    .entry-publish
+                        ul
+                            li.font-16 By
+                                span= entry.writer
+                            li.font-16 Posted
+                                span= dateFormat(entry.date, 'LL')
+                        .entry-share-button
+                                .addthis_sharing_toolbox
+                    .entry-banner.mb-20
+                            img(src= entry.banner)
+                    .entry-body
+                        != entry.body
+                        script(type='text/javascript', src='//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5382b46f7a18e0a7')
+            .col-md-4
+                .side-bar-right
+                    .side-bar-header
+                        h3 Recent Post
+                    each post in posts.orderBy('date', 'desc').slice(0,10)
+                        .post-article-widget
+                            .post-article-widget-img
+                                .article-banner
+                                    a(href=post.permalink)
+                                        img(src= post.banner)
+                            .post-article-widget-title
+                                .article-title
+                                    h5
+                                        a(href=post.permalink)= post.title
