@@ -4,6 +4,7 @@
 
 /*Home Page*/
 .trends{padding:55px 0}
+.trends-bottom p{position:relative !important;}
 .boxes{padding: 15px 0}
 .boxes-body{position:relative !important;min-height:180px;}
 .boxes-body p{position:absolute;z-index:1;background:#fff;padding-bottom:15px}
@@ -52,8 +53,8 @@
 .post-article-widget .article-title{margin-top:0px !important;}
 .post-article-widget-img{vertical-align:top;display:table-cell;width:40%;padding:0 15px;}
 .post-article-widget-title{vertical-align:top;display:table-cell;width:60%;padding:0 15px;}
-.post-article-widget-title h4{margin-top:0 !important;line-height:24px}
-.post-article-widget-title h4 a{color:#333}
+.post-article-widget-title h5{margin-top:0 !important;line-height:24px}
+.post-article-widget-title h5 a{color:#333}
 .side-bar-right{background:#f6f6f6;padding:0px 0px 10px 0px}
 .side-bar-header{background:#00b4ff;padding:20px 20px 20px 25px;margin-bottom:30px !important;}
 .side-bar-header h3{margin:0;color:#fff;font-weight:600;}
@@ -124,7 +125,7 @@ body .splash-page .modal-content .e-commerce .title
 body .splash-page .modal-content .e-commerce .lead
 {
     font-size: 24px;
-    margin-bottom: 35px;
+    margin-bottom: 35px !important;
 }
 body .splash-page .modal-content .e-commerce .inquiry strong
 {
@@ -215,19 +216,6 @@ body .splash-page .modal-content .e-commerce .inquiry strong
     border-bottom: 4px solid #00b4ff;
     color: #fff;
     padding: 170px 0 80px 0;
-}
-
-.e-commerce
-{
-    color: #fff;
-    padding: 170px 0 80px 0;
-    background: url('/img/general-bg.jpg') center -134px;
-    text-align: center;
-    background-size: cover;
-    background-attachment: fixed;
-    width: 100% !important;
-    min-width: 100% !important;
-    border-bottom: 4px solid #00b4ff;
 }
 
 .e-commerce *
