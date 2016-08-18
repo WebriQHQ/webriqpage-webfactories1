@@ -35,6 +35,8 @@
 .social-list li a.pinterest{background:#f23a3a;}
 
 /*BLOG*/
+.post-article:first-child{padding-top:0px;margin-top:0px;border-top:0px solid #d6d6d6}
+.post-article{padding-top:40px;margin-top:40px;border-top:1px solid #d6d6d6}
 .article-banner img{max-width:100%;height:auto;}
 .article-title {margin:25px 0 15px 0}
 .article-title h3 a{color:#333;font-weight:400;}
