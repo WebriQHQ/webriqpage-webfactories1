@@ -54,7 +54,7 @@ block content
               h4 The Browser Is Growing Up
             .boxes-body
               p The modern browser is an operating system in its own right, no longer merely displaying documents downloaded from the web, but capable of running full­fledged web applications, and even handling peer­to- peer connections to other browsers. The need for database driven websites is evaporating quickly. Many features that required dynamic code running on a single server can now be move to the browser and the client. For website builds is a sort of back to the future.
-  .our-approach
+  #our-approach.our-approach
     .container
       .row
         .col-md-6.text-center
@@ -67,7 +67,7 @@ block content
             p Static websites are cheaper to build, to maintain and to scale if needed. It all happens automatically. No need to procure more bandwidth or larger hosting service than you need, and no need to cover for occasional traffic spikes.
           .btn-learn
             a.btn.btn-primary.btn-lg.eq-ui-waves-light(href='/static-websites') Learn More
-  .web-services
+  #web-services.web-services
     .container
       .row
         .col-md-6.text-center
@@ -119,7 +119,7 @@ block content
                 | Unlimited Content Management Support
           .btn-learn
             a.btn.btn-primary.btn-lg.eq-ui-waves-light(href='/static-websites') Learn More
-  .web-services-commerce
+  #web-services-commerce.web-services-commerce
     .container
       .row
         .col-md-6.text-center
@@ -150,7 +150,7 @@ block content
             |    or   
             a.btn.btn-primary.btn-lg.eq-ui-waves-light(href='http://app.webriq.com/auth/register', target='_blank') Request your own Shopping cart
           // <div class="btn-learn color-fff"><a href="/responsive-e-commerce-platform">Learn More</a>&nbsp; &nbsp;or &nbsp;&nbsp;<a href="#" data-toggle="modal" data-target="#myModal">Request your own Shopping cart</a></div>
-  section.portfolio.pb-50.pt-50
+  #portfolio.portfolio
     .container
       .subtitle.text-center
         h1.title Our Projects
@@ -209,16 +209,57 @@ block content
             a.example-image-link(href='../img/healthport.jpg', data-lightbox='set')
               img(src='../img/healthport-thumb.jpg', alt='', width='350', height='221')
         .col-md-4.hidden-xs.hidden-sm  
-  .blogs
+  #blogs.blogs
     .container
+      .subtitle.mb-40
+            h1.title.mt-0 Blogs
       .row
         .col-md-6
+          h2.mt-0.title-border Recent Blogs
+          #home-article
+            each post in posts.orderBy('date', 'desc').slice(0,2)
+              article.post-article
+                .article-banner
+                  a(href=post.permalink)
+                    img(src= post.banner)
+                .article-title
+                  h3
+                    a(href=post.permalink)= post.title
+                .article-publish
+                  ul
+                    li By
+                      span= post.writer
+                    li Posted
+                      span= dateFormat(post.date, 'LL')
+                .article-body
+                  p= post.shortdesc
+                .article-more
+                  a.btn.btn-primary.btn-lg.eq-ui-waves-light(href=post.permalink) Read More
+        .col-md-6
+          .newsletter
+            h2.title-border Join Our Newsletter
+            p.mb-30
+              | Subcribes to our newsletter by entering your email below to keep updated to our latest news and information.
+            #mc_embed_signup.button-primary
+              form#mc-embedded-subscribe-form.validate.eq-ui-input.validate(action='//webfactories.us3.list-manage.com/subscribe/post?u=8cb5583254702490f52f894ff&id=f81bd08495', method='post', name='mc-embedded-subscribe-form', novalidate='', target='_blank')
+                .eq-ui-form-group.eq-ui-input-field
+                  input#email_val.eq-ui-input.validate(name='EMAIL', required='', type='email', value='')
+                  label(for='email_val', data-error='wrong', data-success='right') Email
+                div(style='position: absolute; left: -5000px;')
+                  input(name='b_8cb5583254702490f52f894ff_f81bd08495', type='text', value='')
+                .clear
+                  .eq-ui-form-group.eq-ui-input-field.form-btn
+                    input#mc-embedded-subscribe.button.btn.btn-primary.eq-ui-waves-light(name='subscribe', type='submit', value='Subscribe')
+          .social-media.mt-40
+            ul.social-list
+              li
+                a.fb(href="https://www.facebook.com/WebFactories/", target="_blank")
+                  i.fa.fa-facebook(aria-hidden='true')
+              li
+                a.twitter(href="https://twitter.com/Webfactories", target="_blank")
+                  i.fa.fa-twitter(aria-hidden='true')
+              li
+                a.pinterest(href="http://pinterest.com/webfactories", target="_blank")
+                  i.fa.fa-pinterest-p(aria-hidden='true')
 
-          each post in posts.sort('date', 'desc').slice(0,2)
-            .boxes
-              .box-imgasdfasd
-                img(src= post.banner)
-              .box-title
-                h3= post.title
-              .box-body
-                != postExcerpt(post.body)
+            

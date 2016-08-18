@@ -1,22 +1,98 @@
 ---
-title:  "Escape from the Citadel (Season 6)"
-date:   2014-04-21 10:33:56
-categories: season6 episodes
-shortdesc: Finn and Jake follow the Lich to the Citadel, where Finn meets his long lost dad.
-banner: /img/citadel.jpg
+title: Effective Guide to Write Testable JavaScript
+shortdesc: "With the growth in technology, we have earned better options for unit testing JavaScript. Whether we are using Node paired with a test framework like Mocha or Jasmine, in a headless browser, we have a variety of options. However, it does not mean that the code which is tested is as easy on us as our tools are!  "
+cmsUserSlug: effective-guide-to-write-testable-javascript
+date: 2014-04-21T10:33:56.000Z
+banner: /img/uploads/testable-javascript2.jpg
+categories: recent-blog
+writer: Philip Bodart
 ---
-[Finn](http://adventuretime.wikia.com/wiki/Finn) and [Jake](http://adventuretime.wikia.com/wiki/Jake) hitch a ride on a Citadel Guardian after he imprisons and transports [The Lich](http://adventuretime.wikia.com/wiki/The_Lich_(character)) to the Citadel. Upon arrival, the Guardian attaches The Lich's crystal prison onto a much larger crystal "cell block." Finn then says it is a good riddance for The Lich.<!--more--> As they talk, The Lich begins emitting a gray breath in his cell which the duo don't notice. Finn and Jake then look around for Finn's long-lost father, whom Finn initially suggests might be a Guardian. Jake points out a strange looking "old kid" who resembles Finn, and it turns out to be Finn's father incarcerated inside a crystal jail cell.
 
-Finn runs to his dad and looks him closely. A gray slime fire forms on Finn's father's cell, which makes Finn hyper about it and asks Jake about the fire. Jake then points above from where the fire had fallen on the cell. They then notice that the Lich's cell is excreting a gray slime that is beginning to infect the other prisoners and making them under the influence of The Lich. The cell of Finn's father then melts and his father half inside the cell asks Finn for help. Finn uses Jake as flail to break him out of the cell. The Lich's influence over the Citadel enables a massive jailbreak. 
-
-Finn's father then asks him about the "starskipper" from which they came, completely ignoring the fact that there is another human in his presence. The prisoners are running amok and attacking the Guardians and making each other gray. After Jake says that Finn is his son, Finn's father is still not surprised by it and starts telling them to find a way to escape. Finn starts to ask his father why he abandoned him, but before he could do, his father jumps in the center of the Citadel, as the ground was melting. Finn again begins to ask him but is cut in middle as a dead guardian pushes them even further. They reach a solid ground and Jake gets frightened by the happenings around him. One of the prisoners is a void caster, who has the power to open portals, so he uses his power to attack a guardian by opening a void in front of a train that [Starchie](http://adventuretime.wikia.com/wiki/Starchie) is driving in the [Candy Kingdom](http://adventuretime.wikia.com/wiki/Candy_Kingdom), which crashes into a guardian and kills the guardian. Finn calms Jake down and says to just hijack a floating piece of the Citadel some other Ancients were hijacking and go off.
-
-Finn's father then tells Jake to smarten up and as he was saying, the last Guardian who was dying shoots a beam that hits Finn's father in the lower right shin, which obliterates all the flesh from a segment of his leg, leaving the bones. Finn starts to panic but his father, who introduces him as [Martin](http://adventuretime.wikia.com/wiki/Martin) says that the Guardian's blood has healing properties, and asks Finn to bring it. Finn but puts his question why he was abandoned in the woods, which Martin doesn't remember. He just tells Finn to bring the blood of guardian first. Jake shape-shifts himself into a bridge, enabling Finn to retrieve the regenerative guardian blood and put it on Martin's leg, which is quickly restored to a healthy state. While this is happening, Jake points out to Finn that the Lich came out of the swamp. Finn calls for Martin, who had fled with the other prisoners, abandoning Finn once again.
-
-The cell of The Lich bursts and he commands Finn and Jake to fall, which makes them go unconscious. The Lich then entrances Finn, telling him that there is only darkness in his life and only death will be imminent for all life and that he is all alone in the world now. Jake appears unconscious next to Finn. Finn feebly attempts to strike the Lich as he encroaches. His attack was ineffective, but there was some guardian blood near him. The Lich approaches for Finn and as soon as he was to touch, Finn's hand, which was dipped in some guardian blood near him touched the Lich which causes the Lich to scream as flesh begins to grows on his bones.
-
-Finn then wakes from his trance and throws more guardian blood onto The Lich, restoring more flesh around his chest. Finn then tells Jake to finish him off while he chases after his father. Martin goes to the other prisoners and persuades them to make him their leader, to which they agree. He makes a creature to cut the stem before Finn reaches him. But as soon as the creature cuts the stem, Finn holds the cut end of the stem from both sides. This causes Martin to panic and at Martin's request, the fugitive void caster creates a void to escape into, which begins to suck the floating chunk of land upward faster. Finn grabs the two halves of the severed stem tighter and preventing his father from leaving, telling he won't let him escape and he struggles to hold on.
-
-Jake tells Finn to let it go, calling Martin a loser but Finn refuses and the [Grass Sword](http://adventuretime.wikia.com/wiki/Grass_Sword) takes over Finn's right arm, allowing him one last tremendous pull. Martin grosses out at this and asks the void caster to enlarge the void. This causes much pressure on Finn's hand and at last, Finn's arm gives out and is severed from his body, while Martin states "Wait, what about air—" right before escaping through the portal. Finn falls into the water below where a small piece of Guardian blood touches his arm, making the stump of an arm sprout a flower. Jake pulls Finn to shore where [Shelby](http://adventuretime.wikia.com/wiki/Shelby) is revealed to have been hiding out the entire time. Shelby then sits on Finn's lap while crying. Finn is reminded of the Lich and asks Jake if he finished him off. Jake says there's no need, as the Guardian blood transformed the Lich into a baby-like creature, who is seemingly cute and harmless. Finn, Jake, Shelby, and the infant Lich return to the Candy Kingdom by way of the portal that Starchie drove through during the battle.
-
-Later, [Tree Trunks](http://adventuretime.wikia.com/wiki/Tree_Trunks_(character)) and [Mr. Pig](http://adventuretime.wikia.com/wiki/Mr._Pig) are sitting in her house when outside Finn and Jake's chatter can be heard. The doorbell rings, interrupting a somber Tree Trunks saying, "I think we should get a d—." The couple sees outside their door an infant Lich in a stereotypical abandoned-baby basket. Tree Trunks looks excited and implies that this sudden addition to their family has changed her feeling about whatever she was about to say. The infant Lich suddenly says, "Hello!"
+<p>With the growth in technology, we have earned better options for unit testing JavaScript. Whether we are using Node paired with a test framework like Mocha or Jasmine, in a headless browser, we have a variety of options. However, it does not mean that the code which is tested is as easy on us as our tools are!</p>
+<p>Organizing and writing code is easily testable and requires some efforts, but&nbsp;functional programming concepts are inspired by few patterns which can help in&nbsp;testing our code.</p>
+<p>Here in this article, we will go through some useful tips and patterns for writing&nbsp;testable code in JavaScript.</p>
+<h3>Keep Business Logic and Display Logic Separate</h3>
+<p>JavaScript&shy;based browser application primally listens to DOM events which is&nbsp;triggered by the end user. It is always tempting to write an anonymous function that&nbsp;does maximum work right while setting up DOM event listeners. This can create&nbsp;aloft both in lines of code and the time for practising.&nbsp;So, it is recommended to, write a named function and pass it to the event handler.&nbsp;This applies to more than the DOM, though. Many APIs, both in the browser and in&nbsp;Node, are serving this purpose.</p>
+<div class="precode_">
+<p class="commnt_">// hard to test</p>
+<p><span class="dollar_">$</span>('.show').on('click', () =&gt; {</p>
+<p>&nbsp; &nbsp;<span class="dollar_">$</span>.getJSON('/file_path')</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; .then(data =&gt; {</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span class="dollar_">$</span>('#output&shy;list').html('output: ' + data.join(', '));</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; });</p>
+<p>});</p>
+<p class="commnt_">// testable; we can directly run fetchList to see if it</p>
+<p class="commnt_">// makes an AJAX request without triggering DOM</p>
+<p class="commnt_">// events, and we can run showList directly to see that it</p>
+<p class="commnt_">// displays data in the DOM without AJAX request</p>
+<p><span class="dollar_">$</span>('.show').on('click', () =&gt; fetchList(showList));</p>
+<p>function fetchList(callback) {</p>
+<p>&nbsp; &nbsp;<span class="dollar_">$</span>.getJSON('/file_path').then(callback);</p>
+<p>}</p>
+<p>function showList(data) {</p>
+<p>&nbsp; &nbsp;<span class="dollar_">$</span>('#output&shy;list').html('output: ' + data.join(', '));</p>
+<p>}</p>
+</div>
+<h3>Use Callbacks or Promises with Asynchronous Code</h3>
+<p>In the above example, refactored fetchThings function runs an AJAX request. It&nbsp;means that we can&rsquo;t run the function and test because we didn't know when it had&nbsp;finished running. The common way to proceed is to pass a callback function as a&nbsp;parameter to the function that runs asynchronously.</p>
+<p>Apart from this, you may also use the Promise API to organise asynchronous code.&nbsp;Fortunately, $.ajax and most other of jQuery&rsquo;s asynchronous functions return a&nbsp;Promise object already, so a lot of common use cases are already covered.</p>
+<div class="precode_">
+<p class="commnt_">// hard to test; we don't know for how long the AJAX request will stay</p>
+<p>function fetchResult() {</p>
+<p><span class="dollar_">&nbsp; &nbsp;$</span>.ajax({ url: '/file_path' });</p>
+<p>}</p>
+<p class="commnt_">// testable; by passing a callback and run assertions</p>
+<p>function fetchResultWithCallback(callback) {</p>
+<p><span class="dollar_">&nbsp; &nbsp;$</span>.ajax({</p>
+<p>&nbsp; &nbsp; &nbsp; url: '/file_path',</p>
+<p>&nbsp; &nbsp; &nbsp; success: callback,</p>
+<p>&nbsp; &nbsp;});</p>
+<p>}</p>
+<p class="commnt_">// also testable; run assertions after the returned Promise resolves</p>
+<p>function fetchResultWithPromise() {</p>
+<p>&nbsp; &nbsp;return <span class="dollar_">$</span>.ajax({ url: '/file_path' });</p>
+<p>}</p>
+</div>
+<h3>Avoid Side Effects</h3>
+<p>Avoid writing functions that alter external state while running. It prevents side&nbsp;effects that could affect your ability to test other code with confidence. Rather it is&nbsp;best to keep side effects as close to the edges of your code as possible, with as little&nbsp;&ldquo;surface area.&rdquo;</p>
+<div class="precode_">
+<p class="commnt_">// hard to test; we have to set up a globalListOfBikes object and set up a</p>
+<p class="commnt_">// DOM with a #model&shy;list node to test this code</p>
+<p>function processBikeData() {</p>
+<p>&nbsp; &nbsp; const models = globalListOfBikes.map(bike =&gt; bike.model);</p>
+<p>&nbsp; &nbsp;&nbsp;<span class="dollar_">$</span>('#model&shy;list').html(models.join(', '));</p>
+<p>}</p>
+<p class="commnt_">// easy to test; pass an argument and proceed to test its return value, without</p>
+<p class="commnt_">// set any values on the window or check the DOM the result</p>
+<p>function buildModelsString(bikes) {</p>
+<p>&nbsp; &nbsp;&nbsp;const models = bikes.map(bike =&gt; bike.model);</p>
+<p>&nbsp; &nbsp;&nbsp;return models.join(',');</p>
+<p>}</p>
+</div>
+<h3>Don&rsquo;t change Parameters</h3>
+<p>Create a new object or array in code and then proceed to add values to it. Or, use&nbsp;Underscore or Lodash to clone the passed object or array before using on it.</p>
+<div class="precode_">
+<p class="commnt_">// alters objects passed to it</p>
+<p>function upperCaseLocation(clientInfo) {</p>
+<p>&nbsp; &nbsp; clientInfo.location = clientInfo.location.toUpperCase();</p>
+<p>&nbsp; &nbsp;&nbsp;return clientInfo;</p>
+<p>}</p>
+<p class="commnt_">// sends a new object back instead</p>
+<p>function upperCaseLocation(clientInfo) {</p>
+<p>&nbsp; &nbsp;&nbsp;return {</p>
+<p>&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;name: clientInfo.name,</p>
+<p>&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;location: clientInfo.location.toUpperCase(),</p>
+<p>&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;age: clientInfo.age</p>
+<p>&nbsp; &nbsp;&nbsp;};</p>
+<p>}</p>
+</div>
+<h3>Writing Test before Coding</h3>
+<p>A test driven development (TDD) is the process of writing unit tests before the code. In practice, TDD is a method that can be difficult to commit to all your code changes. But when it seems worth trying, it&rsquo;s an excellent way to guarantee you are keeping all code testable.</p>
+<p>I hope these tips will help you remember, to keep your code simple and functional, this will keep your test coverage high and overall code complexity low!</p>
+<p style="border-bottom: solid 1px #ccc; margin-top: -10px;">&nbsp;</p>
+<p><strong>Author Bio :</strong></p>
+<p><strong>Sophia</strong> is a trained WordPress developer working with WordPrax Ltd.&shy; A leading <a title="Convert HTML to Wordpress" href="http://www.wordprax.com/services/html&shy;to&shy;wordpress" target="_blank">HTML to WordPress</a> conversion services company. If you're planning to convert HTML website to WordPress for a brilliant online presence, she can help you. Some stunning articles related to website markup conversions can be found under her name.</p>
+<p><strong>Social Profiles :</strong></p>
+<p><a href="https://twitter.com/WordPrax" target="_blank">https://twitter.com/WordPrax</a></p>
+<p><a href="https://www.facebook.com/wordprax" target="_blank">https://www.facebook.com/wordprax</a></p>
+<p><a href="https://www.pinterest.com/Wordprax/" target="_blank">https://www.pinterest.com/Wordprax/</a></p>
