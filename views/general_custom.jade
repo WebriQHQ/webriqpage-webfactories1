@@ -25,12 +25,23 @@ html
     != css()
 
 
-  body#page-top
+  body#page-top.general.custom
     header
       include includes/menu
 
-    section
-      include includes/header
+    section#custom
+
+      if _path === "/bots-are-the-new-apps.html"
+        include includes/header_bots
+
+      if _path === "/static-websites.html"
+        include includes/header_static
+
+      if _path === "/responsive-e-commerce-platform.html"
+        include includes/header_ecomm
+
+      if _path === "/partners.html"
+        include includes/header_partners
 
     div.main-container
       block content
