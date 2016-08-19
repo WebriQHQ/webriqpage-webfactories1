@@ -1,6 +1,3 @@
-
-section.layout-footer#footer_sec
-
 section#contact-us.layout-footer
   .container
     h1.mt-0.mb-10.white-text Contact Us
@@ -106,7 +103,8 @@ script.
 script(type="text/javascript")
     != records.site.sitedata[0].analytics
 
-script(type='text/javascript').
+if _path == "/pricing.html"
+    script(type='text/javascript').
       $(document).ready(function(){
       $('.Custom-Domain').popover({
       content : 'Move your domain to Webfactories. Contact <a href="mailto:support@helpdesk.webriq.com">support@helpdesk.webriq.com</a> for more details',
@@ -134,8 +132,4 @@ script(type='text/javascript').
       }
       });
       });
-      $("[id*='Btn']").stop(true).on('click',function(e)
-      {e.preventDefault();$(this).scrolld();});
-      $('#paragraph-8591-container').parallax("60%",0.20);
-      $('#paragraph-7035-container').parallax("100%", 0.2);
       })
