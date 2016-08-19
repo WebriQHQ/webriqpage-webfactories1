@@ -5,7 +5,7 @@ cmsUserSlug: ""
 date: 2016-08-19T00:00:00+08:00
 banner: /img/uploads/integration-with-youtube.jpg
 categories: recent
-writer: ""
+writer: Philippe Bodart
 ---
 
 <img src="/img/uploads/integration-with-youtube.jpg  "/>  
