@@ -57,7 +57,7 @@
 .post-article-widget-title h5 a{color:#333}
 .side-bar-right{background:#f6f6f6;padding:0px 0px 10px 0px}
 .side-bar-header{background:#00b4ff;padding:20px 20px 20px 25px;margin-bottom:30px !important;}
-.side-bar-header h3{margin:0;color:#fff;font-weight:600;}
+.general .side-bar-header h3{margin:0;color:#fff !important;font-weight:600;}
 
 /*Footer*/
 .layout-footer{border-top: 4px solid #00b4ff;background-color: #222222;padding:45px 0 8px 0}
@@ -184,7 +184,7 @@ body .splash-page .modal-content .e-commerce .inquiry strong
 }
 
 /*Pricing*/
-#myModal2 .close{margin-top:0}
+#myModal .close,#myModal1 .close,#myModal2 .close{margin-top:0 !important}
 
 @media (min-width:991px){
     .blog-right{padding-left:40px !important;}
@@ -218,7 +218,6 @@ body .splash-page .modal-content .e-commerce .inquiry strong
     min-width: 100% !important;
     border-bottom: 4px solid #00b4ff;
     color: #fff;
-    padding: 170px 0 80px 0;
 }
 .header_bg .subtitle .title {
     color: #fff;
@@ -279,13 +278,6 @@ body .splash-page .modal-content .e-commerce .inquiry strong
     color: #7f8c8d;
     font-size: 16px;
     font-weight: 300;
-    line-height: 28px;
-}
-.general .main-container {
-    padding: 20px 0px 50px;
-}
-.general.custom .main-container {
-    padding: 20px 0px 0px;
 }
 .general .main-container h1.title {
     padding: 0px 0px 10px;
@@ -515,12 +507,10 @@ body .botpage-suppport-funct .supp2 a img {
     font-weight: 300 !important;
     color: #fff !important;
 }
-.static-iconize {
-    padding-left: 0px !important;
-    padding-right: 0px !important;
-}
+
 .responsive h2 {
     color: #01c5ff;
+    margin-top: 0px !important;
     margin-bottom: 20px;
     font-size: 24px !important;
 }
@@ -936,7 +926,6 @@ body #mc_embed_signup #mc_embed_signup_scroll .button {
         color: #7f8c8d;
         font-size: 16px;
         font-weight: 300;
-        line-height: 28px;
     }
     .general .main-container h1.title {
         font-size: 18px;
