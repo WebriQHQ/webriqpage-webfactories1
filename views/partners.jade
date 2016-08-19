@@ -1,0 +1,164 @@
+extends general_custom
+
+block content
+
+  .partners.pt-50.pb-50.mt-10.mb-20
+      .container
+        .row
+          .col-xs-12.col-sm-12.col-md-7.pull-left
+            .partners.text-left.mt-20.mb-40
+              .row.mb-20
+                .col-sm-6
+                  .row.mb-20
+                    .col-xs-3.col-sm-3.thumb
+                      img(src='img/partner/uw-icon.png', alt='')
+                    .col-xs-9.col-sm-12.details
+                      h3 Unlimited WebriQpages
+                      p
+                        | Create, build, manage and publish an unlimited number of Pages. Take full advantage of our automation tools for new builds and content updates.
+                .col-sm-6
+                  .row
+                    .col-xs-3.col-sm-3.thumb
+                      img(src='img/partner/us-icon.png', alt='')
+                    .col-xs-9.col-sm-12.details
+                      h3 Unlimited WebriQshops
+                      p
+                        | Create, build, manage and publish an unlimited number of Shops. Take full advantage of our cloud tools for new builds and content updates.
+              .row.mb-20
+                .col-sm-6
+                  .row
+                    .col-xs-3.col-sm-3.thumb
+                      img(src='img/partner/t-icon.png', alt='')
+                    .col-xs-9.col-sm-12.details
+                      h3 Teams
+                      p
+                        | Each Page and Shop can be co-managed with up to 5 team members, each team member contributing to the build based on defined user roles.
+                .col-sm-6
+                  .row
+                    .col-xs-3.col-sm-3.thumb
+                      img(src='img/partner/cm-icon.png', alt='')
+                    .col-xs-9.col-sm-12.details
+                      h3 Custom Made Packages
+                      p Create your own service packages based on customer needs and market demands.
+              .row.mb-20
+                .col-sm-6
+                  .row
+                    .col-xs-3.col-sm-3.thumb
+                      img(src='img/partner/s-icon.png', alt='')
+                    .col-xs-9.col-sm-12.details
+                      h3 Support
+                      p
+                        | Build your own support infrastructure or use ours as a third party service provider.
+                .col-sm-6
+                  .row
+                    .col-xs-3.col-sm-3.thumb
+                      img(src='img/partner/f-icon.png', alt='')
+                    .col-xs-9.col-sm-12.details
+                      h3 Flexible Billing Plans
+                      p Single monthly billing for all your Pages and Shops.
+          .col-xs-12.col-sm-12.col-md-4.pull-right
+            #crmWebToEntityForm.form-div(style='margin: auto;')
+              form(accept-charset='UTF-8', action='https://crm.zoho.com/crm/WebToLeadForm', method='POST', name='WebToLeads493666000001258001')
+                // Do not remove this code.
+                input(style='display: none;', name='xnQsjsdp', type='text', value='6bf1e200f8e911b8a9c759bda361ffef16e08961adbc2d271505b03fa7a17503')
+                input#zc_gad(name='zc_gad', type='hidden', value='')
+                input(style='display: none;', name='xmIwtLD', type='text', value='db88ed8f7547f4926e808dca82347873db9f00abd2738fe61142c992136ec146')
+                input(style='display: none;', name='actionType', type='text', value='TGVhZHM=')
+                input(style='display: none;', name='returnURL', type='text', value='http://webfactories.co.uk')
+                // Do not remove this code.
+                .zoho-form
+                  .form-holder
+                    h3 Partner Account Request
+                  .form-holder
+                    .form-label.fl
+                      | Full Name
+                      span(style='color: red;') *
+                    .form-input.fr
+                      input(style='width: 250px;', maxlength='80', name='Last Name', type='text')
+                  .form-holder
+                    .form-label.fl
+                      | Company Name
+                      span(style='color: red;') *
+                    .form-input.fr
+                      input(style='width: 250px;', maxlength='100', name='Company', type='text')
+                  .form-holder
+                    .form-label.fl Company Location
+                    .form-input.fr
+                      input(style='width: 250px;', maxlength='30', name='Country', type='text')
+                  .form-holder
+                    .form-label.fl Size of the Company
+                    .form-input.fr
+                      input(style='width: 250px;', maxlength='9', name='No of Employees', type='text')
+                  .form-holder
+                    .form-label.fl
+                      | Email Address
+                      span(style='color: red;') *
+                    .form-input.fr
+                      input(style='width: 250px;', maxlength='100', name='Email', type='text')
+                  .form-holder
+                    .form-label.fl Telephone Number
+                    .form-input.fr
+                      input(style='width: 250px;', maxlength='30', name='Phone', type='text')
+                  .form-holder
+                    .form-label.fl Website
+                    .form-input.fr
+                      input(style='width: 250px;', maxlength='255', name='Website', type='text')
+                  .form-holder
+                    .form-textarea.fl
+                      | Why are you interested in our services
+                      span(style='color: red;') *
+                    .form-input.fr
+                      textarea(style='width: 250;', maxlength='1000', name='Description')  
+                  .form-holder
+                    .form-label.fl
+                      | What are your challenges as a web service provider
+                      span(style='color: red;') *
+                    .form-input.fr
+                      input(style='width: 250px;', maxlength='20', name='LEADCF2', type='text')
+                  .form-holder
+                    a.btn.btn-primary.eq-ui-waves-light
+                      input(type='submit', value='Submit')
+                    a.btn.btn-primary.eq-ui-waves-light
+                      input(type='reset', value='Reset')
+                script.
+                  // <![CDATA[
+                  var mndFileds=new Array('Company','Last Name','Email','Description','LEADCF2');
+                  var fldLangVal=new Array('Company Name','Full Name','Email Address','Why are you interested in our services','What are your challenges as a web service provider');
+                  var name='';
+                  var email='';
+                  function checkMandatory() {
+                  for(i=0;i<mndFileds.length;i++) {
+                  var fieldObj=document.forms['WebToLeads493666000001258001'][mndFileds[i]];
+                  if(fieldObj) {
+                  if (((fieldObj.value).replace(/^\\s+|\s+$/g, '')).length==0) {
+                  if(fieldObj.type =='file')
+                  {
+                  alert('Please select a file to upload');
+                  fieldObj.focus();
+                  return false;
+                  }
+                  alert(fldLangVal[i] +' cannot be empty');
+                  fieldObj.focus();
+                  return false;
+                  }  else if(fieldObj.nodeName=='SELECT') {
+                  if(fieldObj.options[fieldObj.selectedIndex].value=='-None-') {
+                  alert(fldLangVal[i] +' cannot be none');
+                  fieldObj.focus();
+                  return false;
+                  }
+                  } else if(fieldObj.type =='checkbox'){
+                  if(fieldObj.checked == false){
+                  alert('Please accept  '+fldLangVal[i]);
+                  fieldObj.focus();
+                  return false;
+                  }
+                  }
+                  try {
+                  if(fieldObj.name == 'Last Name') {
+                  name = fieldObj.value;
+                  }
+                  } catch (e) {}
+                  }
+                  }
+                  }
+                  // ]]>

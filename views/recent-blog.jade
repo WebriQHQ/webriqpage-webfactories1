@@ -1,0 +1,39 @@
+extends general
+
+block content
+
+    .container.pt-50.pb-50.mt-20.mb-20
+        .row
+            .col-md-7.col-lg-8
+                each post in posts.orderBy('date', 'desc').slice(0,100)
+                    article.post-article
+                        .article-banner
+                            a(href=post.permalink)
+                                img(src= post.banner)
+                        .article-title
+                            h3
+                                a(href=post.permalink)= post.title
+                        .article-publish
+                            ul
+                                li By
+                                    span= post.writer
+                                li Posted
+                                    span= dateFormat(post.date, 'LL')
+                        .article-body
+                           p= post.shortdesc
+                        .article-more
+                            a.btn.btn-primary.btn-lg.eq-ui-waves-light(href=post.permalink) Read More
+            .col-md-5.col-lg-4.hidden-sm
+                .side-bar-right
+                    .side-bar-header
+                        h3 Recent Post
+                    each post in posts.orderBy('date', 'desc').slice(0,10)
+                        article.post-article-widget
+                            .post-article-widget-img
+                                .article-banner
+                                    a(href=post.permalink)
+                                        img(src= post.banner)
+                            .post-article-widget-title
+                                .article-title
+                                    h5
+                                        a(href=post.permalink)= post.title

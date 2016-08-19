@@ -1,0 +1,41 @@
+doctype html
+html
+
+  head
+    meta(charset='utf8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge, chrome=1')
+    meta(name="viewport" content="width=device-width, initial-scale=1")
+
+    meta(name='description', content= records.site.sitedata[0].metadesc)
+    meta(name='author', content= records.site.sitedata[0].metauthor)
+    meta(name="keywords" content= records.site.sitedata[0].metakeyword)
+
+    title= records.site.sitedata[0].sitename
+
+    link(rel="icon", href= records.site.sitedata[0].icon, type="image/*")
+    link(rel="shortcut icon", href= records.site.sitedata[0].icon, type="img/*")
+    link(href='//fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800', rel='stylesheet', type='text/css')
+    link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css')
+    link(rel='stylesheet', href='../css/jasny-bootstrap.min.css')
+    link(rel='stylesheet', href='../css/webriq-bootstrap-material-ui.css')
+    link(rel='stylesheet', href='../css/custom.css')
+
+    <!-- Custom CSS -->
+    != css()
+
+
+  body#page-top.general
+
+    header
+
+      include includes/menu_general
+
+    section#general
+
+      include includes/header_general
+
+    div.main-container
+      block content
+
+    footer
+      include includes/footer

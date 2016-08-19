@@ -1,0 +1,59 @@
+doctype html
+html
+
+  head
+    meta(charset='utf8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge, chrome=1')
+    //- uncomment if your site is responsive!
+    meta(name="viewport" content="width=device-width, initial-scale=1")
+
+    meta(name='description', content= records.site.sitedata[0].metadesc)
+    meta(name='author', content= records.site.sitedata[0].metauthor)
+    meta(name="keywords" content= records.site.sitedata[0].metakeyword)
+
+    title= records.site.sitedata[0].sitename
+
+    link(rel="icon", href= records.site.sitedata[0].icon, type="image/*")
+    link(rel="shortcut icon", href= records.site.sitedata[0].icon, type="img/*")
+    link(href='//fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800', rel='stylesheet', type='text/css')
+    link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css')
+    link(rel='stylesheet', href='../css/jasny-bootstrap.min.css')
+    link(rel='stylesheet', href='../css/webriq-bootstrap-material-ui.css')
+    link(rel='stylesheet', href='../css/custom.css')
+
+    <!-- Custom CSS -->
+    != css()
+
+
+  body#page-top.general.custom
+    header
+
+      if _path === "/pricing.html"
+        include includes/menu_pricing
+
+      else
+
+        include includes/menu_general
+
+    section#custom
+
+      if _path === "/bots-are-the-new-apps.html"
+        include includes/header_bots
+
+      if _path === "/static-websites.html"
+        include includes/header_static
+
+      if _path === "/responsive-e-commerce-platform.html"
+        include includes/header_ecomm
+
+      if _path === "/partners.html"
+        include includes/header_partners
+
+      if _path === "/pricing.html"
+        include includes/header_pricing
+
+    div.main-container
+      block content
+
+    footer
+      include includes/footer

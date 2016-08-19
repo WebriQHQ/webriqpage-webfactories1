@@ -1,0 +1,126 @@
+style.
+  body #large-button, body #small-button {display:none !important; position: fixed; bottom: -100%;}
+  .modal-content {padding: 2em;}
+  .modal-content .title {color: #333; font-size: 36px; padding-left: 0;}
+  .modal-content .null {background: #3489FF; color: #fff; padding: .25em 1em .25em .25em !important; }
+  .modal-content p img{text-align: center;   margin: 0 auto;  display: inherit;}
+  .modal-content p img[src="//webfactories.biz/uploads/site_phpwebfactories/pages/images/69f3b98b-c018-43fa-b1e6-3d22d6fd3e05.png"] {width: 90%; height: auto;}
+  .modal-content ul li { margin-bottom: 10px; font-size: 16px; list-style: none; background: url('//webfactories.biz/uploads/site_phpwebfactories/pages/images/bullet.png') no-repeat left center; padding-left: 25px;}
+  .modal-content p span {font-size: 18px; font-weight: 600; margin: 1em 0;}
+  .modal-content h2 {background: #3489ff; color: #fff; padding: .25em 1em .25em .25em;}
+// Large modal
+button#large-button.btn.btn-primary(data-toggle='modal', data-target='.bs-example-modal-lg') Large modal
+.modal.fade.bs-example-modal-lg.splash-page(tabindex='-1', role='dialog', aria-labelledby='myLargeModalLabel', aria-hidden='true')
+  .modal-dialog.modal-lg
+    .modal-content
+      .modal-header
+        button.close(type='button', data-dismiss='modal', aria-hidden='true') ×
+      .modal-body
+        .e-commerce.section
+          .subtitle
+            // <h3 class="sub">Responsive</h3>
+            h1.title WebriQshops
+            p.lead "The Ultimate solution for your online business needs"
+            .inquiry.text-center
+              p
+                strong YOUR OWN SHOPPING CART
+          a.btn-sign-modal(href='http://app.webriq.com/auth/register', target='_blank') Sign-up for FREE
+          //
+            <div id="mc_embed_signup">
+            <form id="mc-embedded-subscribe-form-2" class="validate" action="//webfactories.us3.list-manage.com/subscribe/post?u=8cb5583254702490f52f894ff&amp;id=ee8e27e161" method="post" name="mc-embedded-subscribe-form" novalidate="" target="_blank">
+            <div id="mc_embed_signup_scroll">
+            <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
+            <div class="mc-field-group"><label for="mce-FNAME"></label> <input id="mce-FNAME" class="required" name="FNAME" type="text" value="" placeholder="Full Name..."></div>
+            <div class="mc-field-group"><label for="mce-EMAIL"></label> <input id="mce-EMAIL" class="required email" name="EMAIL" type="email" value="" placeholder="Email..."></div>
+            <div id="mce-responses" class="clear">&nbsp;</div>
+            <div style="position: absolute; left: -5000px;"><input tabindex="-1" name="b_8cb5583254702490f52f894ff_ee8e27e161" type="text" value=""></div>
+            <div class="clear"><input id="mc-embedded-subscribe" class="button" name="subscribe" type="submit" value="Request Now"></div>
+            </div>
+            </form>
+            </div>
+        // .modal-body
+    .modal-footer
+      ul.list-unstyled.modal-contact
+        li
+          a.ct(href='/responsive-e-commerce-platform') Learn More
+        li
+          a(href='tel:12032856929') +1 203 2856929
+  //
+    Small modal
+    <button class="btn btn-primary" id="small-button" data-toggle="modal" data-target=".bs-example-modal-sm">Small modal</button>
+    <div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-md">
+    <div class="modal-content">
+    <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+    <h1 class="text-center">DOWNLOAD OUR SALES BROCHURE</h1>
+    </div>
+    <div class="modal-body">
+    <script>
+    $(document).ready(function() {
+    $("#mce-EMAIL").click(function(e) {
+    e.preventDefault();
+    $("#mce-EMAIL").val('');
+    });
+    });
+    </script>
+    <div id="mc_embed_signup"><form id="mc-embedded-subscribe-form" class="validate" action="http://webfactories.us3.list-manage.com/subscribe/post?u=8cb5583254702490f52f894ff&amp;id=f81bd08495" method="post" name="mc-embedded-subscribe-form" target="_blank">
+    <input id="mce-EMAIL" class="email" type="email" name="EMAIL" value="Email Here" onfocus="if(this.value=='Email Here')this.value='';"
+    onblur="if(this.value=='')this.value='Email Here';"/> <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups
+  div(style='position: absolute; left: -5000px;')
+    input(type='text', name='b_8cb5583254702490f52f894ff_f81bd08495', value='')
+  .clear(style='display:none;')
+    input#mc-embedded-subscribe.button(type='submit', name='subscribe', value='DOWNLOAD')
+//
+  End mc_embed_signup
+  </div>
+  </div>
+  </div>
+  </div>
+script(type='text/javascript').
+  $("document").ready(function() {
+  if ( ! getUserVisitedSession() ) {
+  setTimeout(function() {
+  $("#large-button").trigger("click"); // trigger click
+  setUserVisitedSession(); // set user visited session
+  }, 30000);
+  }
+  /**
+  if ( ! getUserVisitedSession() ) {
+  setTimeout(function() {
+  $("#small-button").trigger("click"); // trigger click
+  setUserVisitedSession(); // set user visited session
+  }, 30000);
+  }
+  **/
+  });
+  function setUserVisitedSession() {
+  if(typeof(Storage) !== "undefined") {
+  if (sessionStorage.userVisited) {
+  sessionStorage.userVisited = Number(sessionStorage.userVisited)+1;
+  } else {
+  sessionStorage.userVisited = 1;
+  }
+  } else {
+  console.log("Error: Browser doesn't support sessionStorage" + e);
+  }
+  }
+  function getUserVisitedSession() {
+  if(typeof(Storage) !== "undefined") {
+  if ( sessionStorage.userVisited != null || Number(sessionStorage.userVisited) > 0 ) {
+  return true;
+  }
+  return false;
+  }
+  }
+  function getCookie(cname)
+  {
+  var name = cname + "=";
+  var ca = document.cookie.split(';');
+  for(var i=0; i<ca.length; i++)
+  {
+  var c = ca[i].trim();
+  if (c.indexOf(name)==0) return c.substring(name.length,c.length);
+  }
+  return "";
+  }

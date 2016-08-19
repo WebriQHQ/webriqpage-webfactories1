@@ -1,0 +1,1860 @@
+extends general_custom
+
+block content
+
+    #pricing_desk.container.responsive.pricing.pt-50.pb-50.mt-20.mb-20
+      .container-fluid#tab_cont
+        .row.text-center
+          ul.eq-ui-tabs
+            li.eq-ui-tab
+              a.active(href='#WebriQpages', data-toggle='tab') WebriQpages
+            li.eq-ui-tab
+              a(href='#WebriQshops', data-toggle='tab') WebriQshops      
+
+      .tab-content.mt-40.table-tab-content
+        #WebriQpages.tab-pane.active
+          table.table.table-bordered
+            thead
+              tr
+                th.pricing-nb  
+                th.pricing-nb.text-center
+                  a.text-white(href='http://app.webriq.com/auth/register', target='_blank') Sign-up For Free
+                th.pricing-nb.text-center
+                  a.text-white(href='#', data-toggle='modal', data-target='#myModal') Get A Quote
+                th.pricing-nb.text-center
+                  a.text-white(href='#', data-toggle='modal', data-target='#myModal') Get A Quote
+              tr
+                th
+                  h3.text-center.text-white.mt-10.mb-0 Features
+                  p.text-center.text-white
+                    | Click 
+                    em.plus-icon
+                      em.fa.fa-info  
+                    |  for extra info
+                th
+                  h3.text-center.text-white.mt-0.mb-25(style='font-size: 30px;') Basic
+                th
+                  h3.text-center.text-white.mt-0.mb-25(style='font-size: 30px;') Pro
+                th
+                  h3.text-center.text-white.mt-0.mb-25(style='font-size: 30px;') Limitless
+            tbody
+              tr
+                td.td-feature
+                  | Custom Design 
+                  a.btn-plus-feature.text-right(data-container='body', data-toggle='popover', data-placement='right', data-content='Up to three Custom Designed Responsive Themes')
+                    em.plus-icon
+                      em.fa.fa-info  
+                td.td-basic.text-center
+                  em.fa.fa-circle  
+                td.td-pro.text-center
+                  em.fa.fa-circle  
+                td.td-limiteless.text-center
+                  em.fa.fa-circle  
+              tr
+                td.td-feature
+                  | Custom Template 
+                  a.btn-plus-feature.text-right(data-container='body', data-toggle='popover', data-placement='right', data-content='Up to three Custom Developed Responsive Themes')
+                    em.plus-icon
+                      em.fa.fa-info  
+                td.td-basic.text-center
+                  em.fa.fa-circle  
+                td.td-pro.text-center
+                  em.fa.fa-circle  
+                td.td-limiteless.text-center
+                  em.fa.fa-circle  
+              tr
+                td.td-feature
+                  | Pages 
+                  a.btn-plus-feature.text-right(data-container='body', data-toggle='popover', data-placement='right', data-content='Unlimited Number of Rich Media Pages with text, graphics, pictures, audio and video')
+                    em.plus-icon
+                      em.fa.fa-info  
+                td.td-basic.text-center
+                  em.fa.fa-circle  
+                td.td-pro.text-center
+                  em.fa.fa-circle  
+                td.td-limiteless.text-center
+                  em.fa.fa-circle  
+              tr
+                td.td-feature
+                  | Blogs and Articles 
+                  a.btn-plus-feature.text-right(data-container='body', data-toggle='popover', data-placement='right', data-content='Unlimited Number of Blog and Article Posts')
+                    em.plus-icon
+                      em.fa.fa-info  
+                td.td-basic.text-center
+                  em.fa.fa-circle  
+                td.td-pro.text-center
+                  em.fa.fa-circle  
+                td.td-limiteless.text-center
+                  em.fa.fa-circle  
+              tr
+                td.td-feature
+                  | HTML Form 
+                  a.btn-plus-feature.text-right(data-container='body', data-toggle='popover', data-placement='right', data-content='We support submissions for any HTML Form and trigger email, slack or webhook notifications. Maximum submissions per month')
+                    em.plus-icon
+                      em.fa.fa-info  
+                td.td-basic.text-center 100
+                td.td-pro.text-center 500
+                td.td-limiteless.text-center unlimited
+              tr
+                td.td-feature
+                  | Newsletter Sign-up 
+                  a.btn-plus-feature.text-right(data-container='body', data-toggle='popover', data-placement='right', data-content='Build a list of customers that you can reach through E-mail and Newsletter Marketing')
+                    em.plus-icon
+                      em.fa.fa-info  
+                td.td-basic.text-center
+                  em.fa.fa-circle  
+                td.td-pro.text-center
+                  em.fa.fa-circle  
+                td.td-limiteless.text-center
+                  em.fa.fa-circle  
+              tr
+                td.td-feature
+                  | E-mail Marketing 
+                  a.btn-plus-feature.text-right(data-container='body', data-toggle='popover', data-placement='right', data-content='Set-up with a dedicated Mailchimp account for up to 2,000 customers and 12,000 emails sent per month')
+                    em.plus-icon
+                      em.fa.fa-info  
+                td.td-basic.text-center
+                  em.fa.fa-circle  
+                td.td-pro.text-center
+                  em.fa.fa-circle  
+                td.td-limiteless.text-center
+                  em.fa.fa-circle  
+              tr
+                td.td-feature
+                  | Web Forms 
+                  a.btn-plus-feature.text-right(data-container='body', data-toggle='popover', data-placement='right', data-content='Dedicated Form to gather leads and contacts from one or more of your landing pages')
+                    em.plus-icon
+                      em.fa.fa-info  
+                td.td-basic.text-center
+                  em.fa.fa-circle-thin  
+                td.td-pro.text-center
+                  em.fa.fa-circle  
+                td.td-limiteless.text-center
+                  em.fa.fa-circle  
+              tr
+                td.td-feature
+                  | CRM 
+                  a.btn-plus-feature.text-right(data-container='body', data-toggle='popover', data-placement='right', data-content='Set-up of a dedicated Zoho CRM account for up to 10 users')
+                    em.plus-icon
+                      em.fa.fa-info  
+                td.td-basic.text-center
+                  em.fa.fa-circle-thin  
+                td.td-pro.text-center
+                  em.fa.fa-circle  
+                td.td-limiteless.text-center
+                  em.fa.fa-circle  
+              tr
+                td.td-feature
+                  | Social Media 
+                  a.btn-plus-feature.text-right(data-container='body', data-toggle='popover', data-placement='right', data-content='Your website is integrated with your social media assets, like Twitter, Facebook, Instagram, Google ')
+                    em.plus-icon
+                      em.fa.fa-info  
+                td.td-basic.text-center
+                  em.fa.fa-circle  
+                td.td-pro.text-center
+                  em.fa.fa-circle  
+                td.td-limiteless.text-center
+                  em.fa.fa-circle  
+              tr
+                td.td-feature
+                  | Chat 
+                  a.btn-plus-feature.text-right(data-container='body', data-toggle='popover', data-placement='right', data-content='Zopim chat lets you chat with customers and give them real-time support.')
+                    em.plus-icon
+                      em.fa.fa-info  
+                td.td-basic.text-center
+                  em.fa.fa-circle-thin  
+                td.td-pro.text-center
+                  em.fa.fa-circle  
+                td.td-limiteless.text-center
+                  em.fa.fa-circle  
+              tr
+                td.td-feature
+                  | E-mail accounts 
+                  a.btn-plus-feature.text-right(data-container='body', data-toggle='popover', data-placement='right', data-content='Set-up of a number of IMAP/POP3 E-mail box for your custom domain')
+                    em.plus-icon
+                      em.fa.fa-info  
+                td.td-basic.text-center 1
+                td.td-pro.text-center 10
+                td.td-limiteless.text-center 10
+              tr
+                td.td-feature
+                  | Basic SSL 
+                  a.btn-plus-feature.text-right(data-container='body', data-toggle='popover', data-placement='right', data-content='Enable HTTPS for your site. A Free SNI SSL Certificate is included in your plan')
+                    em.plus-icon
+                      em.fa.fa-info  
+                td.td-basic.text-center
+                  em.fa.fa-circle  
+                td.td-pro.text-center
+                  em.fa.fa-circle  
+                td.td-limiteless.text-center
+                  em.fa.fa-circle  
+              tr
+                td.td-feature
+                  | Continuous Deployment 
+                  a.btn-plus-feature.text-right(data-container='body', data-toggle='popover', data-placement='right', data-content='Refers to the number of times we will push a new version to your site using our continuous deployment services')
+                    em.plus-icon
+                      em.fa.fa-info  
+                td.td-basic.text-center 0
+                td.td-pro.text-center 30
+                td.td-limiteless.text-center unlimited
+              tr
+                td.td-feature
+                  | E-mail Support 
+                  a.btn-plus-feature.text-right.E-mail-Support(data-container='body', data-toggle='popover')
+                    em.plus-icon
+                      em.fa.fa-info  
+                td.td-basic.text-center
+                  em.fa.fa-circle  
+                td.td-pro.text-center
+                  em.fa.fa-circle  
+                td.td-limiteless.text-center
+                  em.fa.fa-circle  
+              tr
+                td.td-feature
+                  | Ticketing Support 
+                  a.Ticketing-Support.btn-plus-feature.text-right(data-container='body', data-toggle='popover')
+                    em.plus-icon
+                      em.fa.fa-info  
+                td.td-basic.text-center
+                  em.fa.fa-circle-thin  
+                td.td-pro.text-center
+                  em.fa.fa-circle  
+                td.td-limiteless.text-center
+                  em.fa.fa-circle  
+              tr
+                td.td-feature
+                  | Slack Chat Support 
+                  a.btn-plus-feature.text-right(data-container='body', data-toggle='popover', data-placement='right', data-content='Request Content updates through a dedicated Slack communication channel')
+                    em.plus-icon
+                      em.fa.fa-info  
+                td.td-basic.text-center
+                  em.fa.fa-circle-thin  
+                td.td-pro.text-center
+                  em.fa.fa-circle-thin  
+                td.td-limiteless.text-center
+                  em.fa.fa-circle  
+              tr
+                td.td-feature
+                  | Custom Domain 
+                  a.btn-plus-feature.text-right.Custom-Domain(data-container='body', data-toggle='popover')
+                    em.plus-icon
+                      em.fa.fa-info  
+                td.td-basic.text-center
+                  em.fa.fa-circle  
+                td.td-pro.text-center
+                  em.fa.fa-circle  
+                td.td-limiteless.text-center
+                  em.fa.fa-circle  
+              tr
+                td.td-feature
+                  | Domain Aliases 
+                  a.btn-plus-feature.text-right.Domain-Aliases(data-container='body', data-toggle='popover')
+                    em.plus-icon
+                      em.fa.fa-info  
+                td.td-basic.text-center
+                  em.fa.fa-circle  
+                td.td-pro.text-center
+                  em.fa.fa-circle  
+                td.td-limiteless.text-center
+                  em.fa.fa-circle  
+              tr
+                td.td-feature
+                  | Subdomain 
+                  a.btn-plus-feature.text-right(data-container='body', data-toggle='popover', data-placement='right', data-content='Your site has a subdomain on WebriQs Top level domain')
+                    em.plus-icon
+                      em.fa.fa-info  
+                td.td-basic.text-center
+                  em.fa.fa-circle  
+                td.td-pro.text-center
+                  em.fa.fa-circle  
+                td.td-limiteless.text-center
+                  em.fa.fa-circle  
+              tr
+                td.td-feature
+                  | Global CDN Network 
+                  a.btn-plus-feature.text-right(data-container='body', data-toggle='popover', data-placement='right', data-content='Sites hosted on Webfactories are served straight out of our CDN nodes around the world with extremely low latency')
+                    em.plus-icon
+                      em.fa.fa-info  
+                td.td-basic.text-center
+                  em.fa.fa-circle  
+                td.td-pro.text-center
+                  em.fa.fa-circle  
+                td.td-limiteless.text-center
+                  em.fa.fa-circle  
+              tr
+                td.td-feature
+                  | Links with Github & Bitbucket 
+                  a.btn-plus-feature.text-right(data-container='body', data-toggle='popover', data-placement='right', data-content='Links your website with Github or Bitbucket repositories. Whenever you/we push changes to repositories, a new build is triggered')
+                    em.plus-icon
+                      em.fa.fa-info  
+                td.td-basic.text-center
+                  em.fa.fa-circle  
+                td.td-pro.text-center
+                  em.fa.fa-circle  
+                td.td-limiteless.text-center
+                  em.fa.fa-circle  
+              tr
+                td.td-feature
+                  | Versioning and Rollbacks 
+                  a.btn-plus-feature.text-right(data-container='body', data-toggle='popover', data-placement='right', data-content='You can view and download every deploy ever made for your site. You can roll back to previous versions with a click of a button')
+                    em.plus-icon
+                      em.fa.fa-info  
+                td.td-basic.text-center
+                  em.fa.fa-circle  
+                td.td-pro.text-center
+                  em.fa.fa-circle  
+                td.td-limiteless.text-center
+                  em.fa.fa-circle  
+              tr
+                td.td-feature
+                  | Webhooks & Notifications 
+                  a.btn-plus-feature.text-right(data-container='body', data-toggle='popover', data-placement='right', data-content='Support for both inbound and outbound Webhooks. Slack notification for Form submissions and new deploys.')
+                    em.plus-icon
+                      em.fa.fa-info  
+                td.td-basic.text-center
+                  em.fa.fa-circle  
+                td.td-pro.text-center
+                  em.fa.fa-circle  
+                td.td-limiteless.text-center
+                  em.fa.fa-circle  
+        #WebriQshops.tab-pane
+          table.table.table-bordered
+            thead
+              tr
+                th.pricing-nb  
+                th.pricing-nb.text-center
+                  a.text-white(href='http://app.webriq.com/auth/register', target='_blank') Sign-up For Free
+                th.pricing-nb.text-center
+                  a.text-white(href='#', data-toggle='modal', data-target='#myModal2') Get A Quote
+                th.pricing-nb.text-center
+                  a.text-white(href='#', data-toggle='modal', data-target='#myModal2') Get A Quote
+              tr
+                th
+                  h3.text-center.text-white.mt-10.mb-0 Features
+                  p.text-center.text-white
+                    | Click 
+                    em.plus-icon
+                      em.fa.fa-info  
+                    |  for extra info
+                th
+                  h3.text-center.text-white.mt-0.mb-25(style='font-size: 30px;') Basic
+                th
+                  h3.text-center.text-white.mt-0.mb-25(style='font-size: 30px;') Pro
+                th
+                  h3.text-center.text-white.mt-0.mb-25(style='font-size: 30px;') Limitless
+            tbody
+              tr
+                td.td-feature
+                  | Custom Design 
+                  a.btn-plus-feature.text-right(data-container='body', data-toggle='popover', data-placement='right', data-content='Up to three Custom Designed Responsive Themes')
+                    em.plus-icon
+                      em.fa.fa-info  
+                td.td-basic.text-center
+                  em.fa.fa-circle  
+                td.td-pro.text-center
+                  em.fa.fa-circle  
+                td.td-limiteless.text-center
+                  em.fa.fa-circle  
+              tr
+                td.td-feature
+                  | Custom Template 
+                  a.btn-plus-feature.text-right(data-container='body', data-toggle='popover', data-placement='right', data-content='Up to three Custom Developed Responsive Themes')
+                    em.plus-icon
+                      em.fa.fa-info  
+                td.td-basic.text-center
+                  em.fa.fa-circle  
+                td.td-pro.text-center
+                  em.fa.fa-circle  
+                td.td-limiteless.text-center
+                  em.fa.fa-circle  
+              tr
+                td.td-feature
+                  | Products 
+                  a.btn-plus-feature.text-right(data-container='body', data-toggle='popover', data-placement='right', data-content='Unlimited Number of Products, Categories and sub categories')
+                    em.plus-icon
+                      em.fa.fa-info  
+                td.td-basic.text-center
+                  em.fa.fa-circle  
+                td.td-pro.text-center
+                  em.fa.fa-circle  
+                td.td-limiteless.text-center
+                  em.fa.fa-circle  
+              tr
+                td.td-feature
+                  | Digital Products 
+                  a.btn-plus-feature.text-right(data-container='body', data-toggle='popover', data-placement='right', data-content='Unlimited Number of Digital Products that can be downloaded')
+                    em.plus-icon
+                      em.fa.fa-info  
+                td.td-basic.text-center
+                  em.fa.fa-circle  
+                td.td-pro.text-center
+                  em.fa.fa-circle  
+                td.td-limiteless.text-center
+                  em.fa.fa-circle  
+              tr
+                td.td-feature
+                  | Reviews 
+                  a.btn-plus-feature.text-right(data-container='body', data-toggle='popover', data-placement='right', data-content='Let your products be reviewed by customers and experts in your business area')
+                    em.plus-icon
+                      em.fa.fa-info  
+                td.td-basic.text-center
+                  em.fa.fa-circle  
+                td.td-pro.text-center
+                  em.fa.fa-circle  
+                td.td-limiteless.text-center
+                  em.fa.fa-circle  
+              tr
+                td.td-feature
+                  | Embed 
+                  a.btn-plus-feature.text-right(data-container='body', data-toggle='popover', data-placement='right', data-content='Embed all or portions of your products in other websites or Social Media accounts like Facebook and Pinterest')
+                    em.plus-icon
+                      em.fa.fa-info  
+                td.td-basic.text-center
+                  em.fa.fa-circle  
+                td.td-pro.text-center
+                  em.fa.fa-circle  
+                td.td-limiteless.text-center
+                  em.fa.fa-circle  
+              tr
+                td.td-feature
+                  | Content Manager 
+                  a.btn-plus-feature.text-right(data-container='body', data-toggle='popover', data-placement='right', data-content='Unlimited number of Pages for related content, i.e. about us, terms and conditions, Shipping terms, return policy')
+                    em.plus-icon
+                      em.fa.fa-info  
+                td.td-basic.text-center
+                  em.fa.fa-circle  
+                td.td-pro.text-center
+                  em.fa.fa-circle  
+                td.td-limiteless.text-center
+                  em.fa.fa-circle  
+              tr
+                td.td-feature
+                  | Newsletter Sign-up 
+                  a.btn-plus-feature.text-right(data-container='body', data-toggle='popover', data-placement='right', data-content='Build a list of customers that you can reach through E-mail and Newsletter Marketing')
+                    em.plus-icon
+                      em.fa.fa-info  
+                td.td-basic.text-center
+                  em.fa.fa-circle  
+                td.td-pro.text-center
+                  em.fa.fa-circle  
+                td.td-limiteless.text-center
+                  em.fa.fa-circle  
+              tr
+                td.td-feature
+                  | E-mail Marketing 
+                  a.btn-plus-feature.text-right(data-container='body', data-toggle='popover', data-placement='right', data-content='Set-up with a dedicated Mailchimp account for up to 2,000 customers and 12,000 emails sent per month')
+                    em.plus-icon
+                      em.fa.fa-info  
+                td.td-basic.text-center
+                  em.fa.fa-circle  
+                td.td-pro.text-center
+                  em.fa.fa-circle  
+                td.td-limiteless.text-center
+                  em.fa.fa-circle  
+              tr
+                td.td-feature
+                  | Social Media 
+                  a.btn-plus-feature.text-right(data-container='body', data-toggle='popover', data-placement='right', data-content='Your website is integrated with your social media assets, like Twitter, Facebook, Instagram, Google ')
+                    em.plus-icon
+                      em.fa.fa-info  
+                td.td-basic.text-center
+                  em.fa.fa-circle  
+                td.td-pro.text-center
+                  em.fa.fa-circle  
+                td.td-limiteless.text-center
+                  em.fa.fa-circle  
+              tr
+                td.td-feature
+                  | Chat 
+                  a.btn-plus-feature.text-right(data-container='body', data-toggle='popover', data-placement='right', data-content='Zopim chat lets you chat with customers and give them real-time support')
+                    em.plus-icon
+                      em.fa.fa-info  
+                td.td-basic.text-center
+                  em.fa.fa-circle-thin  
+                td.td-pro.text-center
+                  em.fa.fa-circle  
+                td.td-limiteless.text-center
+                  em.fa.fa-circle  
+              tr
+                td.td-feature
+                  | Basic SSL 
+                  a.btn-plus-feature.text-right(data-container='body', data-toggle='popover', data-placement='right', data-content='Enable HTTPS for your site. A Free SNI SSL Certificate is included in your plan')
+                    em.plus-icon
+                      em.fa.fa-info  
+                td.td-basic.text-center
+                  em.fa.fa-circle  
+                td.td-pro.text-center
+                  em.fa.fa-circle  
+                td.td-limiteless.text-center
+                  em.fa.fa-circle  
+              tr
+                td.td-feature
+                  | Shipping Logic 
+                  a.btn-plus-feature.text-right(data-container='body', data-toggle='popover', data-placement='right', data-content='Set-up of various shipping logics applicable to your business model')
+                    em.plus-icon
+                      em.fa.fa-info  
+                td.td-basic.text-center 1
+                td.td-pro.text-center 3
+                td.td-limiteless.text-center unlimited
+              tr
+                td.td-feature
+                  | Shipping Engine 
+                  a.btn-plus-feature.text-right(data-container='body', data-toggle='popover', data-placement='right', data-content='Set-up of a shipping engine to automate and calculate all your shipments. Fedex, UPS and Australian Post')
+                    em.plus-icon
+                      em.fa.fa-info  
+                td.td-basic.text-center 1
+                td.td-pro.text-center 2
+                td.td-limiteless.text-center 2
+              tr
+                td.td-feature
+                  | Paypal Express 
+                  a.btn-plus-feature.text-right(data-container='body', data-toggle='popover', data-placement='right', data-content='Set-up your shop to include credit card and Paypal payments through Paypal and Paypal Express')
+                    em.plus-icon
+                      em.fa.fa-info  
+                td.td-basic.text-center
+                  em.fa.fa-circle  
+                td.td-pro.text-center
+                  em.fa.fa-circle  
+                td.td-limiteless.text-center
+                  em.fa.fa-circle  
+              tr
+                td.td-feature
+                  | Payment Gateways 
+                  a.btn-plus-feature.text-right(data-container='body', data-toggle='popover', data-placement='right', data-content='Set-up of additional payment gateways such as Stripe, Braintree or other PCI compliant gateways (through API)')
+                    em.plus-icon
+                      em.fa.fa-info  
+                td.td-basic.text-center
+                  em.fa.fa-circle-thin  
+                td.td-pro.text-center
+                  em.fa.fa-circle  
+                td.td-limiteless.text-center
+                  em.fa.fa-circle  
+              tr
+                td.td-feature
+                  | E-mail Support 
+                  a.btn-plus-feature.text-right.E-mail-Support(data-container='body', data-toggle='popover')
+                    em.plus-icon
+                      em.fa.fa-info  
+                td.td-basic.text-center
+                  em.fa.fa-circle  
+                td.td-pro.text-center
+                  em.fa.fa-circle  
+                td.td-limiteless.text-center
+                  em.fa.fa-circle  
+              tr
+                td.td-feature
+                  | Ticketing Support 
+                  a.btn-plus-feature.text-right.Ticketing-Support(data-container='body', data-toggle='popover')
+                    em.plus-icon
+                      em.fa.fa-info  
+                td.td-basic.text-center
+                  em.fa.fa-circle-thin  
+                td.td-pro.text-center
+                  em.fa.fa-circle  
+                td.td-limiteless.text-center
+                  em.fa.fa-circle  
+              tr
+                td.td-feature
+                  | Slack Chat Support 
+                  a.btn-plus-feature.text-right(data-container='body', data-toggle='popover', data-placement='right', data-content='Request Content updates through a dedicated Slack communication channel')
+                    em.plus-icon
+                      em.fa.fa-info  
+                td.td-basic.text-center
+                  em.fa.fa-circle-thin  
+                td.td-pro.text-center
+                  em.fa.fa-circle-thin  
+                td.td-limiteless.text-center
+                  em.fa.fa-circle  
+              tr
+                td.td-feature
+                  | Custom Domain 
+                  a.btn-plus-feature.text-right.Custom-Domain(data-container='body', data-toggle='popover')
+                    em.plus-icon
+                      em.fa.fa-info  
+                td.td-basic.text-center
+                  em.fa.fa-circle  
+                td.td-pro.text-center
+                  em.fa.fa-circle  
+                td.td-limiteless.text-center
+                  em.fa.fa-circle  
+              tr
+                td.td-feature
+                  | Domain Aliases 
+                  a.btn-plus-feature.text-right.Domain-Aliases(data-container='body', data-toggle='popover')
+                    em.plus-icon
+                      em.fa.fa-info  
+                td.td-basic.text-center
+                  em.fa.fa-circle  
+                td.td-pro.text-center
+                  em.fa.fa-circle  
+                td.td-limiteless.text-center
+                  em.fa.fa-circle  
+              tr
+                td.td-feature
+                  | Subdomain 
+                  a.btn-plus-feature.text-right(data-container='body', data-toggle='popover', data-placement='right', data-content='Your site has a subdomain on WebriQshops Top level domain')
+                    em.plus-icon
+                      em.fa.fa-info  
+                td.td-basic.text-center
+                  em.fa.fa-circle  
+                td.td-pro.text-center
+                  em.fa.fa-circle  
+                td.td-limiteless.text-center
+                  em.fa.fa-circle  
+              tr
+                td.td-feature
+                  | Cloud Instances 
+                  a.btn-plus-feature.text-right(data-container='body', data-toggle='popover', data-placement='right', data-content='Sites hosted on Webfactories are served straight out of our Cloud instances and CDN nodes around the world')
+                    em.plus-icon
+                      em.fa.fa-info  
+                td.td-basic.text-center
+                  em.fa.fa-circle  
+                td.td-pro.text-center
+                  em.fa.fa-circle  
+                td.td-limiteless.text-center
+                  em.fa.fa-circle  
+              tr
+                td.td-feature
+                  | Full SSL 
+                  a.btn-plus-feature.text-right(data-container='body', data-toggle='popover', data-placement='right', data-content='Dedicated SSL Certificate that works everywhere')
+                    em.plus-icon
+                      em.fa.fa-info  
+                td.td-basic.text-center on demand
+                td.td-pro.text-center on demand
+                td.td-limiteless.text-center on demand
+
+
+    div#pricing_mobilesec.container.responsive.pricing.pt-40.pb-40
+      .container-fluid#tab_cont
+        .row.text-center
+          ul.eq-ui-tabs
+            li.eq-ui-tab
+              a.active(href='#WebriQpagesul', data-toggle='tab') WebriQpages
+            li.eq-ui-tab
+              a(href='#WebriQshopsul', data-toggle='tab') WebriQshops 
+      .tab-content.mt-40
+        #WebriQpagesul.tab-pane.active
+          // - WebriqPages Basic
+          #accordion.panel-group
+            .accordion-btn
+              a.text-center.text-white(href='http://app.webriq.com/auth/register', target='_blank') SIGN-UP For FREE
+            .accordion-header
+              h3.text-center.text-white Basic
+            .panel.panel-default
+              .panel-heading
+                | Custom Design 
+                a.btn-plus-feature.text-right(href='#WP-B-Custom-Design', data-toggle='collapse', data-parent='#accordion')
+                  em.plus-icon
+                    em.fa.fa-info  
+              #WP-B-Custom-Design.panel-collapse.collapse
+                .panel-body Up to three Custom Designed Responsive Themes
+            .panel.panel-default
+              .panel-heading
+                | Custom Template 
+                a.btn-plus-feature.text-right(href='#WP-B-Custom-Template', data-toggle='collapse', data-parent='#accordion')
+                  em.plus-icon
+                    em.fa.fa-info  
+              #WP-B-Custom-Template.panel-collapse.collapse
+                .panel-body Up to three Custom Developed Responsive Themes
+            .panel.panel-default
+              .panel-heading
+                | Pages 
+                a.btn-plus-feature.text-right(href='#WP-B-Pages', data-toggle='collapse', data-parent='#accordion')
+                  em.plus-icon
+                    em.fa.fa-info  
+              #WP-B-Pages.panel-collapse.collapse
+                .panel-body
+                  | Unlimited Number of Rich Media Pages with text, graphics, pictures, audio and video
+            .panel.panel-default
+              .panel-heading
+                | Blogs and Articles 
+                a.btn-plus-feature.text-right(href='#WP-B-Blogs', data-toggle='collapse', data-parent='#accordion')
+                  em.plus-icon
+                    em.fa.fa-info  
+              #WP-B-Blogs.panel-collapse.collapse
+                .panel-body
+                  | Unlimited Number of Rich Media Pages with text, graphics, pictures, audio and video
+            .panel.panel-default
+              .panel-heading
+                | HTML Form (100) 
+                a.btn-plus-feature.text-right(href='#WP-B-HTML', data-toggle='collapse', data-parent='#accordion')
+                  em.plus-icon
+                    em.fa.fa-info  
+              #WP-B-HTML.panel-collapse.collapse
+                .panel-body
+                  | We support submissions for any HTML Form and trigger email, slack or webhook notifications. Maximum submissions per month
+            .panel.panel-default
+              .panel-heading
+                | Newsletter Sign-up 
+                a.btn-plus-feature.text-right(href='#WP-B-Newsletter', data-toggle='collapse', data-parent='#accordion')
+                  em.plus-icon
+                    em.fa.fa-info  
+              #WP-B-Newsletter.panel-collapse.collapse
+                .panel-body
+                  | Build a list of customers that you can reach through E-mail and Newsletter Marketing
+            .panel.panel-default
+              .panel-heading
+                | E-mail Marketing 
+                a.btn-plus-feature.text-right(href='#WP-B-Email-Marketing', data-toggle='collapse', data-parent='#accordion')
+                  em.plus-icon
+                    em.fa.fa-info  
+              #WP-B-Email-Marketing.panel-collapse.collapse
+                .panel-body
+                  | Set-up with a dedicated Mailchimp account for up to 2,000 customers and 12,000 emails sent per month
+            .panel.panel-default
+              .panel-heading
+                | Social Media 
+                a.btn-plus-feature.text-right(href='#WP-B-Social', data-toggle='collapse', data-parent='#accordion')
+                  em.plus-icon
+                    em.fa.fa-info  
+              #WP-B-Social.panel-collapse.collapse
+                .panel-body
+                  | Your website is integrated with your social media assets, like Twitter, Facebook, Instagram, Google
+            .panel.panel-default
+              .panel-heading
+                | E-mail Accounts (1) 
+                a.btn-plus-feature.text-right(href='#WP-B-Email-accounts', data-toggle='collapse', data-parent='#accordion')
+                  em.plus-icon
+                    em.fa.fa-info  
+              #WP-B-Email-accounts.panel-collapse.collapse
+                .panel-body Set-up of a number of IMAP/POP3 E-mail box for your custom domain
+            .panel.panel-default
+              .panel-heading
+                | Basic SSL 
+                a.btn-plus-feature.text-right(href='#WP-B-Basic', data-toggle='collapse', data-parent='#accordion')
+                  em.plus-icon
+                    em.fa.fa-info  
+              #WP-B-Basic.panel-collapse.collapse
+                .panel-body Set-up of a number of IMAP/POP3 E-mail box for your custom domain
+            .panel.panel-default
+              .panel-heading
+                | Continuous Deployment (0) 
+                a.btn-plus-feature.text-right(href='#WP-B-Deployment', data-toggle='collapse', data-parent='#accordion')
+                  em.plus-icon
+                    em.fa.fa-info  
+              #WP-B-Deployment.panel-collapse.collapse
+                .panel-body
+                  | Refers to the number of times we will push a new version to your site using our continuous deployment services
+            .panel.panel-default
+              .panel-heading
+                | E-mail Support 
+                a.btn-plus-feature.text-right(href='#WP-B-EmailSupport', data-toggle='collapse', data-parent='#accordion')
+                  em.plus-icon
+                    em.fa.fa-info  
+              #WP-B-EmailSupport.panel-collapse.collapse
+                .panel-body
+                  | Sent your request to 
+                  a(href='mailto:support@helpdesk.webriq.com') support@helpdesk.webriq.com
+                  |  and we will get back to you within 24 hours
+            .panel.panel-default
+              .panel-heading
+                | Custom Domain 
+                a.btn-plus-feature.text-right(href='#WP-B-Domain', data-toggle='collapse', data-parent='#accordion')
+                  em.plus-icon
+                    em.fa.fa-info  
+              #WP-B-Domain.panel-collapse.collapse
+                .panel-body
+                  | Move your domain to Webfactories. Contact 
+                  a(href='mailto:support@helpdesk.webriq.com') support@helpdesk.webriq.com
+                  | com for more details.
+            .panel.panel-default
+              .panel-heading
+                | Domain Aliases 
+                a.btn-plus-feature.text-right(href='#WP-B-Aliases', data-toggle='collapse', data-parent='#accordion')
+                  em.plus-icon
+                    em.fa.fa-info  
+              #WP-B-Aliases.panel-collapse.collapse
+                .panel-body
+                  | Point more domains to one website. Contact 
+                  a(href='mailto:support@helpdesk.webriq.com') support@helpdesk.webriq.com
+                  | com for more details.
+            .panel.panel-default
+              .panel-heading
+                | Subdomain 
+                a.btn-plus-feature.text-right(href='#WP-B-Subdomain', data-toggle='collapse', data-parent='#accordion')
+                  em.plus-icon
+                    em.fa.fa-info  
+              #WP-B-Subdomain.panel-collapse.collapse
+                .panel-body Your site has a subdomain on WebriQs Top level domain
+            .panel.panel-default
+              .panel-heading
+                | Global CDN Network 
+                a.btn-plus-feature.text-right(href='#WP-B-Global', data-toggle='collapse', data-parent='#accordion')
+                  em.plus-icon
+                    em.fa.fa-info  
+              #WP-B-Global.panel-collapse.collapse
+                .panel-body
+                  | Sites hosted on Webfactories are served straight out of our CDN nodes around the world with extremely low latency
+            .panel.panel-default
+              .panel-heading
+                | Links with Github and Bitbucket 
+                a.btn-plus-feature.text-right(href='#WP-B-Links', data-toggle='collapse', data-parent='#accordion')
+                  em.plus-icon
+                    em.fa.fa-info  
+              #WP-B-Links.panel-collapse.collapse
+                .panel-body
+                  | Links your website with Github or Bitbucket repositories. Whenever you/we push changes to repositories, a new build is triggered
+            .panel.panel-default
+              .panel-heading
+                | Versioning and Rollbacks 
+                a.btn-plus-feature.text-right(href='#WP-B-Versioning', data-toggle='collapse', data-parent='#accordion')
+                  em.plus-icon
+                    em.fa.fa-info  
+              #WP-B-Versioning.panel-collapse.collapse
+                .panel-body
+                  | You can view and download every deploy ever made for your site. You can roll back to previous versions with a click of a button
+            .panel.panel-default
+              .panel-heading
+                | Webhooks & Notifications 
+                a.btn-plus-feature.text-right(href='#WP-B-Webhooks', data-toggle='collapse', data-parent='#accordion')
+                  em.plus-icon
+                    em.fa.fa-info  
+              #WP-B-Webhooks.panel-collapse.collapse
+                .panel-body
+                  | Support for both inbound and outbound Webhooks. Slack notification for Form submissions and new deploys.
+          // - WebriqPages Pro
+          #accordion2.panel-group.mt-20
+            .accordion-btn
+              a.text-center.text-white(href='#', data-toggle='modal', data-target='#myModal') GET A QUOTE
+            .accordion-header
+              h3.text-center.text-white Pro
+            .panel.panel-default
+              .panel-heading
+                | Custom Design 
+                a.btn-plus-feature.text-right(href='#WP-P-Custom-Design', data-toggle='collapse', data-parent='#accordion2')
+                  em.plus-icon
+                    em.fa.fa-info  
+              #WP-P-Custom-Design.panel-collapse.collapse
+                .panel-body Up to three Custom Designed Responsive Themes
+            .panel.panel-default
+              .panel-heading
+                | Custom Template 
+                a.btn-plus-feature.text-right(href='#WP-P-Custom-Template', data-toggle='collapse', data-parent='#accordion2')
+                  em.plus-icon
+                    em.fa.fa-info  
+              #WP-P-Custom-Template.panel-collapse.collapse
+                .panel-body Up to three Custom Developed Responsive Themes
+            .panel.panel-default
+              .panel-heading
+                | Pages 
+                a.btn-plus-feature.text-right(href='#WP-P-Pages', data-toggle='collapse', data-parent='#accordion2')
+                  em.plus-icon
+                    em.fa.fa-info  
+              #WP-P-Pages.panel-collapse.collapse
+                .panel-body
+                  | Unlimited Number of Rich Media Pages with text, graphics, pictures, audio and video
+            .panel.panel-default
+              .panel-heading
+                | Blogs and Articles 
+                a.btn-plus-feature.text-right(href='#WP-P-Blogs', data-toggle='collapse', data-parent='#accordion2')
+                  em.plus-icon
+                    em.fa.fa-info  
+              #WP-P-Blogs.panel-collapse.collapse
+                .panel-body
+                  | Unlimited Number of Rich Media Pages with text, graphics, pictures, audio and video
+            .panel.panel-default
+              .panel-heading
+                | HTML Form (500) 
+                a.btn-plus-feature.text-right(href='#WP-P-HTML', data-toggle='collapse', data-parent='#accordion2')
+                  em.plus-icon
+                    em.fa.fa-info  
+              #WP-P-HTML.panel-collapse.collapse
+                .panel-body
+                  | We support submissions for any HTML Form and trigger email, slack or webhook notifications. Maximum submissions per month
+            .panel.panel-default
+              .panel-heading
+                | Newsletter Sign-up 
+                a.btn-plus-feature.text-right(href='#WP-P-Newsletter', data-toggle='collapse', data-parent='#accordion2')
+                  em.plus-icon
+                    em.fa.fa-info  
+              #WP-P-Newsletter.panel-collapse.collapse
+                .panel-body
+                  | Build a list of customers that you can reach through E-mail and Newsletter Marketing
+            .panel.panel-default
+              .panel-heading
+                | E-mail Marketing 
+                a.btn-plus-feature.text-right(href='#WP-P-Email-Marketing', data-toggle='collapse', data-parent='#accordion2')
+                  em.plus-icon
+                    em.fa.fa-info  
+              #WP-P-Email-Marketing.panel-collapse.collapse
+                .panel-body
+                  | Set-up with a dedicated Mailchimp account for up to 2,000 customers and 12,000 emails sent per month
+            .panel.panel-default
+              .panel-heading
+                | Web Forms 
+                a.btn-plus-feature.text-right(href='#WP-P-Web', data-toggle='collapse', data-parent='#accordion2')
+                  em.plus-icon
+                    em.fa.fa-info  
+              #WP-P-Web.panel-collapse.collapse
+                .panel-body
+                  | Dedicated Form to gather leads and contacts from one or more of your landing pages
+            .panel.panel-default
+              .panel-heading
+                | CRM 
+                a.btn-plus-feature.text-right(href='#WP-P-CRM', data-toggle='collapse', data-parent='#accordion2')
+                  em.plus-icon
+                    em.fa.fa-info  
+              #WP-P-CRM.panel-collapse.collapse
+                .panel-body Set-up of a dedicated Zoho CRM account for up to 10 users
+            .panel.panel-default
+              .panel-heading
+                | Social Media 
+                a.btn-plus-feature.text-right(href='#WP-P-Social', data-toggle='collapse', data-parent='#accordion2')
+                  em.plus-icon
+                    em.fa.fa-info  
+              #WP-P-Social.panel-collapse.collapse
+                .panel-body
+                  | Your website is integrated with your social media assets, like Twitter, Facebook, Instagram, Google
+            .panel.panel-default
+              .panel-heading
+                | Chat 
+                a.btn-plus-feature.text-right(href='#WP-P-Chat', data-toggle='collapse', data-parent='#accordion2')
+                  em.plus-icon
+                    em.fa.fa-info  
+              #WP-P-Chat.panel-collapse.collapse
+                .panel-body Zopim chat lets you chat with customers and give them real-time support.
+            .panel.panel-default
+              .panel-heading
+                | E-mail Accounts (10) 
+                a.btn-plus-feature.text-right(href='#WP-P-Email-accounts', data-toggle='collapse', data-parent='#accordion2')
+                  em.plus-icon
+                    em.fa.fa-info  
+              #WP-P-Email-accounts.panel-collapse.collapse
+                .panel-body Set-up of a number of IMAP/POP3 E-mail box for your custom domain
+            .panel.panel-default
+              .panel-heading
+                | Basic SSL 
+                a.btn-plus-feature.text-right(href='#WP-P-Basic', data-toggle='collapse', data-parent='#accordion2')
+                  em.plus-icon
+                    em.fa.fa-info  
+              #WP-P-Basic.panel-collapse.collapse
+                .panel-body Set-up of a number of IMAP/POP3 E-mail box for your custom domain
+            .panel.panel-default
+              .panel-heading
+                | Continuous Deployment (30) 
+                a.btn-plus-feature.text-right(href='#WP-P-Deployment', data-toggle='collapse', data-parent='#accordion2')
+                  em.plus-icon
+                    em.fa.fa-info  
+              #WP-P-Deployment.panel-collapse.collapse
+                .panel-body
+                  | Refers to the number of times we will push a new version to your site using our continuous deployment services
+            .panel.panel-default
+              .panel-heading
+                | E-mail Support 
+                a.btn-plus-feature.text-right(href='#WP-P-EmailSupport', data-toggle='collapse', data-parent='#accordion2')
+                  em.plus-icon
+                    em.fa.fa-info  
+              #WP-P-EmailSupport.panel-collapse.collapse
+                .panel-body
+                  | Sent your request to 
+                  a(href='mailto:support@helpdesk.webriq.com') support@helpdesk.webriq.com
+                  |  and we will get back to you within 24 hours
+            .panel.panel-default
+              .panel-heading
+                | Ticketing Support 
+                a.btn-plus-feature.text-right(href='#WP-P-Ticketing', data-toggle='collapse', data-parent='#accordion2')
+                  em.plus-icon
+                    em.fa.fa-info  
+              #WP-P-Ticketing.panel-collapse.collapse
+                .panel-body
+                  | Request new builds and other related service issues to 
+                  a(href='http://helpdesk.webriq.com', target='_blank') helpdesk.webriq.com
+            .panel.panel-default
+              .panel-heading
+                | Custom Domain 
+                a.btn-plus-feature.text-right(href='#WP-P-Domain', data-toggle='collapse', data-parent='#accordion2')
+                  em.plus-icon
+                    em.fa.fa-info  
+              #WP-P-Domain.panel-collapse.collapse
+                .panel-body
+                  | Move your domain to Webfactories. Contact 
+                  a(href='mailto:support@helpdesk.webriq.com') support@helpdesk.webriq.com
+                  | com for more details.
+            .panel.panel-default
+              .panel-heading
+                | Domain Aliases 
+                a.btn-plus-feature.text-right(href='#WP-P-Aliases', data-toggle='collapse', data-parent='#accordion2')
+                  em.plus-icon
+                    em.fa.fa-info  
+              #WP-P-Aliases.panel-collapse.collapse
+                .panel-body
+                  | Point more domains to one website. Contact 
+                  a(href='mailto:support@helpdesk.webriq.com') support@helpdesk.webriq.com
+                  | com for more details.
+            .panel.panel-default
+              .panel-heading
+                | Subdomain 
+                a.btn-plus-feature.text-right(href='#WP-P-Subdomain', data-toggle='collapse', data-parent='#accordion2')
+                  em.plus-icon
+                    em.fa.fa-info  
+              #WP-P-Subdomain.panel-collapse.collapse
+                .panel-body Your site has a subdomain on WebriQs Top level domain
+            .panel.panel-default
+              .panel-heading
+                | Global CDN Network 
+                a.btn-plus-feature.text-right(href='#WP-P-Global', data-toggle='collapse', data-parent='#accordion2')
+                  em.plus-icon
+                    em.fa.fa-info  
+              #WP-P-Global.panel-collapse.collapse
+                .panel-body
+                  | Sites hosted on Webfactories are served straight out of our CDN nodes around the world with extremely low latency
+            .panel.panel-default
+              .panel-heading
+                | Links with Github and Bitbucket 
+                a.btn-plus-feature.text-right(href='#WP-P-Links', data-toggle='collapse', data-parent='#accordion2')
+                  em.plus-icon
+                    em.fa.fa-info  
+              #WP-P-Links.panel-collapse.collapse
+                .panel-body
+                  | Links your website with Github or Bitbucket repositories. Whenever you/we push changes to repositories, a new build is triggered
+            .panel.panel-default
+              .panel-heading
+                | Versioning and Rollbacks 
+                a.btn-plus-feature.text-right(href='#WP-P-Versioning', data-toggle='collapse', data-parent='#accordion2')
+                  em.plus-icon
+                    em.fa.fa-info  
+              #WP-P-Versioning.panel-collapse.collapse
+                .panel-body
+                  | You can view and download every deploy ever made for your site. You can roll back to previous versions with a click of a button
+            .panel.panel-default
+              .panel-heading
+                | Webhooks & Notifications 
+                a.btn-plus-feature.text-right(href='#WP-P-Webhooks', data-toggle='collapse', data-parent='#accordion2')
+                  em.plus-icon
+                    em.fa.fa-info  
+              #WP-P-Webhooks.panel-collapse.collapse
+                .panel-body
+                  | Support for both inbound and outbound Webhooks. Slack notification for Form submissions and new deploys.
+          // - WebriqPages Limitless
+          #accordion3.panel-group.mt-20
+            .accordion-btn
+              a.text-center.text-white(href='#', data-toggle='modal', data-target='#myModal') GET A QUOTE
+            .accordion-header
+              h3.text-center.text-white Limitless
+            .panel.panel-default
+              .panel-heading
+                | Custom Design 
+                a.btn-plus-feature.text-right(href='#WP-L-Custom-Design', data-toggle='collapse', data-parent='#accordion3')
+                  em.plus-icon
+                    em.fa.fa-info  
+              #WP-L-Custom-Design.panel-collapse.collapse
+                .panel-body Up to three Custom Designed Responsive Themes
+            .panel.panel-default
+              .panel-heading
+                | Custom Template 
+                a.btn-plus-feature.text-right(href='#WP-L-Custom-Template', data-toggle='collapse', data-parent='#accordion3')
+                  em.plus-icon
+                    em.fa.fa-info  
+              #WP-L-Custom-Template.panel-collapse.collapse
+                .panel-body Up to three Custom Developed Responsive Themes
+            .panel.panel-default
+              .panel-heading
+                | Pages 
+                a.btn-plus-feature.text-right(href='#WP-L-Pages', data-toggle='collapse', data-parent='#accordion3')
+                  em.plus-icon
+                    em.fa.fa-info  
+              #WP-L-Pages.panel-collapse.collapse
+                .panel-body
+                  | Unlimited Number of Rich Media Pages with text, graphics, pictures, audio and video
+            .panel.panel-default
+              .panel-heading
+                | Blogs and Articles 
+                a.btn-plus-feature.text-right(href='#WP-L-Blogs', data-toggle='collapse', data-parent='#accordion3')
+                  em.plus-icon
+                    em.fa.fa-info  
+              #WP-L-Blogs.panel-collapse.collapse
+                .panel-body
+                  | Unlimited Number of Rich Media Pages with text, graphics, pictures, audio and video
+            .panel.panel-default
+              .panel-heading
+                | HTML Form (unlimited) 
+                a.btn-plus-feature.text-right(href='#WP-L-HTML', data-toggle='collapse', data-parent='#accordion3')
+                  em.plus-icon
+                    em.fa.fa-info  
+              #WP-L-HTML.panel-collapse.collapse
+                .panel-body
+                  | We support submissions for any HTML Form and trigger email, slack or webhook notifications. Maximum submissions per month
+            .panel.panel-default
+              .panel-heading
+                | Newsletter Sign-up 
+                a.btn-plus-feature.text-right(href='#WP-L-Newsletter', data-toggle='collapse', data-parent='#accordion3')
+                  em.plus-icon
+                    em.fa.fa-info  
+              #WP-L-Newsletter.panel-collapse.collapse
+                .panel-body
+                  | Build a list of customers that you can reach through E-mail and Newsletter Marketing
+            .panel.panel-default
+              .panel-heading
+                | E-mail Marketing 
+                a.btn-plus-feature.text-right(href='#WP-L-Email-Marketing', data-toggle='collapse', data-parent='#accordion3')
+                  em.plus-icon
+                    em.fa.fa-info  
+              #WP-L-Email-Marketing.panel-collapse.collapse
+                .panel-body
+                  | Set-up with a dedicated Mailchimp account for up to 2,000 customers and 12,000 emails sent per month
+            .panel.panel-default
+              .panel-heading
+                | Web Forms 
+                a.btn-plus-feature.text-right(href='#WP-L-Web', data-toggle='collapse', data-parent='#accordion3')
+                  em.plus-icon
+                    em.fa.fa-info  
+              #WP-L-Web.panel-collapse.collapse
+                .panel-body
+                  | Dedicated Form to gather leads and contacts from one or more of your landing pages
+            .panel.panel-default
+              .panel-heading
+                | CRM 
+                a.btn-plus-feature.text-right(href='#WP-L-CRM', data-toggle='collapse', data-parent='#accordion3')
+                  em.plus-icon
+                    em.fa.fa-info  
+              #WP-L-CRM.panel-collapse.collapse
+                .panel-body Set-up of a dedicated Zoho CRM account for up to 10 users
+            .panel.panel-default
+              .panel-heading
+                | Social Media 
+                a.btn-plus-feature.text-right(href='#WP-L-Social', data-toggle='collapse', data-parent='#accordion3')
+                  em.plus-icon
+                    em.fa.fa-info  
+              #WP-L-Social.panel-collapse.collapse
+                .panel-body
+                  | Your website is integrated with your social media assets, like Twitter, Facebook, Instagram, Google
+            .panel.panel-default
+              .panel-heading
+                | Chat 
+                a.btn-plus-feature.text-right(href='#WP-L-Chat', data-toggle='collapse', data-parent='#accordion3')
+                  em.plus-icon
+                    em.fa.fa-info  
+              #WP-L-Chat.panel-collapse.collapse
+                .panel-body Zopim chat lets you chat with customers and give them real-time support.
+            .panel.panel-default
+              .panel-heading
+                | E-mail Accounts (10) 
+                a.btn-plus-feature.text-right(href='#WP-L-Email-accounts', data-toggle='collapse', data-parent='#accordion3')
+                  em.plus-icon
+                    em.fa.fa-info  
+              #WP-L-Email-accounts.panel-collapse.collapse
+                .panel-body Set-up of a number of IMAP/POP3 E-mail box for your custom domain
+            .panel.panel-default
+              .panel-heading
+                | Basic SSL 
+                a.btn-plus-feature.text-right(href='#WP-L-Basic', data-toggle='collapse', data-parent='#accordion3')
+                  em.plus-icon
+                    em.fa.fa-info  
+              #WP-L-Basic.panel-collapse.collapse
+                .panel-body Set-up of a number of IMAP/POP3 E-mail box for your custom domain
+            .panel.panel-default
+              .panel-heading
+                | Continuous Deployment (unlimited) 
+                a.btn-plus-feature.text-right(href='#WP-L-Deployment', data-toggle='collapse', data-parent='#accordion3')
+                  em.plus-icon
+                    em.fa.fa-info  
+              #WP-L-Deployment.panel-collapse.collapse
+                .panel-body
+                  | Refers to the number of times we will push a new version to your site using our continuous deployment services
+            .panel.panel-default
+              .panel-heading
+                | E-mail Support 
+                a.btn-plus-feature.text-right(href='#WP-L-EmailSupport', data-toggle='collapse', data-parent='#accordion3')
+                  em.plus-icon
+                    em.fa.fa-info  
+              #WP-L-EmailSupport.panel-collapse.collapse
+                .panel-body
+                  | Sent your request to 
+                  a(href='mailto:support@helpdesk.webriq.com') support@helpdesk.webriq.com
+                  |  and we will get back to you within 24 hours
+            .panel.panel-default
+              .panel-heading
+                | Ticketing Support 
+                a.btn-plus-feature.text-right(href='#WP-L-Ticketing', data-toggle='collapse', data-parent='#accordion3')
+                  em.plus-icon
+                    em.fa.fa-info  
+              #WP-L-Ticketing.panel-collapse.collapse
+                .panel-body
+                  | Request new builds and other related service issues to 
+                  a(href='http://helpdesk.webriq.com', target='_blank') helpdesk.webriq.com
+            .panel.panel-default
+              .panel-heading
+                | Slack Chat Support 
+                a.btn-plus-feature.text-right(href='#WP-L-Slack', data-toggle='collapse', data-parent='#accordion3')
+                  em.plus-icon
+                    em.fa.fa-info  
+              #WP-L-Slack.panel-collapse.collapse
+                .panel-body Request Content updates through a dedicated Slack communication channel
+            .panel.panel-default
+              .panel-heading
+                | Custom Domain 
+                a.btn-plus-feature.text-right(href='#WP-L-Domain', data-toggle='collapse', data-parent='#accordion3')
+                  em.plus-icon
+                    em.fa.fa-info  
+              #WP-L-Domain.panel-collapse.collapse
+                .panel-body
+                  | Move your domain to Webfactories. Contact 
+                  a(href='mailto:support@helpdesk.webriq.com') support@helpdesk.webriq.com
+                  | com for more details.
+            .panel.panel-default
+              .panel-heading
+                | Domain Aliases 
+                a.btn-plus-feature.text-right(href='#WP-L-Aliases', data-toggle='collapse', data-parent='#accordion3')
+                  em.plus-icon
+                    em.fa.fa-info  
+              #WP-L-Aliases.panel-collapse.collapse
+                .panel-body
+                  | Point more domains to one website. Contact 
+                  a(href='mailto:support@helpdesk.webriq.com') support@helpdesk.webriq.com
+                  | com for more details.
+            .panel.panel-default
+              .panel-heading
+                | Subdomain 
+                a.btn-plus-feature.text-right(href='#WP-L-Subdomain', data-toggle='collapse', data-parent='#accordion3')
+                  em.plus-icon
+                    em.fa.fa-info  
+              #WP-L-Subdomain.panel-collapse.collapse
+                .panel-body Your site has a subdomain on WebriQs Top level domain
+            .panel.panel-default
+              .panel-heading
+                | Global CDN Network 
+                a.btn-plus-feature.text-right(href='#WP-L-Global', data-toggle='collapse', data-parent='#accordion3')
+                  em.plus-icon
+                    em.fa.fa-info  
+              #WP-L-Global.panel-collapse.collapse
+                .panel-body
+                  | Sites hosted on Webfactories are served straight out of our CDN nodes around the world with extremely low latency
+            .panel.panel-default
+              .panel-heading
+                | Links with Github and Bitbucket 
+                a.btn-plus-feature.text-right(href='#WP-L-Links', data-toggle='collapse', data-parent='#accordion3')
+                  em.plus-icon
+                    em.fa.fa-info  
+              #WP-L-Links.panel-collapse.collapse
+                .panel-body
+                  | Links your website with Github or Bitbucket repositories. Whenever you/we push changes to repositories, a new build is triggered
+            .panel.panel-default
+              .panel-heading
+                | Versioning and Rollbacks 
+                a.btn-plus-feature.text-right(href='#WP-L-Versioning', data-toggle='collapse', data-parent='#accordion3')
+                  em.plus-icon
+                    em.fa.fa-info  
+              #WP-L-Versioning.panel-collapse.collapse
+                .panel-body
+                  | You can view and download every deploy ever made for your site. You can roll back to previous versions with a click of a button
+            .panel.panel-default
+              .panel-heading
+                | Webhooks & Notifications 
+                a.btn-plus-feature.text-right(href='#WP-L-Webhooks', data-toggle='collapse', data-parent='#accordion3')
+                  em.plus-icon
+                    em.fa.fa-info  
+              #WP-L-Webhooks.panel-collapse.collapse
+                .panel-body
+                  | Support for both inbound and outbound Webhooks. Slack notification for Form submissions and new deploys.
+        #WebriQshopsul.tab-pane
+          // - WebriqShops Basic
+          #accordion4.panel-group
+            .accordion-btn
+              a.text-center.text-white(href='http://app.webriq.com/auth/register', target='_blank') SIGN-UP For FREE
+            .accordion-header
+              h3.text-center.text-white Basic
+            .panel.panel-default
+              .panel-heading
+                | Custom Design 
+                a.btn-plus-feature.text-right(href='#WS-B-Custom-Design', data-toggle='collapse', data-parent='#accordion4')
+                  em.plus-icon
+                    em.fa.fa-info  
+              #WS-B-Custom-Design.panel-collapse.collapse
+                .panel-body Up to three Custom Designed Responsive Themes
+            .panel.panel-default
+              .panel-heading
+                | Custom Template 
+                a.btn-plus-feature.text-right(href='#WS-B-Custom-Template', data-toggle='collapse', data-parent='#accordion4')
+                  em.plus-icon
+                    em.fa.fa-info  
+              #WS-B-Custom-Template.panel-collapse.collapse
+                .panel-body Up to three Custom Developed Responsive Themes
+            .panel.panel-default
+              .panel-heading
+                | Products 
+                a.btn-plus-feature.text-right(href='#WS-B-Products', data-toggle='collapse', data-parent='#accordion4')
+                  em.plus-icon
+                    em.fa.fa-info  
+              #WS-B-Products.panel-collapse.collapse
+                .panel-body Unlimited Number of Products, Categories and sub categories
+            .panel.panel-default
+              .panel-heading
+                | Digital Products 
+                a.btn-plus-feature.text-right(href='#WS-B-Digital', data-toggle='collapse', data-parent='#accordion4')
+                  em.plus-icon
+                    em.fa.fa-info  
+              #WS-B-Digital.panel-collapse.collapse
+                .panel-body Unlimited Number of Digital Products that can be downloaded
+            .panel.panel-default
+              .panel-heading
+                | Reviews 
+                a.btn-plus-feature.text-right(href='#WS-B-Reviews', data-toggle='collapse', data-parent='#accordion4')
+                  em.plus-icon
+                    em.fa.fa-info  
+              #WS-B-Reviews.panel-collapse.collapse
+                .panel-body Let your products be reviewed by customers and experts in your business area
+            .panel.panel-default
+              .panel-heading
+                | Embed 
+                a.btn-plus-feature.text-right(href='#WS-B-Embed', data-toggle='collapse', data-parent='#accordion4')
+                  em.plus-icon
+                    em.fa.fa-info  
+              #WS-B-Embed.panel-collapse.collapse
+                .panel-body
+                  | Embed all or portions of your products in other websites or Social Media accounts like Facebook and Pinterest
+            .panel.panel-default
+              .panel-heading
+                | Content Manager 
+                a.btn-plus-feature.text-right(href='#WS-B-Content', data-toggle='collapse', data-parent='#accordion4')
+                  em.plus-icon
+                    em.fa.fa-info  
+              #WS-B-Content.panel-collapse.collapse
+                .panel-body
+                  | Unlimited number of Pages for related content, i.e. about us, terms and conditions, Shipping terms, return policy
+            .panel.panel-default
+              .panel-heading
+                | Newsletter Sign-up 
+                a.btn-plus-feature.text-right(href='#WS-B-Newsletter', data-toggle='collapse', data-parent='#accordion4')
+                  em.plus-icon
+                    em.fa.fa-info  
+              #WS-B-Newsletter.panel-collapse.collapse
+                .panel-body
+                  | Build a list of customers that you can reach through E-mail and Newsletter Marketing
+            .panel.panel-default
+              .panel-heading
+                | E-mail Marketing 
+                a.btn-plus-feature.text-right(href='#WS-B-EmailMarketing', data-toggle='collapse', data-parent='#accordion4')
+                  em.plus-icon
+                    em.fa.fa-info  
+              #WS-B-EmailMarketing.panel-collapse.collapse
+                .panel-body
+                  | Set-up with a dedicated Mailchimp account for up to 2,000 customers and 12,000 emails sent per month
+            .panel.panel-default
+              .panel-heading
+                | Social Media 
+                a.btn-plus-feature.text-right(href='#WS-B-Social', data-toggle='collapse', data-parent='#accordion4')
+                  em.plus-icon
+                    em.fa.fa-info  
+              #WS-B-Social.panel-collapse.collapse
+                .panel-body
+                  | Your website is integrated with your social media assets, like Twitter, Facebook, Instagram, Google
+            .panel.panel-default
+              .panel-heading
+                | Basic SSL 
+                a.btn-plus-feature.text-right(href='#WS-B-Basic', data-toggle='collapse', data-parent='#accordion4')
+                  em.plus-icon
+                    em.fa.fa-info  
+              #WS-B-Basic.panel-collapse.collapse
+                .panel-body Enable HTTPS for your site. A Free SNI SSL Certificate is included in your plan
+            .panel.panel-default
+              .panel-heading
+                | Shipping Logic (1) 
+                a.btn-plus-feature.text-right(href='#WS-B-Logic', data-toggle='collapse', data-parent='#accordion4')
+                  em.plus-icon
+                    em.fa.fa-info  
+              #WS-B-Logic.panel-collapse.collapse
+                .panel-body Set-up of various shipping logics applicable to your business model
+            .panel.panel-default
+              .panel-heading
+                | Shipping Engine (1) 
+                a.btn-plus-feature.text-right(href='#WS-B-Engine', data-toggle='collapse', data-parent='#accordion4')
+                  em.plus-icon
+                    em.fa.fa-info  
+              #WS-B-Engine.panel-collapse.collapse
+                .panel-body
+                  | Set-up of a shipping engine to automate and calculate all your shipments. Fedex, UPS and Australian Post
+            .panel.panel-default
+              .panel-heading
+                | Paypal Express 
+                a.btn-plus-feature.text-right(href='#WS-B-Express', data-toggle='collapse', data-parent='#accordion4')
+                  em.plus-icon
+                    em.fa.fa-info  
+              #WS-B-Express.panel-collapse.collapse
+                .panel-body
+                  | Set-up your shop to include credit card and Paypal payments through Paypal and Paypal Express
+            .panel.panel-default
+              .panel-heading
+                | E-mail Support 
+                a.btn-plus-feature.text-right(href='#WS-B-EmailSupport', data-toggle='collapse', data-parent='#accordion4')
+                  em.plus-icon
+                    em.fa.fa-info  
+              #WS-B-EmailSupport.panel-collapse.collapse
+                .panel-body
+                  | Sent your request to 
+                  a(href='mailto:support@helpdesk.webriq.com') support@helpdesk.webriq.com
+                  |  and we will get back to you within 24 hours
+            .panel.panel-default
+              .panel-heading
+                | Custom Domain 
+                a.btn-plus-feature.text-right(href='#WS-B-Domain', data-toggle='collapse', data-parent='#accordion4')
+                  em.plus-icon
+                    em.fa.fa-info  
+              #WS-B-Domain.panel-collapse.collapse
+                .panel-body
+                  | Move your domain to Webfactories. Contact 
+                  a(href='mailto:support@helpdesk.webriq.com') support@helpdesk.webriq.com
+                  | com for more details.
+            .panel.panel-default
+              .panel-heading
+                | Domain Aliases 
+                a.btn-plus-feature.text-right(href='#WS-B-Aliases', data-toggle='collapse', data-parent='#accordion4')
+                  em.plus-icon
+                    em.fa.fa-info  
+              #WS-B-Aliases.panel-collapse.collapse
+                .panel-body
+                  | Point more domains to one website. Contact 
+                  a(href='mailto:support@helpdesk.webriq.com') support@helpdesk.webriq.com
+                  | com for more details.
+            .panel.panel-default
+              .panel-heading
+                | Subdomain 
+                a.btn-plus-feature.text-right(href='#WS-B-Subdomain', data-toggle='collapse', data-parent='#accordion4')
+                  em.plus-icon
+                    em.fa.fa-info  
+              #WS-B-Subdomain.panel-collapse.collapse
+                .panel-body Your site has a subdomain on WebriQs Top level domain
+            .panel.panel-default
+              .panel-heading
+                | Cloud Instances 
+                a.btn-plus-feature.text-right(href='#WS-B-Cloud', data-toggle='collapse', data-parent='#accordion4')
+                  em.plus-icon
+                    em.fa.fa-info  
+              #WS-B-Cloud.panel-collapse.collapse
+                .panel-body
+                  | Sites hosted on Webfactories are served straight out of our Cloud instances and CDN nodes around the world
+            .panel.panel-default
+              .panel-heading
+                | Full SSL (on demand)
+                a.btn-plus-feature.text-right(href='#WS-B-Full', data-toggle='collapse', data-parent='#accordion4')
+                  em.plus-icon
+                    em.fa.fa-info  
+              #WS-B-Full.panel-collapse.collapse
+                .panel-body Dedicated SSL Certificate that works everywhere
+          // - WebriqShops Pro
+          #accordion5.panel-group.mt-20
+            .accordion-btn
+              a.text-center.text-white(href='#', data-toggle='modal', data-target='#myModal2') GET A QUOTE
+            .accordion-header
+              h3.text-center.text-white Pro
+            .panel.panel-default
+              .panel-heading
+                | Custom Design 
+                a.btn-plus-feature.text-right(href='#WS-P-Custom-Design', data-toggle='collapse', data-parent='#accordion5')
+                  em.plus-icon
+                    em.fa.fa-info  
+              #WS-P-Custom-Design.panel-collapse.collapse
+                .panel-body Up to three Custom Designed Responsive Themes
+            .panel.panel-default
+              .panel-heading
+                | Custom Template 
+                a.btn-plus-feature.text-right(href='#WS-P-Custom-Template', data-toggle='collapse', data-parent='#accordion5')
+                  em.plus-icon
+                    em.fa.fa-info  
+              #WS-P-Custom-Template.panel-collapse.collapse
+                .panel-body Up to three Custom Developed Responsive Themes
+            .panel.panel-default
+              .panel-heading
+                | Products 
+                a.btn-plus-feature.text-right(href='#WS-P-Products', data-toggle='collapse', data-parent='#accordion5')
+                  em.plus-icon
+                    em.fa.fa-info  
+              #WS-P-Products.panel-collapse.collapse
+                .panel-body Unlimited Number of Products, Categories and sub categories
+            .panel.panel-default
+              .panel-heading
+                | Digital Products 
+                a.btn-plus-feature.text-right(href='#WS-P-Digital', data-toggle='collapse', data-parent='#accordion5')
+                  em.plus-icon
+                    em.fa.fa-info  
+              #WS-P-Digital.panel-collapse.collapse
+                .panel-body Unlimited Number of Digital Products that can be downloaded
+            .panel.panel-default
+              .panel-heading
+                | Reviews 
+                a.btn-plus-feature.text-right(href='#WS-P-Reviews', data-toggle='collapse', data-parent='#accordion5')
+                  em.plus-icon
+                    em.fa.fa-info  
+              #WS-P-Reviews.panel-collapse.collapse
+                .panel-body Let your products be reviewed by customers and experts in your business area
+            .panel.panel-default
+              .panel-heading
+                | Embed 
+                a.btn-plus-feature.text-right(href='#WS-P-Embed', data-toggle='collapse', data-parent='#accordion5')
+                  em.plus-icon
+                    em.fa.fa-info  
+              #WS-P-Embed.panel-collapse.collapse
+                .panel-body
+                  | Embed all or portions of your products in other websites or Social Media accounts like Facebook and Pinterest
+            .panel.panel-default
+              .panel-heading
+                | Content Manager 
+                a.btn-plus-feature.text-right(href='#WS-P-Content', data-toggle='collapse', data-parent='#accordion5')
+                  em.plus-icon
+                    em.fa.fa-info  
+              #WS-P-Content.panel-collapse.collapse
+                .panel-body
+                  | Unlimited number of Pages for related content, i.e. about us, terms and conditions, Shipping terms, return policy
+            .panel.panel-default
+              .panel-heading
+                | Newsletter Sign-up 
+                a.btn-plus-feature.text-right(href='#WS-P-Newsletter', data-toggle='collapse', data-parent='#accordion5')
+                  em.plus-icon
+                    em.fa.fa-info  
+              #WS-P-Newsletter.panel-collapse.collapse
+                .panel-body
+                  | Build a list of customers that you can reach through E-mail and Newsletter Marketing
+            .panel.panel-default
+              .panel-heading
+                | E-mail Marketing 
+                a.btn-plus-feature.text-right(href='#WS-P-EmailMarketing', data-toggle='collapse', data-parent='#accordion5')
+                  em.plus-icon
+                    em.fa.fa-info  
+              #WS-P-EmailMarketing.panel-collapse.collapse
+                .panel-body
+                  | Set-up with a dedicated Mailchimp account for up to 2,000 customers and 12,000 emails sent per month
+            .panel.panel-default
+              .panel-heading
+                | Social Media 
+                a.btn-plus-feature.text-right(href='#WS-P-Social', data-toggle='collapse', data-parent='#accordion5')
+                  em.plus-icon
+                    em.fa.fa-info  
+              #WS-P-Social.panel-collapse.collapse
+                .panel-body
+                  | Your website is integrated with your social media assets, like Twitter, Facebook, Instagram, Google
+            .panel.panel-default
+              .panel-heading
+                | Chat 
+                a.btn-plus-feature.text-right(href='#WS-P-Chat', data-toggle='collapse', data-parent='#accordion5')
+                  em.plus-icon
+                    em.fa.fa-info  
+              #WS-P-Chat.panel-collapse.collapse
+                .panel-body Zopim chat lets you chat with customers and give them real-time support.
+            .panel.panel-default
+              .panel-heading
+                | Basic SSL 
+                a.btn-plus-feature.text-right(href='#WS-P-Basic', data-toggle='collapse', data-parent='#accordion5')
+                  em.plus-icon
+                    em.fa.fa-info  
+              #WS-P-Basic.panel-collapse.collapse
+                .panel-body Enable HTTPS for your site. A Free SNI SSL Certificate is included in your plan
+            .panel.panel-default
+              .panel-heading
+                | Shipping Logic (3) 
+                a.btn-plus-feature.text-right(href='#WS-P-Logic', data-toggle='collapse', data-parent='#accordion5')
+                  em.plus-icon
+                    em.fa.fa-info  
+              #WS-P-Logic.panel-collapse.collapse
+                .panel-body Set-up of various shipping logics applicable to your business model
+            .panel.panel-default
+              .panel-heading
+                | Shipping Engine (2) 
+                a.btn-plus-feature.text-right(href='#WS-P-Engine', data-toggle='collapse', data-parent='#accordion5')
+                  em.plus-icon
+                    em.fa.fa-info  
+              #WS-P-Engine.panel-collapse.collapse
+                .panel-body
+                  | Set-up of a shipping engine to automate and calculate all your shipments. Fedex, UPS and Australian Post
+            .panel.panel-default
+              .panel-heading
+                | Paypal Express 
+                a.btn-plus-feature.text-right(href='#WS-P-Express', data-toggle='collapse', data-parent='#accordion5')
+                  em.plus-icon
+                    em.fa.fa-info  
+              #WS-P-Express.panel-collapse.collapse
+                .panel-body
+                  | Set-up your shop to include credit card and Paypal payments through Paypal and Paypal Express
+            .panel.panel-default
+              .panel-heading
+                | Payment Gateways 
+                a.btn-plus-feature.text-right(href='#WS-P-Gateways', data-toggle='collapse', data-parent='#accordion5')
+                  em.plus-icon
+                    em.fa.fa-info  
+              #WS-P-Gateways.panel-collapse.collapse
+                .panel-body
+                  | Set-up of additional payment gateways such as Stripe, Braintree or other PCI compliant gateways (through API)
+            .panel.panel-default
+              .panel-heading
+                | E-mail Support 
+                a.btn-plus-feature.text-right(href='#WS-P-EmailSupport', data-toggle='collapse', data-parent='#accordion5')
+                  em.plus-icon
+                    em.fa.fa-info  
+              #WS-P-EmailSupport.panel-collapse.collapse
+                .panel-body
+                  | Sent your request to 
+                  a(href='mailto:support@helpdesk.webriq.com') support@helpdesk.webriq.com
+                  |  and we will get back to you within 24 hours
+            .panel.panel-default
+              .panel-heading
+                | Ticketing Support 
+                a.btn-plus-feature.text-right(href='#WS-P-Ticketing', data-toggle='collapse', data-parent='#accordion5')
+                  em.plus-icon
+                    em.fa.fa-info  
+              #WS-P-Ticketing.panel-collapse.collapse
+                .panel-body
+                  | Request new builds and other related service issues to 
+                  a(href='http://helpdesk.webriq.com') helpdesk.webriq.com
+            .panel.panel-default
+              .panel-heading
+                | Custom Domain 
+                a.btn-plus-feature.text-right(href='#WS-P-Domain', data-toggle='collapse', data-parent='#accordion5')
+                  em.plus-icon
+                    em.fa.fa-info  
+              #WS-P-Domain.panel-collapse.collapse
+                .panel-body
+                  | Move your domain to Webfactories. Contact 
+                  a(href='mailto:support@helpdesk.webriq.com') support@helpdesk.webriq.com
+                  | com for more details.
+            .panel.panel-default
+              .panel-heading
+                | Domain Aliases 
+                a.btn-plus-feature.text-right(href='#WS-P-Aliases', data-toggle='collapse', data-parent='#accordion5')
+                  em.plus-icon
+                    em.fa.fa-info  
+              #WS-P-Aliases.panel-collapse.collapse
+                .panel-body
+                  | Point more domains to one website. Contact 
+                  a(href='mailto:support@helpdesk.webriq.com') support@helpdesk.webriq.com
+                  | com for more details.
+            .panel.panel-default
+              .panel-heading
+                | Subdomain 
+                a.btn-plus-feature.text-right(href='#WS-P-Subdomain', data-toggle='collapse', data-parent='#accordion5')
+                  em.plus-icon
+                    em.fa.fa-info  
+              #WS-P-Subdomain.panel-collapse.collapse
+                .panel-body Your site has a subdomain on WebriQs Top level domain
+            .panel.panel-default
+              .panel-heading
+                | Cloud Instances 
+                a.btn-plus-feature.text-right(href='#WS-P-Cloud', data-toggle='collapse', data-parent='#accordion5')
+                  em.plus-icon
+                    em.fa.fa-info  
+              #WS-P-Cloud.panel-collapse.collapse
+                .panel-body
+                  | Sites hosted on Webfactories are served straight out of our Cloud instances and CDN nodes around the world
+            .panel.panel-default
+              .panel-heading
+                | Full SSL (on demand)
+                a.btn-plus-feature.text-right(href='#WS-P-Full', data-toggle='collapse', data-parent='#accordion5')
+                  em.plus-icon
+                    em.fa.fa-info  
+              #WS-P-Full.panel-collapse.collapse
+                .panel-body Dedicated SSL Certificate that works everywhere
+          // - WebriqShops Limitless
+          #accordion6.panel-group.mt-20
+            .accordion-btn
+              a.text-center.text-white(href='#', data-toggle='modal', data-target='#myModal2') GET A QUOTE
+            .accordion-header
+              h3.text-center.text-white Limitless
+            .panel.panel-default
+              .panel-heading
+                | Custom Design 
+                a.btn-plus-feature.text-right(href='#WS-L-Custom-Design', data-toggle='collapse', data-parent='#accordion6')
+                  em.plus-icon
+                    em.fa.fa-info  
+              #WS-L-Custom-Design.panel-collapse.collapse
+                .panel-body Up to three Custom Designed Responsive Themes
+            .panel.panel-default
+              .panel-heading
+                | Custom Template 
+                a.btn-plus-feature.text-right(href='#WS-L-Custom-Template', data-toggle='collapse', data-parent='#accordion6')
+                  em.plus-icon
+                    em.fa.fa-info  
+              #WS-L-Custom-Template.panel-collapse.collapse
+                .panel-body Up to three Custom Developed Responsive Themes
+            .panel.panel-default
+              .panel-heading
+                | Products 
+                a.btn-plus-feature.text-right(href='#WS-L-Products', data-toggle='collapse', data-parent='#accordion6')
+                  em.plus-icon
+                    em.fa.fa-info  
+              #WS-L-Products.panel-collapse.collapse
+                .panel-body Unlimited Number of Products, Categories and sub categories
+            .panel.panel-default
+              .panel-heading
+                | Digital Products 
+                a.btn-plus-feature.text-right(href='#WS-L-Digital', data-toggle='collapse', data-parent='#accordion6')
+                  em.plus-icon
+                    em.fa.fa-info  
+              #WS-L-Digital.panel-collapse.collapse
+                .panel-body Unlimited Number of Digital Products that can be downloaded
+            .panel.panel-default
+              .panel-heading
+                | Reviews 
+                a.btn-plus-feature.text-right(href='#WS-L-Reviews', data-toggle='collapse', data-parent='#accordion6')
+                  em.plus-icon
+                    em.fa.fa-info  
+              #WS-L-Reviews.panel-collapse.collapse
+                .panel-body Let your products be reviewed by customers and experts in your business area
+            .panel.panel-default
+              .panel-heading
+                | Embed 
+                a.btn-plus-feature.text-right(href='#WS-L-Embed', data-toggle='collapse', data-parent='#accordion6')
+                  em.plus-icon
+                    em.fa.fa-info  
+              #WS-L-Embed.panel-collapse.collapse
+                .panel-body
+                  | Embed all or portions of your products in other websites or Social Media accounts like Facebook and Pinterest
+            .panel.panel-default
+              .panel-heading
+                | Content Manager 
+                a.btn-plus-feature.text-right(href='#WS-L-Content', data-toggle='collapse', data-parent='#accordion6')
+                  em.plus-icon
+                    em.fa.fa-info  
+              #WS-L-Content.panel-collapse.collapse
+                .panel-body
+                  | Unlimited number of Pages for related content, i.e. about us, terms and conditions, Shipping terms, return policy
+            .panel.panel-default
+              .panel-heading
+                | Newsletter Sign-up 
+                a.btn-plus-feature.text-right(href='#WS-L-Newsletter', data-toggle='collapse', data-parent='#accordion6')
+                  em.plus-icon
+                    em.fa.fa-info  
+              #WS-L-Newsletter.panel-collapse.collapse
+                .panel-body
+                  | Build a list of customers that you can reach through E-mail and Newsletter Marketing
+            .panel.panel-default
+              .panel-heading
+                | E-mail Marketing 
+                a.btn-plus-feature.text-right(href='#WS-L-EmailMarketing', data-toggle='collapse', data-parent='#accordion6')
+                  em.plus-icon
+                    em.fa.fa-info  
+              #WS-L-EmailMarketing.panel-collapse.collapse
+                .panel-body
+                  | Set-up with a dedicated Mailchimp account for up to 2,000 customers and 12,000 emails sent per month
+            .panel.panel-default
+              .panel-heading
+                | Social Media 
+                a.btn-plus-feature.text-right(href='#WS-L-Social', data-toggle='collapse', data-parent='#accordion6')
+                  em.plus-icon
+                    em.fa.fa-info  
+              #WS-L-Social.panel-collapse.collapse
+                .panel-body
+                  | Your website is integrated with your social media assets, like Twitter, Facebook, Instagram, Google
+            .panel.panel-default
+              .panel-heading
+                | Chat 
+                a.btn-plus-feature.text-right(href='#WS-L-Chat', data-toggle='collapse', data-parent='#accordion6')
+                  em.plus-icon
+                    em.fa.fa-info  
+              #WS-L-Chat.panel-collapse.collapse
+                .panel-body Zopim chat lets you chat with customers and give them real-time support.
+            .panel.panel-default
+              .panel-heading
+                | Basic SSL 
+                a.btn-plus-feature.text-right(href='#WS-L-Basic', data-toggle='collapse', data-parent='#accordion6')
+                  em.plus-icon
+                    em.fa.fa-info  
+              #WS-L-Basic.panel-collapse.collapse
+                .panel-body Enable HTTPS for your site. A Free SNI SSL Certificate is included in your plan
+            .panel.panel-default
+              .panel-heading
+                | Shipping Logic (unlimited) 
+                a.btn-plus-feature.text-right(href='#WS-L-Logic', data-toggle='collapse', data-parent='#accordion6')
+                  em.plus-icon
+                    em.fa.fa-info  
+              #WS-L-Logic.panel-collapse.collapse
+                .panel-body Set-up of various shipping logics applicable to your business model
+            .panel.panel-default
+              .panel-heading
+                | Shipping Engine (2) 
+                a.btn-plus-feature.text-right(href='#WS-L-Engine', data-toggle='collapse', data-parent='#accordion6')
+                  em.plus-icon
+                    em.fa.fa-info  
+              #WS-L-Engine.panel-collapse.collapse
+                .panel-body
+                  | Set-up of a shipping engine to automate and calculate all your shipments. Fedex, UPS and Australian Post
+            .panel.panel-default
+              .panel-heading
+                | Paypal Express 
+                a.btn-plus-feature.text-right(href='#WS-L-Express', data-toggle='collapse', data-parent='#accordion6')
+                  em.plus-icon
+                    em.fa.fa-info  
+              #WS-L-Express.panel-collapse.collapse
+                .panel-body
+                  | Set-up your shop to include credit card and Paypal payments through Paypal and Paypal Express
+            .panel.panel-default
+              .panel-heading
+                | Payment Gateways 
+                a.btn-plus-feature.text-right(href='#WS-L-Gateways', data-toggle='collapse', data-parent='#accordion6')
+                  em.plus-icon
+                    em.fa.fa-info  
+              #WS-L-Gateways.panel-collapse.collapse
+                .panel-body
+                  | Set-up of additional payment gateways such as Stripe, Braintree or other PCI compliant gateways (through API)
+            .panel.panel-default
+              .panel-heading
+                | E-mail Support 
+                a.btn-plus-feature.text-right(href='#WS-L-EmailSupport', data-toggle='collapse', data-parent='#accordion6')
+                  em.plus-icon
+                    em.fa.fa-info  
+              #WS-L-EmailSupport.panel-collapse.collapse
+                .panel-body
+                  | Sent your request to 
+                  a(href='mailto:support@helpdesk.webriq.com') support@helpdesk.webriq.com
+                  |  and we will get back to you within 24 hours
+            .panel.panel-default
+              .panel-heading
+                | Ticketing Support 
+                a.btn-plus-feature.text-right(href='#WS-L-Ticketing', data-toggle='collapse', data-parent='#accordion6')
+                  em.plus-icon
+                    em.fa.fa-info  
+              #WS-L-Ticketing.panel-collapse.collapse
+                .panel-body
+                  | Request new builds and other related service issues to 
+                  a(href='http://helpdesk.webriq.com') helpdesk.webriq.com
+            .panel.panel-default
+              .panel-heading
+                | Slack Chat Support 
+                a.btn-plus-feature.text-right(href='#WS-L-Slack', data-toggle='collapse', data-parent='#accordion6')
+                  em.plus-icon
+                    em.fa.fa-info  
+              #WS-L-Slack.panel-collapse.collapse
+                .panel-body Request Content updates through a dedicated Slack communication channel
+            .panel.panel-default
+              .panel-heading
+                | Custom Domain 
+                a.btn-plus-feature.text-right(href='#WS-L-Domain', data-toggle='collapse', data-parent='#accordion6')
+                  em.plus-icon
+                    em.fa.fa-info  
+              #WS-L-Domain.panel-collapse.collapse
+                .panel-body
+                  | Move your domain to Webfactories. Contact 
+                  a(href='mailto:support@helpdesk.webriq.com') support@helpdesk.webriq.com
+                  | com for more details.
+            .panel.panel-default
+              .panel-heading
+                | Domain Aliases 
+                a.btn-plus-feature.text-right(href='#WS-L-Aliases', data-toggle='collapse', data-parent='#accordion6')
+                  em.plus-icon
+                    em.fa.fa-info  
+              #WS-L-Aliases.panel-collapse.collapse
+                .panel-body
+                  | Point more domains to one website. Contact 
+                  a(href='mailto:support@helpdesk.webriq.com') support@helpdesk.webriq.com
+                  | com for more details.
+            .panel.panel-default
+              .panel-heading
+                | Subdomain 
+                a.btn-plus-feature.text-right(href='#WS-L-Subdomain', data-toggle='collapse', data-parent='#accordion6')
+                  em.plus-icon
+                    em.fa.fa-info  
+              #WS-L-Subdomain.panel-collapse.collapse
+                .panel-body Your site has a subdomain on WebriQs Top level domain
+            .panel.panel-default
+              .panel-heading
+                | Cloud Instances 
+                a.btn-plus-feature.text-right(href='#WS-L-Cloud', data-toggle='collapse', data-parent='#accordion6')
+                  em.plus-icon
+                    em.fa.fa-info  
+              #WS-L-Cloud.panel-collapse.collapse
+                .panel-body
+                  | Sites hosted on Webfactories are served straight out of our Cloud instances and CDN nodes around the world
+            .panel.panel-default
+              .panel-heading
+                | Full SSL (on demand)
+                a.btn-plus-feature.text-right(href='#WS-L-Full', data-toggle='collapse', data-parent='#accordion6')
+                  em.plus-icon
+                    em.fa.fa-info  
+              #WS-L-Full.panel-collapse.collapse
+                .panel-body Dedicated SSL Certificate that works everywhere
