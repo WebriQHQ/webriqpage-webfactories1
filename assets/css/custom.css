@@ -185,6 +185,12 @@ body .splash-page .modal-content .e-commerce .inquiry strong
 
 /*Pricing*/
 #myModal .close,#myModal1 .close,#myModal2 .close{margin-top:0 !important}
+#cookieChoiceInfo span{color:#333 !important;}
+#cookieChoiceDismiss {
+    color: #fff;
+    padding: 3px 15px;
+    background: #00B4FF;
+}
 
 @media (min-width:991px) and (max-width:1200px){
     .sm-btn{margin-top:15px !important;}
