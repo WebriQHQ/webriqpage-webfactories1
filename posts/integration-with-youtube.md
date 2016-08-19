@@ -8,8 +8,6 @@ categories: recent
 writer: Philippe Bodart
 ---
 
-<img src="/img/uploads/integration-with-youtube.jpg  "/>  
-  
 Webfactories now provides you the ability to upload videos, respond to comments and retrieve and report on YouTube analytics. These functions are conveniently placed alongside many other facets of our Content Management System and our Social Media dashboard.
 
 Video can be a very powerful tool for businesses of any size, but YouTube‘s free-to-use model, ease of use and mass market audience means it’s a great channel for small businesses. However, like any tool, in order to get the most of it, it needs to be used well.
