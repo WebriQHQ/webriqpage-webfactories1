@@ -1,8 +1,8 @@
 ---
 title: Sports League Tracking Website Software
 shortdesc: "Are you a sport manager, coach, player or a fan? Start tracking the progress of your team with our full fledged Sport Tracker developed especially for sport associations. It supports the most common team sports such as Hockey (both US and European scoring rules), Basketball, Soccer, Football and Baseball."
-cmsUserSlug: ""
-date: 2013-08-19T00:00:00+08:00
+cmsUserSlug: sports-league-tracking-website-software
+date: 2013-08-18T16:00:00.000Z
 banner: /img/uploads/sporttrackersoftware.jpg
 categories: recent-blog
 writer: Philippe Bodart
