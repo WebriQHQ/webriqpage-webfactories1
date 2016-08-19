@@ -183,7 +183,8 @@ body .splash-page .modal-content .e-commerce .inquiry strong
     margin-right: 20px;
 }
 
-
+/*Pricing*/
+#myModal2 .close{margin-top:0}
 
 @media (min-width:991px){
     .blog-right{padding-left:40px !important;}
