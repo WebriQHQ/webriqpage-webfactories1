@@ -167,7 +167,7 @@ body{padding-left:0px !important;}
     .header-cover{padding:250px 0 260px 0;}
     .cover-title{font-size:60px !important;font-weight:bold;}
     .cover-sub-text{font-size:40px;}
-    .text-body{min-height: 240px !important;}
+    .static-website .text-body{min-height: 240px !important;}
     .static-iconize .text-body{min-height: 130px !important;}
 }
 @media(max-width:767px){

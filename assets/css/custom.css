@@ -186,6 +186,10 @@ body .splash-page .modal-content .e-commerce .inquiry strong
 /*Pricing*/
 #myModal .close,#myModal1 .close,#myModal2 .close{margin-top:0 !important}
 
+@media (min-width:991px) and (max-width:1200px){
+    .sm-btn{margin-top:15px !important;}
+}
+
 @media (min-width:991px){
     .blog-right{padding-left:40px !important;}
 }
@@ -194,6 +198,7 @@ body .splash-page .modal-content .e-commerce .inquiry strong
   .our-approach .col-md-6:last-child,.web-services .col-md-6:last-child,.web-services-commerce .col-md-6:last-child{margin-top: 30px !important;}
   .our-approach .col-md-6,.web-services .col-md-6,.web-services-commerce .col-md-6 {text-align: center !important;}
   .boxes-body p{position:relative;}
+  .sm-mt{margin-top:40px;}
 }
 @media (max-width:767px)
 {
@@ -307,8 +312,9 @@ body .splash-page .modal-content .e-commerce .inquiry strong
 #botpage {
     color: #fff;
     padding: 0;
-    background: url('/img/bot-slider-bg2.jpg') bottom;
+    background: url('../img/bot-slider-bg2.jpg') bottom;
     background-attachment: fixed;
+    background-size:cover;
 }
 .botpage {
     color: #fff;
@@ -333,9 +339,10 @@ body .splash-page .modal-content .e-commerce .inquiry strong
 .follow-us-on {
     padding: 100px 0px 160px;
     text-align: center;
-    background-image: url(/img/botpage/bot-social-bg.jpg);
+    background-image: url(../img/botpage/bot-social-bg.jpg);
     background-repeat: no-repeat;
     background-position: center;
+    background-size:cover;
     background-attachment: fixed;
 }
 .button-down img {
