@@ -686,6 +686,7 @@ a.btn-plus-feature {
     padding: 0px !important;
     font-size: 13px;
     vertical-align: middle;
+    line-height: 18px !important;
 }
 .popover-content a {
     color: #fff !Important;
