@@ -3,7 +3,7 @@ title: Objectives of a Web and Social Media Marketing Platform
 shortdesc: "The overall objectives of a web and social media marketing software platform and services are;   Public relation, brand visibility and brand awareness – spread news and important information about your business, brand or products to a broad(er) audience who are likely to share it to their own networks. Brand consistency throughout your online web and social media presence."
 cmsUserSlug: ""
 date: 2013-08-20T00:00:00+08:00
-banner: null
+banner: /img/uploads/banner5.jpg
 categories: recent-blog
 writer: Philippe Bodart
 ---
