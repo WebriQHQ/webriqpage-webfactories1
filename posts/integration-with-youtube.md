@@ -2,7 +2,7 @@
 title: Integration with Youtube
 shortdesc: "Webfactories now provides you the ability to upload videos, respond to comments and retrieve and report on YouTube analytics. These functions are conveniently placed alongside many other facets of our Content Management System and our Social Media dashboard."
 cmsUserSlug: ""
-date: 2016-08-19T00:00:00+08:00
+date: 2013-09-08T00:00:00+08:00
 banner: /img/uploads/integration-with-youtube.jpg
 categories: recent
 writer: Philippe Bodart
