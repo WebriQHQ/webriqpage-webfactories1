@@ -8,4 +8,6 @@ categories: recent
 writer: Philippe Bodart
 ---
 
-Matt Cutts, what happen to google algorithm updates recently…  
+Matt Cutts, what happen to google algorithm updates recently…
+
+[READ MORE](http://webfactories.wordpress.com/2012/09/12/letter-as-an-internet-marketer/)  
