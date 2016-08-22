@@ -2,7 +2,7 @@
 title: Internet Marketing Through Google Penguin And Panda
 shortdesc: "With the well known Google Penguin and Panda up-dates taking apart and devaluing various link-building techniques, many SEOs have instantly hopped ship to content technique."
 cmsUserSlug: ""
-date: 2013-09-10T00:00:00+08:00
+date: 2013-09-09T16:00:00.000Z
 banner: /img/uploads/google-panda-and-penguin.jpg
 categories: recent
 writer: Philippe Bodart
