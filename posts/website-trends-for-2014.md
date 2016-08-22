@@ -10,6 +10,7 @@ writer: Philippe Bodart
 
 <style>
 img {max-width:100%;}
+ul li {list-style: circle !important;}  
 </style>
 
 Like fashion and technology, the styles of websites and blogs you see would also evolve and change. Below you will find a list of expected web design trends in approaching 2014.
