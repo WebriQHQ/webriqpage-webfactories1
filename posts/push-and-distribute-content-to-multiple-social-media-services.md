@@ -10,4 +10,9 @@ writer: Philippe Bodart
 
 Easily distribute messages from your web content management or from a single dashboard to all of your social networks, blogs and mailing lists with a single click. Choose whether to send now, schedule for later or automatically post from an RSS feed. Manage all your social media streams from one single inbox.  
 
-<img src="/img/uploads/push-and-distribute-multiple-socialmedia.png" width="auto" height="auto"/>
+<img class="inner-img" src="/img/uploads/push-and-distribute-multiple-socialmedia.png" />
+<style>
+img {
+max-width:100%;
+}
+</style>
