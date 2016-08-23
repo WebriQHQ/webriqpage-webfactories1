@@ -2,15 +2,11 @@
 title: How much does a responsive web design cost
 shortdesc: "Responsive web design is rapidly gaining momentum, as more and more users are making use of smartphones and tablets to browse the web.  People all over the globe are increasingly using mobile devices to make purchases, access website content, browse social networks and read news and sports."
 cmsUserSlug: ""
-date: 2014-09-18T00:00:00+08:00
+date: 2014-09-17T16:00:00.000Z
 banner: /img/uploads/responsive-web-design-cost.jpg
 categories: recent
 writer: Philippe Bodart
 ---
-
-<style>
-img {max-width:100%;}
-</style>
 
 Responsive web design is rapidly gaining momentum, as more and more users are making use of smartphones and tablets to browse the web.
 
@@ -52,4 +48,6 @@ No matter how small or big your business is, if you are counting on your website
 
 Even if the cost is slightly higher than a classical design, it will be substantially less costly than doing a desktop design, a tablet design and a mobile design. Bearing in mind that you are in the latter scenario running three different websites, that need to updated and maintained all separately. Not an appealing strategy in today's rapidly changing world over marketing communication.
 
-  
+<style>
+img {max-width:100%;}
+</style>
