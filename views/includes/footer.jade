@@ -58,78 +58,77 @@ section#contact-us.layout-footer
         |  | 
         a(href='/cookies') Cookies
 != js()
-#cookieChoiceInfo(style='display: none;')
-  | Cookies help us deliver our services. By using our services, you agree to our use of cookies.
-  a(style='margin-left: 8px;', href='/cookies', target='_blank') learn more
-  a#cookieChoiceDismiss(style='margin-left: 24px;', href='#') Got it
+  #cookieChoiceInfo(style='display: none;')
+    | Cookies help us deliver our services. By using our services, you agree to our use of cookies.
+    a(style='margin-left: 8px;', href='/cookies', target='_blank') learn more
+    a#cookieChoiceDismiss(style='margin-left: 24px;', href='#') Got it
 
-script(type="text/javascript", src="https://code.jquery.com/jquery-1.12.4.min.js")
-script(type="text/javascript", src="../js/webriq-bootstrap-material-ui.min.js")
-script(type="text/javascript", src="../js/lightbox-2.6.min.js")
-script(type="text/javascript", src="../js/modernizr.custom.js")
-script(type="text/javascript", src="../js/jasny-bootstrap.min.js")
-script(type="text/javascript", src="../js/jquery.expander.min.js")
-script(type="text/javascript", src="../js/cookies.js")
-script(type="text/javascript", src="../js/scrolld.js")
-script(type='text/javascript').
-  $(document).ready(function(){
-  $("[id*='Btn']").stop(true).on('click',function(e) {
-  e.preventDefault();
-  $(this).scrolld();
-  });
-  });
-script(type='text/javascript').
-  $(document).ready(function(){
-  $('.boxes p').expander({
-    slicePoint: 230,
-    expandText: '[more]',
-    userCollapseText: '[less]'
-  })
-  $("<div class='overlay'></div>").appendTo("#navbar");
-  $(".overlay").on('click', function(){
-  $(".navbar-header button").addClass("collapsed");
-  $("#navbar").removeClass("in");
-  });
-  });
-script.
-  // Install Cookies
-  document.addEventListener('DOMContentLoaded', function(event) {
-  cookieChoices.showCookieConsentBar('Cookies help us deliver our services. By using our services, you agree to our use of cookies.',
-  'Got it', 'learn more', '/cookies');
-  });
-script(src='https://cdn.slaask.com/chat.js')
-script.
-  _slaask.init('a2185cf7997e55eb9484fc90fe78066a');
-script(type="text/javascript")
-    != records.site.sitedata[0].analytics
+  script(type="text/javascript", src="../js/webriq-bootstrap-material-ui.min.js")
+  script(type="text/javascript", src="../js/lightbox-2.6.min.js")
+  script(type="text/javascript", src="../js/modernizr.custom.js")
+  script(type="text/javascript", src="../js/jasny-bootstrap.min.js")
+  script(type="text/javascript", src="../js/jquery.expander.min.js")
+  script(type="text/javascript", src="../js/cookies.js")
+  script(type="text/javascript", src="../js/scrolld.js")
+  script(type='text/javascript').
+    $(document).ready(function(){
+    $("[id*='Btn']").stop(true).on('click',function(e) {
+    e.preventDefault();
+    $(this).scrolld();
+    });
+    });
+  script(type='text/javascript').
+    $(document).ready(function(){
+    $('.boxes p').expander({
+      slicePoint: 230,
+      expandText: '[more]',
+      userCollapseText: '[less]'
+    })
+    $("<div class='overlay'></div>").appendTo("#navbar");
+    $(".overlay").on('click', function(){
+    $(".navbar-header button").addClass("collapsed");
+    $("#navbar").removeClass("in");
+    });
+    });
+  script.
+    // Install Cookies
+    document.addEventListener('DOMContentLoaded', function(event) {
+    cookieChoices.showCookieConsentBar('Cookies help us deliver our services. By using our services, you agree to our use of cookies.',
+    'Got it', 'learn more', '/cookies');
+    });
+  script(src='https://cdn.slaask.com/chat.js')
+  script.
+    _slaask.init('a2185cf7997e55eb9484fc90fe78066a');
+  script(type="text/javascript")
+      != records.site.sitedata[0].analytics
 
-if _path == "/pricing.html"
+  if _path == "/pricing.html"
     script(type='text/javascript').
-      $(document).ready(function(){
-      $('.Custom-Domain').popover({
-      content : 'Move your domain to Webfactories. Contact <a href="mailto:support@helpdesk.webriq.com">support@helpdesk.webriq.com</a> for more details',
-      html: true
-      });
-      $('.Domain-Aliases').popover({
-      content : 'Point more domains to one website. Contact <a href="mailto:support@helpdesk.webriq.com">support@helpdesk.webriq.com</a> for more details',
-      html: true
-      });
-      $('.E-mail-Support').popover({
-      content : 'Sent your request to <a href="mailto:support@helpdesk.webriq.com">support@helpdesk.webriq.com</a> and we will get back to you within 24 hours',
-      html: true
-      });
-      $('.Ticketing-Support').popover({
-      content : 'Request new builds and other related service issues to <a target="_blank" href="http://helpdesk.webriq.com/en">helpdesk.webriq.com</a>',
-      html: true
-      });
-      $('[data-toggle="popover"]').popover();
-      $('body').on('click', function (e) {
-      $('.btn-plus-feature').each(function () {
-      //the 'is' for buttons that trigger popups
-      //the 'has' for icons within a button that triggers a popup
-      if (!$(this).is(e.target) && $(this).has(e.target).length === 0 && $('.popover').has(e.target).length === 0) {
-      $(this).popover('hide');
-      }
-      });
-      });
-      })
+        $(document).ready(function(){
+        $('.Custom-Domain').popover({
+        content : 'Move your domain to Webfactories. Contact <a href="mailto:support@helpdesk.webriq.com">support@helpdesk.webriq.com</a> for more details',
+        html: true
+        });
+        $('.Domain-Aliases').popover({
+        content : 'Point more domains to one website. Contact <a href="mailto:support@helpdesk.webriq.com">support@helpdesk.webriq.com</a> for more details',
+        html: true
+        });
+        $('.E-mail-Support').popover({
+        content : 'Sent your request to <a href="mailto:support@helpdesk.webriq.com">support@helpdesk.webriq.com</a> and we will get back to you within 24 hours',
+        html: true
+        });
+        $('.Ticketing-Support').popover({
+        content : 'Request new builds and other related service issues to <a target="_blank" href="http://helpdesk.webriq.com/en">helpdesk.webriq.com</a>',
+        html: true
+        });
+        $('[data-toggle="popover"]').popover();
+        $('body').on('click', function (e) {
+        $('.btn-plus-feature').each(function () {
+        //the 'is' for buttons that trigger popups
+        //the 'has' for icons within a button that triggers a popup
+        if (!$(this).is(e.target) && $(this).has(e.target).length === 0 && $('.popover').has(e.target).length === 0) {
+        $(this).popover('hide');
+        }
+        });
+        });
+        })
