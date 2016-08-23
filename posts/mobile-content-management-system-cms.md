@@ -4,8 +4,8 @@ shortdesc: "A flexible CMS is today’s answer to anyone who asks what they shou
 cmsUserSlug: ""
 date: 2013-08-21T00:00:00+08:00
 banner: /img/uploads/cms-mobile_6.0.jpg
-categories: null
-writer: null
+categories: recent-blog
+writer: Philippe Bodart
 ---
 
 A flexible CMS is today’s answer to anyone who asks what they should look for when creating mobile content. Due to the high development speed of mobile technology and changes in user location-based browsing, it’s difficult to predict what the mobile future will bring and what kind of mobile CMS will best fit your needs. 
