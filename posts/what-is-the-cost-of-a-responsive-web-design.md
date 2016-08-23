@@ -2,15 +2,11 @@
 title: What is the cost of a responsive web design
 shortdesc: "If the term “responsive web design” is new to you, don’t feel bad, I promise you’re in the majority. In about 20 seconds you’ll know what it is and be able to look smart by talking about responsive design at dinner parties."
 cmsUserSlug: ""
-date: 2014-09-14T00:00:00+08:00
+date: 2014-09-13T16:00:00.000Z
 banner: /img/uploads/cost-of-a-responsive-web2.jpg
 categories: recent
 writer: Philippe Bodart
 ---
-
-<style>
-img {max-width:100%;}
-</style>
 
 <em class="fa fa-thumbs-up">&nbsp;</em>
 
@@ -42,4 +38,6 @@ Budget wise you are looking at around $3,000 for a complete overhaul to a respon
 
 No matter how small or big your business is, if you are counting on your website to give you new leads and new business, jump to the responsive web design right now. Ask yourselves the hard question, can I afford to not do it, and should I cut some of my traditional ways of marketing my business and spent time and energy on getting visibility and credibility on the Internet instead.
 
-  
+<style>
+img {max-width:100%;}
+</style>
