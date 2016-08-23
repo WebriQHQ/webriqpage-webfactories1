@@ -2,7 +2,7 @@
 title: Optimizing Ecommerce for Tablets and Smartphones
 shortdesc: "If you're thinking users of Smartphones and tablets do not represent a material part of your eCommerce audience, consider these data points.  29 percent of all U.S. adults own a tablet or e-reader, up from 2 percent three years ago, according to Pew Research. "
 cmsUserSlug: ""
-date: 2016-08-25T00:00:00+08:00
+date: 2013-08-25T00:00:00+08:00
 banner: /img/uploads/tabletshopping.png
 categories: recent-blog
 writer: Philippe Bodart
