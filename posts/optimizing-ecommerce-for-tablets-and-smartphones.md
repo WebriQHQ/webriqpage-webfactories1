@@ -20,7 +20,7 @@ Websites that render in their native form on a tablet and Smartphones are likely
 
 This article addresses steps to ensure your eCommerce site works well for tablet and Smartphone users.
 
-**Improving Navigation and Usability**
+**Improving Navigation and Usasssssssbility**
 
 Most eCommerce sites use category links and drop down menus to identify products. On a desktop or laptop computer, these parts work well. But on a Smartphone or tablet, they can be a headache because click activity is driven from a finger, not a mouse.
 
