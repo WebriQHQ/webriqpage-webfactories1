@@ -2,7 +2,7 @@
 title: "Online Visibility and Credibility -> Profitability"
 shortdesc: "Visibility, Credibility, Profitability. Many of us are familiar with this concept as it relates to business networking. Making yourself visible by showing up at networking events and functions is often where it starts. But before we can graduate into the Profitability, we must first build and develop credibility among referral partners, business owners, and consumers. Often, gaining credibility can be a lengthy task and even after it is attained, it is easily lost if you don’t “keep doing what got you there.”"
 cmsUserSlug: ""
-date: 2013-08-24T00:00:00+08:00
+date: 2013-08-25T00:00:00+08:00
 banner: /img/uploads/online-visibility-and-credibility.png
 categories: recent-blog
 writer: Philippe Bodart
