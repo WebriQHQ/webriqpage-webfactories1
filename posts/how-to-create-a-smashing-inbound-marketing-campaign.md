@@ -2,8 +2,8 @@
 title: How to create a smashing Inbound Marketing Campaign
 shortdesc: "In order to discover the content topics that capture the attention of your target audience, you should look at any past data that you have access to. For instance, what are the most popular blog articles you have published?"
 cmsUserSlug: ""
-date: 2014-09-13T00:00:00+08:00
-banner: /img/uploads/inbound-marketing-campaign.jpg
+date: 2014-09-12T16:00:00.000Z
+banner: /img/uploads/plessme.jpg
 categories: recent
 writer: Philippe Bodart
 ---
@@ -34,5 +34,10 @@ While Twitter, Facebook, LinkedIn, Google+ and Pinterest are very different soci
 
 In order to measure the impact of your promotion and campaign it is crucial to analyze your landing page, your blog post, social media and call-to-action for clicks.
 
-OUR INBOUND EXPERIENCE [STARTS at $150](https://webfactories.biz/uploads/site_phpwebfactories/pages/Inbound%20Digital%20Marketing%20Proposal%20Webfactories-SAMPLE-4.pdf)  
-  
+<img src="/img/uploads/plessme.jpg">
+
+OUR INBOUND EXPERIENCE [STARTS at $150](#)  
+
+<style>
+img{max-width:100%;}
+</style>
