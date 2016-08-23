@@ -2,7 +2,7 @@
 title: Google Panda On Search Engine Marketing
 shortdesc: "Google has confirmed that they released another Panda algorithm update – the 20th update and named to be Panda 20. This Panda update is fairly major impacts of about 2.4% of English search queries in the web and still rolling out."
 cmsUserSlug: ""
-date: 2013-08-23T01:00:00+08:00
+date: 2013-08-22T01:00:00+08:00
 banner: /img/uploads/google-panda-update.png
 categories: recent-blog
 writer: Philippe Bodart
