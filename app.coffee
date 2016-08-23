@@ -20,7 +20,6 @@ module.exports =
     dateFormat: (date, format) ->
       moment(date).format(format)
 
-
   extensions: [
     records(
       menu: { file: "data/menu.json" }
