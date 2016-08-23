@@ -24,7 +24,7 @@ One of the most appealing aspects of responsive design is its flexibility to ada
 
 When responsive web design was not introduced, web developers used to create multiple versions of a single website for multiple devices. They were needed to put a lot of efforts to make an update to a web page, and also required to maintain a separate mobile domain for a site. For a mobile version, there was a need to have a separate mobile code base.
 
-#### In theory it is more expensive then a non-responsive design. Reasons being that it takes more planning to do a responsive design, that certain design elements need to be adapted for multiple views and that testing the site takes longer as it has to be viewed on multiple hardware devices. And unless you have done a redesign in the last year chances are that you will need a complete overhaul of your design. In another blog I am elaborating on the [**cost of a responsive web design**.](http://webfactories.biz/How-much-does-a-responsive-web-design-cost)
+In theory it is more expensive then a non-responsive design. Reasons being that it takes more planning to do a responsive design, that certain design elements need to be adapted for multiple views and that testing the site takes longer as it has to be viewed on multiple hardware devices. And unless you have done a redesign in the last year chances are that you will need a complete overhaul of your design. In another blog I am elaborating on the [**cost of a responsive web design**.](http://webfactories.biz/How-much-does-a-responsive-web-design-cost)
 
  **Improved SEO and only One SEO Campaign**
 
