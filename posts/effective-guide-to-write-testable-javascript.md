@@ -1,8 +1,8 @@
 ---
 title: Effective Guide to Write Testable JavaScript
 shortdesc: " With the growth in technology, we have earned better options for unit testing JavaScript. Whether we are using Node paired with a test framework like Mocha or Jasmine, in a headless browser, we have a variety of options. However, it does not mean that the code which is tested is as easy on us as our tools are!  "
-cmsUserSlug: ""
-date: 2016-08-05T00:00:00+08:00
+cmsUserSlug: effective-guide-to-write-testable-javascript
+date: 2016-08-04T16:00:00.000Z
 banner: /img/uploads/testable-javascript2.jpg
 categories: recent-blog
 writer: Sophia
