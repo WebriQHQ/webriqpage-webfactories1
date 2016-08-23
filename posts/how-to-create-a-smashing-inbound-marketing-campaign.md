@@ -2,7 +2,7 @@
 title: How to create a smashing Inbound Marketing Campaign
 shortdesc: "In order to discover the content topics that capture the attention of your target audience, you should look at any past data that you have access to. For instance, what are the most popular blog articles you have published?"
 cmsUserSlug: ""
-date: 2016-09-13T00:00:00+08:00
+date: 2014-09-13T00:00:00+08:00
 banner: /img/uploads/inbound-marketing-campaign.jpg
 categories: recent
 writer: Philippe Bodart
