@@ -58,6 +58,14 @@
 .side-bar-right{background:#f6f6f6;padding:0px 0px 10px 0px}
 .side-bar-header{background:#00b4ff;padding:20px 20px 20px 25px;margin-bottom:30px !important;}
 .general .side-bar-header h3{margin:0;color:#fff !important;font-weight:600;}
+ul.circle-list,ul.square,ul.arrow,ul.check-list-o{padding-left:10px;list-style:none;}
+ul.circle-list li{display:table;line-height: 30px;}
+ul.circle-list li:before{display:table-cell;content:'\f111';font: normal normal normal 9px FontAwesome;list-style:none;position:relative;top:-2px !important;padding-right:15px;color:#01478d;}
+ul.square li:before{display:table-cell;content:'\f0c8' !important;font: normal normal normal 9px FontAwesome;list-style:none;position:relative;top:-2px !important;padding-right:15px;color:#01478d;}
+ul.arrow li:before{display:table-cell;content:'\f105' !important;font: normal normal normal 9px FontAwesome;list-style:none;position:relative;top:-2px !important;padding-right:15px;color:#01478d;}
+ul.check-list-o li:before{display:table-cell;content:'\f058' !important;font: normal normal normal 16px FontAwesome;list-style:none;position:relative;top:-1px !important;padding-right:15px;color:#01478d;}
+ol{padding-left:25px;}
+ol li{line-height: 30px;padding-left:15px;}
 
 /*Footer*/
 .layout-footer{border-top: 4px solid #00b4ff;background-color: #222222;padding:45px 0 8px 0}
