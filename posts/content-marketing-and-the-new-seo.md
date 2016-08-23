@@ -2,7 +2,7 @@
 title: "Content Marketing and the New \"SEO\""
 shortdesc: "Content Marketing Institute defines content marketing as, “a marketing technique of creating and distributing relevant and valuable content to attract, acquire, and engage a clearly defined and understood target audience—with the objective of driving profitable customer action.” In layman’s terms, content marketing is a means of providing captive information and media that specifically interests your company’s target audience. In order to use content marketing effectively, you need to investigate your target audience’s likes, interests, activities, behaviors and what they consider valuable information and/or entertainment. This act of profiling your target audience’s behavior, rather then just their demographics, is referred to as defining the ‘Buyer Persona.’"
 cmsUserSlug: ""
-date: 2013-08-23T00:00:00+08:00
+date: 2013-08-23T01:30:00+08:00
 banner: /img/uploads/mtq3nwnmzju1ngiwndkzowe0mwe2odc1yzezoda2zdm.png
 categories: recent-blog
 writer: Philippe Bodart
