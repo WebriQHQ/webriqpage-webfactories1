@@ -11,6 +11,7 @@ writer: Philippe Bodart
 <style>
 img {max-width:100%;}
 </style>
+
 <em class="fa fa-thumbs-up">&nbsp;</em>
 
 If the term “responsive web design” is new to you, don’t feel bad, I promise you’re in the majority. In about 20 seconds you’ll know what it is and be able to look smart by talking about responsive design at dinner parties. The Responsive web design is simply this–a website design that adjusts gracefully to fit on a desktop, tablet, and smartphone browsers. Ever pull up a website on your smartphone and it was just a very tiny version of what you would see on your desktop, so you zoomed way in, and then moved the website around and enlarged and shrunk it as needed to read text and click on things? That was not a responsive website. Or if it was, it left out the key point of adjusting “gracefully.” A responsive website looks good no matter whether you’re looking at it on a smartphone, tablet, or desktop.
