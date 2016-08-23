@@ -8,6 +8,12 @@ categories: recent
 writer: Philippe Bodart
 ---
 
+<style>
+img{
+max-width:100%;
+}
+</style>
+
 #### <em class="fa fa-thumbs-up">&nbsp;</em> Creating a unique offer is the first key step
 
 In order to discover the content topics that capture the attention of your target audience, you should look at any past data that you have access to. For instance, what are the most popular blog articles you have published? What are some of the most viewed pages on your website? Your historical performance should dictate your direction for new marketing content.
@@ -36,8 +42,4 @@ In order to measure the impact of your promotion and campaign it is crucial to a
 
 <img src="/img/uploads/plessme.jpg">
 
-OUR INBOUND EXPERIENCE [STARTS at $150](#)  
-
-<style>
-img{max-width:100%;}
-</style>
+OUR INBOUND EXPERIENCE [STARTS at $150](#)
