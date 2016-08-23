@@ -27,7 +27,7 @@ The key to online credibility is consistently creating high quality content. You
 **Profitability **
 
 For those who stay the course and faithfully follow a strategic online marketing plan for an extended period of time, profitability reveals itself in the following ways: 
-<ul class="circle-list"><li>Organic traffic from search engines leading to new customers.</li><li>Content sharing via email and Social Media results in more referrals.<li></li>Higher conversion rates for new prospects when they “check you out” online and see great information.</li><li>Unexpected opportunities such as speaking engagements for organizations who find your content online.</li></ul>
+<ul class="circle-list"><li>Organic traffic from search engines leading to new customers.</li><li>Content sharing via email and Social Media results in more referrals.</li><li>Higher conversion rates for new prospects when they “check you out” online and see great information.</li><li>Unexpected opportunities such as speaking engagements for organizations who find your content online.</li></ul>
 
 If you’re looking to improve your business by leveraging the internet, it’s important to remember that the concept of Visibility, Credibility, and Profitability hold true both online and off line.
 
