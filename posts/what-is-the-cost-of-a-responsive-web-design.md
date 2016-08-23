@@ -3,7 +3,7 @@ title: What is the cost of a responsive web design
 shortdesc: "If the term “responsive web design” is new to you, don’t feel bad, I promise you’re in the majority. In about 20 seconds you’ll know what it is and be able to look smart by talking about responsive design at dinner parties."
 cmsUserSlug: ""
 date: 2014-09-14T00:00:00+08:00
-banner: /img/uploads/responsive1.png
+banner: /img/uploads/cost-of-a-responsive-web.jpg
 categories: recent
 writer: Philippe Bodart
 ---
