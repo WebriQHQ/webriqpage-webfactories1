@@ -44,4 +44,6 @@ No matter how small or big your business is, if you are counting on your website
 
 Even if the cost is slightly higher then a classical design, it will be substantially less costly then doing a desktop design, a tablet design and a mobile design. Bearing in mind that you are in the latter scenario running three different websites, that need to updated and maintained all separately. Not an appealing strategy in today's rapidly changing world over marketing communication.
 
-  
+<style>
+img {max-width:100%;}
+</style>  
