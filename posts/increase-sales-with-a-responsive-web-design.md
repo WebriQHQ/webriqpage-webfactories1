@@ -22,7 +22,7 @@ Customers also tend to stay longer on sites with videos, and even better — the
 
 _**Potential opportunity: Up to 86% increase in sales**_
 
-2. **Go multilingual and multicultural**
+**2. Go multilingual and multicultural**
 
 The global economic potential of online communication totals $45 trillion. But if your site only offers content in English, you miss out on a whopping two-thirds of that market potential. Making your website available for multilingual — and multicultural — audiences will help you reach a much bigger slice of the pie, improving your overall market potential by as much as 200%.
 
