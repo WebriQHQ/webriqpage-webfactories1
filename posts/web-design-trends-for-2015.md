@@ -3,7 +3,7 @@ title: Web Design Trends for 2015
 shortdesc: "Responsive web designs, flat and simple web designs, less clicking and more scrolling, typographical art, larger images and saying more with less are all trends that were there in 2014."
 cmsUserSlug: ""
 date: 2014-09-23T00:00:00+08:00
-banner: /img/uploads/web-design-trends-for-2015.jpg
+banner: /img/uploads/web-design-trends-for-20152.jpg
 categories: recent
 writer: Philippe Bodart
 ---
