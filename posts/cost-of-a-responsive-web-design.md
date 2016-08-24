@@ -2,7 +2,7 @@
 title: Cost of a responsive web design
 shortdesc: "Responsive web design are the way to go for any company, big or small. The fact that you can operate your website from one single data source for viewing on desktops, tablets, smartphones and even TV's is extremely appealing, for sure if you are on a limited budget."
 cmsUserSlug: ""
-date: 2014-09-18T00:00:00+08:00
+date: 2014-09-19T00:00:00+08:00
 banner: /img/uploads/cost-of-a-responsive-web-design.jpg
 categories: recent
 writer: Philippe Bodart
