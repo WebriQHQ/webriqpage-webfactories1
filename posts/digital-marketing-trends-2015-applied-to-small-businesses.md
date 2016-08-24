@@ -42,6 +42,6 @@ A small business can not set the trends in digital marketing, it just needs to u
 
 Nothing to worry about, even if it does not happen. The likelihood you invested a lot in that channel if at all is minimal.
 
-Further ideas on how these trends might influence small and medium sized businesses are welcome. Leave your comments or drop me a note on[sales@webfactories.biz](mailto:sales@webfactories.biz). 
+Further ideas on how these trends might influence small and medium sized businesses are welcome. Leave your comments or drop me a note on [sales@webfactories.biz](mailto:sales@webfactories.biz). 
 
   
