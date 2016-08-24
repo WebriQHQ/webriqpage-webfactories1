@@ -89,3 +89,8 @@ This is something which is done by a lot of people to ensure a fast loading spee
 Material Design focuses on dynamism. It is based on 3D and uses the concept of shadow effects. It brings a charm of some graphical elements to the design. It enables you to create a create a beautiful and more user friendly interface.
 
 You can include some of these trends while designing your website and provide a flawless browsing to your visitors.
+
+<hr>
+
+<p><strong>Author Bio:</strong></p>
+<p><strong>Marie Thomas</strong> is a renowned web development professional who works with Wordsuccor Ltd., a leading WordPress Developement Company from where you can hire <a style="color: #139ef3;" href="http://www.wordsuccor.com/services/hire-wordpress-developers/" target="_blank">dedicated WordPress Developer</a> for your business website. She is a passionate blogger who loves to write and share everything about WordPress and new web design technologies.</p>
