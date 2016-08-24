@@ -20,7 +20,7 @@ Already one of the major trends in 2014, this trend will be reinforced in 2015 a
 
 ![Responsive Web Design](/img/uploads/trends1.jpg)
 
-## Trend 2; Less Clicking and far more Scrolling
+## Trend 2 : Less Clicking and far more Scrolling
 
 Bulky sites that fragment your brand’s story over dozens of pages are history. Users now expect to be able to scroll through all that you offer in a single page, rather than by viewing every single page of your site. While multi-page sites do harness more search engine marketing (SEO) power, designs that provide content in the form of a single page are winning the hearts of smart phone and tablet users. Create a blog and landing pages with distinct titles, keywords and content that compensate for the single page design. Blogs and landing pages are on inner pages that can enhance your online visibility quite a bit, and needless to say that these inner pages are responsive as well and therefore easily readable on a tablet and smartphone.
 
@@ -36,7 +36,7 @@ What content is for your website, is Typography art for your web design. Typogra
 
 ![Typography](/img/uploads/largefonts.jpg)
 
-## Trend 5 ; Say MORE with LESS
+## Trend 5 : Say MORE with LESS
 
 As visual appeal becomes increasingly essential for the Internet, there has been a predictable decrease in text-heavy websites. Instead of telling your company's story in a paragraph or huge block of text, the focus has turned more into creative, visual storytelling. Text has been dramatically cut down to the bare necessities, while images such as icons, info graphics and large images, are employed to communicate important information. For the sites that are unavoidably text-based by nature, the trend is focused towards richer content experiences. Text combined with video, picture and interactive functionality is integrated to tell a story that will hold the attention of even most impatient users, like me!
 
