@@ -3,7 +3,7 @@ title: Reasons to redesign your website into a responsive web design
 shortdesc: In the infographics that is in this blog you will discover the reasons why redesigning your website is essential for gaining more traffic for your site. The infographic is backed up by real data showing the potential increase in traffic from redesigning your current website.
 cmsUserSlug: ""
 date: 2014-09-22T00:00:00+08:00
-banner: /img/uploads/website-design-features-ig.png
+banner: /img/uploads/reasons-to-redesign-your-website.jpg
 categories: recent
 writer: Philippe Bodart
 ---
