@@ -14,7 +14,3 @@ An essential element in a redesign is the absolute need to do a redesign that is
 
   
 ![](/img/uploads/website-design-features-ig.png)
-
-<style>
-img {max-width:100%;}
-</style>
