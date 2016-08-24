@@ -3,7 +3,7 @@ title: Mobile Web Apps Versus Native Apps
 shortdesc: "Browser based mobile apps versus native apps. It’s a serious debate about as old as three years. And pretty much since the beginning of that debate, there has been a general underlying current among the Internet community that browser based is good and native is bad. But Native is dominating despite the serious disadvantages, and browser based applications need to do a catch up."
 cmsUserSlug: ""
 date: 2013-08-27T01:00:00+08:00
-banner: /img/uploads/mobile-app.jpg
+banner: /img/uploads/mobappdev.jpg
 categories: recent-blog
 writer: Philippe Bodart
 ---
