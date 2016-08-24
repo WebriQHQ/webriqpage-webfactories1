@@ -18,7 +18,7 @@ Mobile applications are nothing new. Hundreds of thousands of productivity, gami
 
 One of the pre-requisites with this native approach is the extensive infrastructure that is required for basic distribution and maintenance updates. And beyond the distribution infrastructure, organizations need to create customized versions of the app for each of the mobile platforms on which it will run (Android, Mac O/S, RIM, Windows Mobile, Symbian etc.), which in turn also requires individual updates for end-users to install and refresh. For commercial apps not a big hurdle to take, for informational apps and for businesses with a limited amount of resources to deploy, not an obvious choice.
 
-<p style="text-align:center;"><img src="/img/uploads/figure_9-9_2-2.jpg" style="max-width:100%;"></p>
+<p style="text-align:center;"><img src="/img/uploads/figure_9-9_2-2new-2.jpg" style="max-width:100%;"></p>
 
 Native has its advantages; the apps works off line, particularly interesting for games and native apps can benefit from the proprietary features of the native platform – on the Iphone apps you can benefit from the tilt angle or the motion of device, provided of course your apps need that capability. For media and entertainment, native apps can be an extra revenue stream as the apps can incur a new recurring revenue stream. But for most companies the apps will be given Free so that extra incentive to build native apps will not be available.
 
