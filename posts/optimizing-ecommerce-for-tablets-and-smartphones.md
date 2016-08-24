@@ -2,7 +2,7 @@
 title: Optimizing Ecommerce for Tablets and Smartphones
 shortdesc: "If you're thinking users of Smartphones and tablets do not represent a material part of your eCommerce audience, consider these data points.  29 percent of all U.S. adults own a tablet or e-reader, up from 2 percent three years ago, according to Pew Research. "
 cmsUserSlug: ""
-date: 2013-08-26T00:00:00+08:00
+date: 2013-08-25T16:00:00.000Z
 banner: /img/uploads/tabletshopping.png
 categories: recent-blog
 writer: Philippe Bodart
@@ -20,7 +20,7 @@ Websites that render in their native form on a tablet and Smartphones are likely
 
 This article addresses steps to ensure your eCommerce site works well for tablet and Smartphone users.
 
-**Improving Navigation and Usasssssssbility**
+**Improving Navigation and Usability**
 
 Most eCommerce sites use category links and drop down menus to identify products. On a desktop or laptop computer, these parts work well. But on a Smartphone or tablet, they can be a headache because click activity is driven from a finger, not a mouse.
 
