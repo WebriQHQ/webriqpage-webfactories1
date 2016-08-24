@@ -17,21 +17,21 @@ This is particularly true for small companies (with fewer than 25 employees) foc
 
 ![](/img/uploads/screen_shot_2014-10-05_at_9.37.03_am.png)
 
-## #2 - Inbound is becoming a primary source for lead generation
+### #2 - Inbound is becoming a primary source for lead generation
 
 Inbound marketing continues to drive more and more leads and overtake outbound marketing as a primary source for lead generation. In 2014, half of marketers (B2B, B2C, and nonprofit) ranked inbound as their primary lead source, exceeding the average (42%) of all other channels combined. And more than twice as many respondents cited inbound (45%) as their primary source of leads versus outbound (22%). In fact, outbound marketing as a primary lead source dropped sharply in this year’s survey, from 34% down to 22%.
 
 ![](/img/uploads/inbound2014-lead-source-600x373.png)
 
-## #3 - Inbound leads are consistently more knowledgeable about your company
+### #3 - Inbound leads are consistently more knowledgeable about your company
 
 According to the survey results, inbound-sourced leads are consistently more knowledgeable about a company prior to speaking with a sales or business development representative than leads that originate through outbound means. Research from the Corporate Executive Board Company found that today’s B2B buyers go through nearly 60% of the purchasing process before ever talking to sales. So this makes the role of content and inbound marketing efforts critical to engaging prospects before they engage you and providing the information they are searching for.
 
-## #4 - Blogging is the single activity most commonly associated with success
+### #4 - Blogging is the single activity most commonly associated with success
 
 The benefits of blogging are universally known and blogs are a primary component of nearly every content marketing and online marketing program that leverages inbound methodologies. But in spite of the shear growth of blogs and content in general, blogging remains a powerhouse of inbound, generating more ROI than any other single inbound activity or tactic. According to the report, marketers who have prioritized blogging are 13 times more likely to experience positive ROI.
 
-## #5 - Non-profits are benefiting from inbound
+### #5 - Non-profits are benefiting from inbound
 
 While B2B seems to primarily get the inbound spotlight, non-profit organizations are seeing incredible results. Non-profits are seeing inbound (58%) is responsible for procuring nearly twice as many leads as the roll-up of all other channels (31%). And in addition to non-profits’ success using inbound for lead generation, they also outperform B2B and B2C companies in ROI growth.
 
