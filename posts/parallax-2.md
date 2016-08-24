@@ -2,7 +2,7 @@
 title: Parallax 2
 shortdesc: "In our previous blog, we introduced to you parallax scrolling design technique and gave you some hints on how the industry applies this technology currently: \"Many leading brands use it as pivotal element of their online presence and many others jump the bandwagon. In fact too many, in our opinion. Yes, the parallax scrolling technique is great to present the most beautiful face of a brand but it serves not all purposes. Featuring a brand through its graphical artwork, is great for sure but when it comes down to detailed copies and text content that need to speak for the brand, parallax is an overkill.”"
 cmsUserSlug: ""
-date: 2016-08-28T00:00:00+08:00
+date: 2013-08-28T00:00:00+08:00
 banner: /img/uploads/parallax-900x538.jpg
 categories: recent-blog
 writer: Philippe Bodart
