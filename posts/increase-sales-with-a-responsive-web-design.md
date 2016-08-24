@@ -2,7 +2,7 @@
 title: Increase sales with a responsive web design
 shortdesc: "Luckily, there are a few relatively simple updates you can make to your website that can have a huge impact on customer attraction and retention, sales, revenue and long-term brand loyalty. These steps don't require hundreds of thousands of dollars in investment and can be implemented by small companies and multinational corporations alike."
 cmsUserSlug: ""
-date: 2014-09-19T00:00:00+08:00
+date: 2014-09-20T00:00:00+08:00
 banner: /img/uploads/increase-sales-with-a-responsive-web-design.jpg
 categories: recent
 writer: Philippe Bodart
