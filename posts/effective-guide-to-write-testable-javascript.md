@@ -14,7 +14,7 @@ Organizing and writing code is easily testable and requires some efforts, but fu
 
 Here in this article, we will go through some useful tips and patterns for writing testable code in JavaScript.
 
-**Keep Business Logic and Display Logic Separate**
+### Keep Business Logic and Display Logic Separate
 
 JavaScript­based browser application primally listens to DOM events which is triggered by the end user. It is always tempting to write an anonymous function that does maximum work right while setting up DOM event listeners. This can create aloft both in lines of code and the time for practising. So, it is recommended to, write a named function and pass it to the event handler. This applies to more than the DOM, though. Many APIs, both in the browser and in Node, are serving this purpose.
 
@@ -39,7 +39,7 @@ JavaScript­based browser application primally listens to DOM events which is tr
 <p>}</p>
 </div>
 
-Avoid Side Effects
+### Avoid Side Effects
 
 Avoid writing functions that alter external state while running. It prevents side effects that could affect your ability to test other code with confidence. Rather it is best to keep side effects as close to the edges of your code as possible, with as little “surface area.”
 
@@ -58,7 +58,7 @@ Avoid writing functions that alter external state while running. It prevents sid
 <p>}</p>
 </div>
 
-Don’t change Parameters
+### Don’t change Parameters
 
 Create a new object or array in code and then proceed to add values to it. Or, use Underscore or Lodash to clone the passed object or array before using on it.
 
@@ -78,7 +78,7 @@ Create a new object or array in code and then proceed to add values to it. Or, u
 <p>}</p>
 </div>
 
-Writing Test before Coding
+### Writing Test before Coding
 
 A test driven development (TDD) is the process of writing unit tests before the code. In practice, TDD is a method that can be difficult to commit to all your code changes. But when it seems worth trying, it’s an excellent way to guarantee you are keeping all code testable.
 
