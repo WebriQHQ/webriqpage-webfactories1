@@ -50,13 +50,14 @@
 .entry-title h1{margin-top:0;margin-bottom:15px;}
 .entry-publish .entry-share-button{margin:10px 0 30px 0;}
 .post-article-widget{display:table;margin:15px 5px}
-.post-article-widget .article-title{margin:0px !important;}
-.post-article-widget-img{vertical-align:top;display:table-cell;width:40%;padding:5px 15px 0 10px;}
+.post-article-widget .article-title{margin: 0 0 5px 0!important;}
+.post-article-widget-img{vertical-align:top;display:table-cell;width:40%;padding:5px 15px 0 15px;}
 .post-article-widget-title{vertical-align:top;display:table-cell;width:60%;padding:0 10px;}
 .post-article-widget-title h5{margin:0 !important;line-height:24px}
 .post-article-widget-title h5 a{color:#333}
 .post-article-widget-img .article-banner img{height: 70px !important;}
 .author-name, .date-format{color:#00b4ff;}
+.post-article-widget .article-publish li{font-size: 13px;}
 .side-bar-right{background:#f6f6f6;padding:0px 0px 10px 0px}
 .side-bar-header{background:#00b4ff;padding:20px 20px 20px 25px;margin-bottom:30px !important;}
 .general .side-bar-header h3{margin:0;color:#fff !important;font-weight:600;}
