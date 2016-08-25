@@ -217,6 +217,7 @@ body .splash-page .modal-content .e-commerce .inquiry strong
   .our-approach .col-md-6,.web-services .col-md-6,.web-services-commerce .col-md-6 {text-align: center !important;}
   .boxes-body p{position:relative;}
   .sm-mt{margin-top:40px;}
+  #copyright p{text-align: center}
 }
 @media (max-width:767px)
 {
@@ -228,6 +229,12 @@ body .splash-page .modal-content .e-commerce .inquiry strong
   .icon-static li p{width: 130px;height: 130px;}
   .icon-static li img{width: 40% !important;}
 }
+
+@media (max-width:480px)
+{
+  .load-more-wrapper a{display:block;margin-bottom:8px;}
+}
+
 
 
 /*NEIL CUSTOM CSS*/
@@ -255,7 +262,7 @@ body .splash-page .modal-content .e-commerce .inquiry strong
 .e-commerce {
     color: #fff;
     padding: 170px 0 80px 0;
-    background: url('/img/general-bg.jpg') center -134px;
+    background: url('/img/general-bg.jpg') center 0;
     text-align: center;
     background-size: cover;
     background-attachment: fixed;
