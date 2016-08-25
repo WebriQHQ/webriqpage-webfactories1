@@ -37,7 +37,7 @@
 
 /*BLOG*/
 .post-article:first-child{padding-top:0px;margin-top:0px;border-top:0px solid #d6d6d6}
-.post-article{padding-top:40px;margin-top:40px;border-top:1px solid #d6d6d6}
+.post-article{padding-bottom:40px;margin-bottom:40px;border-bottom:1px solid #d6d6d6}
 .article-banner img,.entry-banner img{width:100%;height:auto;}
 .article-title {margin:25px 0 15px 0}
 .article-title h3 a{color:#333;font-weight:400;}
@@ -57,7 +57,6 @@
 .post-article-widget-title h5 a{color:#333}
 .post-article-widget-img .article-banner img{height: 70px !important;}
 .author-name, .date-format{color:#00b4ff;}
-.post-article-widget .article-publish li{font-size: 13px;}
 .side-bar-right{background:#f6f6f6;padding:0px 0px 10px 0px}
 .side-bar-header{background:#00b4ff;padding:20px 20px 20px 25px;margin-bottom:30px !important;}
 .general .side-bar-header h3{margin:0;color:#fff !important;font-weight:600;}
@@ -70,6 +69,7 @@ ul.check-list-o li:before{display:table-cell;content:'\f058' !important;font: no
 ol{padding-left:25px;}
 ol li{padding-left:15px;}
 .precode_{margin: 30px 0px;padding: 20px 40px;background-color: #f6f6f6;}
+.post-article{ display:none;}
 
 /*Footer*/
 .layout-footer{border-top: 4px solid #00b4ff;background-color: #222222;padding:45px 0 8px 0}

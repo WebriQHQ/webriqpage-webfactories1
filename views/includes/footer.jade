@@ -102,6 +102,22 @@ section#contact-us.layout-footer
   script(type="text/javascript")
       != records.site.sitedata[0].analytics
 
+  if _path == "/recent-blog.html"
+    script(type='text/javascript').
+      $(document).ready(function () {
+      size_li = $(".post-article").size();
+      x=3;
+      $('.post-article:lt('+x+')').show();
+      $('#loadMore').click(function () {
+      x= (x+5 <= size_li) ? x+5 : size_li;
+      $('.post-article:lt('+x+')').show();
+      });
+      $('#showLess').click(function () {
+      x=(x-5<0) ? 3 : x-5;
+      $('.post-article').not(':lt('+x+')').hide();
+      });
+      });
+
   if _path == "/pricing.html"
     script(type='text/javascript').
         $(document).ready(function(){
