@@ -1,16 +1,12 @@
 ---
 title: Website Trends for 2014
 shortdesc: "Like fashion and technology, the styles of websites and blogs you see would also evolve and change. Below you will find a list of expected web design trends in approaching 2014."
-date: 2013-09-12T00:00:00+08:00
+cmsUserSlug: website-trends-for-2014
+date: 2013-09-11T16:00:00.000Z
 banner: /img/uploads/latest-web-20142.jpg
 categories: recent
 writer: Philippe Bodart
 ---
-
-<style>
-img {max-width:100%;}
-ul li {list-style: circle !important;}  
-</style>
 
 Like fashion and technology, the styles of websites and blogs you see would also evolve and change. Below you will find a list of expected web design trends in approaching 2014.
 
@@ -82,3 +78,8 @@ Examples:
 <img src="/img/uploads/animacje-2-custom.jpg"/>
 
 This short list certainly does not close the topic and there are a lot more trends to consider. Still, it is a decent list and it’s worth getting to know with it! Just remember, trends come and go. They change, sometimes completely unexpectedly. You don’t have to go out and apply them all to your current web design straight after reading this article.
+
+<style>
+img {max-width:100%;}
+ul li {list-style: circle !important;}  
+</style>
