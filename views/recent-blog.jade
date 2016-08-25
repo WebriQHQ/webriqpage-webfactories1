@@ -16,7 +16,7 @@ block content
                         .article-publish
                             ul
                                 li By
-                                    span= post.writer
+                                    span.author-name= post.writer
                                 li Posted
                                     span= dateFormat(post.date, 'LL')
                         .article-body
@@ -37,3 +37,7 @@ block content
                                 .article-title
                                     h5
                                         a(href=post.permalink)= post.title
+                                .article-publish
+                                    ul
+                                        li Posted
+                                            span.date-format= dateFormat(post.date, 'LL')

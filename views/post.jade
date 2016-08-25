@@ -10,7 +10,7 @@ block content
                     .entry-publish
                         ul
                             li.font-16 By
-                                span= entry.writer
+                                span.author-name= entry.writer
                             li.font-16 Posted
                                 span= dateFormat(entry.date, 'LL')
                         .entry-share-button
@@ -34,3 +34,7 @@ block content
                                 .article-title
                                     h5
                                         a(href=post.permalink)= post.title
+                                .article-publish
+                                    ul
+                                        li Posted
+                                            span.date-format= dateFormat(post.date, 'LL')
