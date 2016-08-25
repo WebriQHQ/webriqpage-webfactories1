@@ -201,11 +201,11 @@ body .splash-page .modal-content .e-commerce .inquiry strong
     background: #00B4FF;
 }
 
-@media (min-width:991px) and (max-width:1200px){
+@media (min-width:992px) and (max-width:1200px){
     .sm-btn{margin-top:15px !important;}
 }
 
-@media (min-width:991px){
+@media (min-width:992px){
     .blog-right{padding-left:40px !important;}
 }
 @media (max-width:991px)
@@ -1116,4 +1116,5 @@ body #mc_embed_signup #mc_embed_signup_scroll .button {
     .popover.right {
         width: 787px !important;
     }
+    .article-left{padding-right:30px;}
 }
