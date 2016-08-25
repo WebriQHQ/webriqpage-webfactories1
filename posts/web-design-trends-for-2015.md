@@ -12,7 +12,7 @@ The trends that we saw in 2014 will be reinforced in 2015.
 
 Responsive web designs, flat and simple web designs, less clicking and more scrolling, typographical art, larger images and saying more with less are all trends that were there in 2014. They will be further reinforced in 2015 due to the further increase of mobile and tablet usage and the need to have one content management platform for all your customers and viewers. 
 
-If somehow you did not jump on the band wagon this year, prepare to redesign your website in the latter part of this year, so you can follow the so much needed trends in web design for your mobile viewers. **[EXCEL REDESIGN TOOL](https://cloudinary.com/users/login#/dialog/raw/upload/Website_Redesign_Workbook_Webfactories_version_1_gbbila.xls)** is a useful tool that can help you managing a redesign process.
+If somehow you did not jump on the band wagon this year, prepare to redesign your website in the latter part of this year, so you can follow the so much needed trends in web design for your mobile viewers. **[EXCEL REDESIGN TOOL](http://res.cloudinary.com/https-www-webriq-com/raw/upload/v1472107515/Website_Redesign_Workbook_Webfactories_version_1_gbbila.xls)** is a useful tool that can help you managing a redesign process.
 
 ## Trend 1 : Responsive web design is here to stay
 
