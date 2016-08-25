@@ -10540,7 +10540,7 @@ h1, h2, h3, h4, h5, h6,
   font-family: inherit;
   font-weight: 500;
   line-height: 1.1;
-  color: inherit;
+  color: #333;
 }
 
 h1 small,
@@ -10566,7 +10566,7 @@ h1, .h1,
 h2, .h2,
 h3, .h3 {
   margin-top: 20px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 h1 small,
@@ -19722,7 +19722,7 @@ em {
 }
 
 strong {
-  font-weight: 500;
+  font-weight: 600;
 }
 
 small {
