@@ -39,6 +39,30 @@ JavaScript­based browser application primally listens to DOM events which is tr
 <p>}</p>
 </div>
 
+### Use Callbacks or Promises with Asynchronous Code
+
+In the above example, refactored fetchThings function runs an AJAX request. It means that we can’t run the function and test because we didn't know when it had finished running. The common way to proceed is to pass a callback function as a parameter to the function that runs asynchronously.
+
+Apart from this, you may also use the Promise API to organise asynchronous code. Fortunately, $.ajax and most other of jQuery’s asynchronous functions return a Promise object already, so a lot of common use cases are already covered.
+
+<div class="precode_">
+<p class="commnt_">// hard to test; we don't know for how long the AJAX request will stay</p>
+<p>function fetchResult() {</p>
+<p><span class="dollar_">&nbsp; &nbsp;$</span>.ajax({ url: '/file_path' });</p>
+<p>}</p>
+<p class="commnt_">// testable; by passing a callback and run assertions</p>
+<p>function fetchResultWithCallback(callback) {</p>
+<p><span class="dollar_">&nbsp; &nbsp;$</span>.ajax({</p>
+<p>&nbsp; &nbsp; &nbsp; url: '/file_path',</p>
+<p>&nbsp; &nbsp; &nbsp; success: callback,</p>
+<p>&nbsp; &nbsp;});</p>
+<p>}</p>
+<p class="commnt_">// also testable; run assertions after the returned Promise resolves</p>
+<p>function fetchResultWithPromise() {</p>
+<p>&nbsp; &nbsp;return <span class="dollar_">$</span>.ajax({ url: '/file_path' });</p>
+<p>}</p>
+</div>
+
 ### Avoid Side Effects
 
 Avoid writing functions that alter external state while running. It prevents side effects that could affect your ability to test other code with confidence. Rather it is best to keep side effects as close to the edges of your code as possible, with as little “surface area.”
