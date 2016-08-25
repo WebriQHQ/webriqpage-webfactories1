@@ -66,6 +66,7 @@ ul.arrow li:before{display:table-cell;content:'\f105' !important;font: normal no
 ul.check-list-o li:before{display:table-cell;content:'\f058' !important;font: normal normal normal 16px FontAwesome;list-style:none;position:relative;top:-1px !important;padding-right:15px;color:#00b4ff;}
 ol{padding-left:25px;}
 ol li{padding-left:15px;}
+.precode_{margin: 30px 0px;padding: 20px 40px;background-color: #f6f6f6;}
 
 /*Footer*/
 .layout-footer{border-top: 4px solid #00b4ff;background-color: #222222;padding:45px 0 8px 0}
