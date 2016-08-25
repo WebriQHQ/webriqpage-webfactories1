@@ -232,7 +232,7 @@ body .splash-page .modal-content .e-commerce .inquiry strong
 
 @media (max-width:480px)
 {
-  .load-more-wrapper a{display:block;margin-bottom:15px;margin-left: 0px;}
+  .load-more-wrapper a{display:block;margin-bottom:15px;margin-left: 0 !important;}
 }
 
 
