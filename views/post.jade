@@ -3,7 +3,7 @@ extends general
 block content
     .container.pt-50.pb-50.mt-20.mb-20
         .row
-            .col-md-8
+            .col-md-8.article-left
                 article.box.page
                     .entry-title
                         h1= entry.title
@@ -20,7 +20,7 @@ block content
                     .entry-body
                         != entry.body
                         script(type='text/javascript', src='//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5382b46f7a18e0a7')
-            .col-md-4.sm-mt
+            .col-md-4.sm-mt.article-right
                 .side-bar-right
                     .side-bar-header
                         h3 Recent Post
