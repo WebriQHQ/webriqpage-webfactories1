@@ -59,3 +59,7 @@ _Definitely_.
 At Mobify, we believe that it is very much the future of the web, and we’re not the only ones; [Google loves responsive web design, too](http://developers.google.com/webmasters/smartphone-sites/details).
 
 However, e-commerce websites pursuing the responsive approach need to understand that the actual responsive design is only one aspect to the strategy.
+
+<style>
+ul li {list-style:circle !important;}
+</style>
