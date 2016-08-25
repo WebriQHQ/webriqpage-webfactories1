@@ -3,7 +3,7 @@ title: Understanding The Importance Of Long Form Sales Page
 shortdesc: "Selling stuff online isn't an easy job. You need to invest a good amount of time, money and efforts into making your products and services reach a wider group of targeted audience. If you're thinking about selling something online, a well-defined, eye-catchy website should top your list of priorities. Equipping your corporate website with a long landing page is perhaps an excellent technique of growing your sales by huge bounds and leaps. Keep on reading this post to know more about the vital role played by a long form sales page in enhancing the conversion rate of a business website."
 cmsUserSlug: understanding-the-importance-of-long-form-sales-page
 date: 2015-11-03T16:00:00.000Z
-banner: /img/uploads/landing-page.gif
+banner: /img/uploads/landing-page.jpg
 categories: recent-blog
 writer: Sophia Phillips
 ---
