@@ -16,14 +16,17 @@ block content
                         .article-publish
                             ul
                                 li By
-                                    span= post.writer
+                                    span.author-name= post.writer
                                 li Posted
                                     span= dateFormat(post.date, 'LL')
                         .article-body
                            p= post.shortdesc
                         .article-more
                             a.btn.btn-primary.btn-lg.eq-ui-waves-light(href=post.permalink) Read More
-            .col-md-5.col-lg-4.hidden-sm.article-right
+                .load-more-wrapper.text-center.mt-40        
+                    a#loadMore.btn.btn-primary.btn-lg.eq-ui-waves-light Load More Post
+                    a#showLess.ml-15.btn.btn-primary.btn-lg.eq-ui-waves-light Show Less
+            .col-md-5.col-lg-4.hidden-sm.hidden-xs.article-right
                 .side-bar-right
                     .side-bar-header
                         h3 Recent Post
@@ -37,3 +40,7 @@ block content
                                 .article-title
                                     h5
                                         a(href=post.permalink)= post.title
+                                .article-publish
+                                    ul
+                                        li Posted
+                                            span.date-format= dateFormat(post.date, 'LL')
