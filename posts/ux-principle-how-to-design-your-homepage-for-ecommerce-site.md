@@ -64,4 +64,4 @@ Optimum UX can be a hard thing to achieve but it's under constant evolution, as 
 
 <hr>
 
-Author Bio: App developer and computer programmer of Xicom Technologies Ltd.- <span style="text-decoration: underline;"><a href="http://www.xicom.biz/offerings/android-development/" target="_blank">Android Application Development Services</a></span>, Amanda Cline explains three easy, hassle-free ways you can develop high performing mobile apps.
+Author Bio: App developer and computer programmer of Xicom Technologies Ltd.- <a href="http://www.xicom.biz/offerings/android-development/" target="_blank">Android Application Development Services</a>, Amanda Cline explains three easy, hassle-free ways you can develop high performing mobile apps.
