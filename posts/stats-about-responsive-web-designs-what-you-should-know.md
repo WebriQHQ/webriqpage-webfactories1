@@ -2,7 +2,7 @@
 title: Stats about responsive web designs What You should know
 shortdesc: "We all know that trends come and go throughout the years, especially in the ever-changing world of design. But what separates a design that is trendy compared to a design that is useful? "
 cmsUserSlug: ""
-date: 2014-09-15T00:00:00+08:00
+date: 2014-09-14T16:00:00.000Z
 banner: /img/uploads/stats-about-responsive.jpg
 categories: recent
 writer: Philippe Bodart
