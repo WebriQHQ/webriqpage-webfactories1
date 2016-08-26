@@ -173,7 +173,3 @@ Know what your customers are curious about. If you provide links to your FAQ, or
 **4. A way to come back to the cart later if they decide to.**
 
 Although shopping carts may get abandoned. The customer may return. If and when they return, they want to be able to access their cart. Leave the cookies active, so if the customer comes back, they will be able to see their cart again and proceed with the purchase.
-
-<style>
-ul li {list-style:circle !important;}
-</style>  
