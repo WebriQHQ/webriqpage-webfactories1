@@ -47,7 +47,3 @@ Budget wise you are looking at around $3,000 for a complete overhaul to a respon
 No matter how small or big your business is, if you are counting on your website to give you new leads and new business, jump to the responsive web design right now. Ask yourselves the hard question, can I afford to not do it, and should I cut some of my traditional ways of marketing my business and spent time and energy on getting visibility and credibility on the Internet instead.
 
 Even if the cost is slightly higher than a classical design, it will be substantially less costly than doing a desktop design, a tablet design and a mobile design. Bearing in mind that you are in the latter scenario running three different websites, that need to updated and maintained all separately. Not an appealing strategy in today's rapidly changing world over marketing communication.
-
-<style>
-img {max-width:100%;}
-</style>
