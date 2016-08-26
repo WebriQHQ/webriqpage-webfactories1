@@ -34,6 +34,6 @@ While Twitter, Facebook, LinkedIn, Google+ and Pinterest are very different soci
 
 In order to measure the impact of your promotion and campaign it is crucial to analyze your landing page, your blog post, social media and call-to-action for clicks.
 
-<img src="/img/uploads/plessme.jpg">
+<img src="/img/uploads/plessme.jpg" width="100%">
 
 OUR INBOUND EXPERIENCE [STARTS at $150](#)
