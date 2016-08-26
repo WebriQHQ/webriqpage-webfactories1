@@ -61,13 +61,13 @@
 .side-bar-header{background:#00b4ff;padding:20px 20px 20px 25px;margin-bottom:30px !important;}
 .general .side-bar-header h3{margin:0;color:#fff !important;font-weight:600;}
 ul.circle-list,ul.square,ul.arrow,ul.check-list-o{padding-left:10px;list-style:none;}
-ul.circle-list li{display:table;}
+ul.circle-list li,ul.square li,ul.arrow li,ul.check-list-o li{display:table;margin-bottom:15px}
 ul.circle-list li:before{display:table-cell;content:'\f111';font: normal normal normal 9px FontAwesome;list-style:none;position:relative;top:-2px !important;padding-right:15px;color:#00b4ff;}
 ul.square li:before{display:table-cell;content:'\f0c8' !important;font: normal normal normal 9px FontAwesome;list-style:none;position:relative;top:-2px !important;padding-right:15px;color:#00b4ff;}
 ul.arrow li:before{display:table-cell;content:'\f105' !important;font: normal normal normal 9px FontAwesome;list-style:none;position:relative;top:-2px !important;padding-right:15px;color:#00b4ff;}
 ul.check-list-o li:before{display:table-cell;content:'\f058' !important;font: normal normal normal 16px FontAwesome;list-style:none;position:relative;top:-1px !important;padding-right:15px;color:#00b4ff;}
 ol{padding-left:25px;}
-ol li{padding-left:15px;}
+ol li{padding-left:15px;margin-bottom:15px}
 .precode_{margin: 30px 0px;padding: 20px 40px;background-color: #f6f6f6;}
 .article-left .post-article{ display:none;}
 
