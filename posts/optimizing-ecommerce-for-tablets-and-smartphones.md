@@ -20,7 +20,7 @@ Websites that render in their native form on a tablet and Smartphones are likely
 
 This article addresses steps to ensure your eCommerce site works well for tablet and Smartphone users.
 
-**Improving Navigation and Usability**
+### Improving Navigation and Usability
 
 Most eCommerce sites use category links and drop down menus to identify products. On a desktop or laptop computer, these parts work well. But on a Smartphone or tablet, they can be a headache because click activity is driven from a finger, not a mouse.
 
@@ -30,7 +30,7 @@ As retailers embrace mobile commerce, there is a need to choose a delivery platf
 
 The native version of a website will not optimally perform, for the reasons outlined above. An alternative approach is to create a mobile subdomain, such as "m.yoursite.com." This is more effective for converting mobile sessions as the experience can be tailored for specific devices.
 
-**M-commerce is the New Buzzword**
+### M-commerce is the New Buzzword
 
 *Word of advice – Go Mobile!*
 
@@ -38,7 +38,7 @@ Online businesses have realized the need for deeper mobile integration. Witness 
 
 Online retailers will continue to create better and customized mobile apps. E-commerce business will be more focused, thanks to personalized mobile campaigns that target specific customers. Online shoppers will share an equal voice in the brand’s decision making process and this will promote a more satisfying user experience.
 
-**Localization – Big opportunities for Small Businesses**
+### Localization – Big opportunities for Small Businesses
 
 *Word of advice – Go Local!*
 
