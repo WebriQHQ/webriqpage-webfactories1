@@ -14,15 +14,15 @@ People all over the globe are increasingly using mobile devices to make purchase
 
 A modern looking website should be easily readable on a desktop, tablet or mobile device and should be driven by a single content management system.
 
-![](/img/uploads/responsive-web-design.jpg)
+<img src="/img/uploads/responsive-web-design.jpg" width="100%">
 
-## Some Stats
+### Some Stats
 
 According to a survey by Morgan Stanley, mobile usage is increasing in comparison to the desktop Internet users, as shown in the screenshot below:
 
 What’s more, according to Infographic: responsive design will be the most important factor for digital success, and this for years to come. Observing the growth of mobile usage and results of the survey conducted by well-recognized names such as Morgan Stanley, Google, Infographic etc. , clearly illustrates that mobile growth is not only a trend, but something that is likely to even accelerate further. However, to make the best possible out of this trend it’s imperative to use the right platform for building responsive websites, and keep the cost and the budget within reason.
 
-## Using WebriQ CMS For Building Responsive Websites
+### Using WebriQ CMS For Building Responsive Websites
 
 The WebriQ CMS framework has been developed with responsive, adaptive and parallax designs in mind.
 
@@ -34,7 +34,7 @@ Images can be resized easily within the framework.
 
 One of the biggest problems that web developers often face when designing a responsive based site is handling the images. You can re-size the images without much hassle by using Jquery or Java that can help you automatically reduce your image file size without affecting the quality of images.
 
-## Is a responsive design more costly
+### Is a responsive design more costly
 
 In theory it is more expensive then a non-responsive design. Reasons being that it takes more planning to do a responsive design, that certain design elements need to be adapted for multiple views and that testing the site takes longer as it has to be viewed on multiple hardware devices. And unless you have done a redesign in the last year chances are that you will need a complete overhaul of your design.
 
