@@ -2,23 +2,20 @@
 title: Benchmark for E-commerce success
 shortdesc: "People won’t buy from a site that they can’t trust. Plain and simple. When a website is devoid of accepted trust elements, you will have fewer converting customers."
 cmsUserSlug: ""
-date: 2015-04-01T00:00:00+08:00
+date: 2015-03-31T16:00:00.000Z
 banner: /img/uploads/benchmark-for-e-commerce-success.jpg
 categories: recent
 writer: Philippe Bodart
 ---
 
-##### **Your website should inspire TRUST**
+**Your website should inspire TRUST**
 
 People won’t buy from a site that they can’t trust. Plain and simple. When a website is devoid of accepted trust elements, you will have fewer converting customers.
 
 To put that into ordinary language — … if it looks bad… it doesn’t matter how much your product rocks. Nobody wants to buy from a site that doesn’t inspire their trust.
 
-* Web 1.0 doesn’t inspire trust.
-* Rotten UX doesn’t inspire trust.
-* Blurry graphics don’t inspire trust.
-* Broken links and 404s don’t inspire trust.
-* Unresponsive design doesn’t inspire trust.
+<ul class="circle-list"><li>Web 1.0 doesn’t inspire trust.</li><li>Rotten UX doesn’t inspire trust.<li>Blurry graphics don’t inspire trust.</li><li>Broken links and 404s don’t inspire trust.</li><li>Unresponsive design doesn’t inspire trust.</li></ul>
+
 In a word, there are a variety of things on a website that scream to a user: _DON’T TRUST ME. DON’T SPEND YOUR MONEY HERE!_
 
 ### The Importance of Trust
@@ -43,15 +40,13 @@ As we’ll discuss later in this book, certain symbols are trust markers. The pr
 
 Trust factors usually look familiar — logos, a lock icon, etc.— and help to inspire a degree of confidence in your site.
 
-[![shopping cart 1.2](/img/uploads/shopping-cart-1.21.gif)](http://ceblog.s3.amazonaws.com/wp-content/uploads/2014/05/shopping-cart-1.21.gif)
+<img src="/img/uploads/shopping-cart-1.21.gif" width="100%">
 
 **Tell your customers that you can be trusted.**
 
 There’s no harm in just telling it how it is. Let people know, in plain language, that you care about being trustworthy. Whether you’re endorsed by agency XYZ, or have a membership with TrustNetwork 123, you can simply state the facts about your validity.
 
- 
-
-##### Your Website should be EASY to USE
+**Your Website should be EASY to USE**
 
 Another major contributor to the success of your E-commerce site is the usability of your site. If potential customers have problems accessing, navigating, or otherwise using your site, they will become frustrating with your shopping cart. 
 
@@ -97,7 +92,7 @@ Finally, don’t be bashful when it comes to your call to action. This is the mo
 
 This is your time to shine. Give them a firm nudge in the right direction. You’re not being rude. You’re being courteous by providing good usability.
 
-##### **Check out process should be easy and simple**
+**Check out process should be easy and simple**
 
 ### 1. Make your checkout linear.
 
@@ -117,11 +112,11 @@ According to studies, the average checkout has 5.08 steps.
 
 Here are two obvious facts:
 
-* Once you cross the threshold into nine steps, you’re sunk.
-* A two-step process has the highest usability score. But as long as you’re keeping it between two and six steps, you should be fine.
-If you simplify the checkout process for your customers, you will inevitably improve your conversions. People crave simplicity in every facet of life — e-commerce shopping carts included. Keep things simple, and you’ll keep things humming right along.  
+<ol><li>Once you cross the threshold into nine steps, you’re sunk.</li><li>A two-step process has the highest usability score. But as long as you’re keeping it between two and six steps, you should be fine.</li></ol>
 
-##### **You should provide Help at check-out**
+If you simplify the checkout process for your customers, you will inevitably improve your conversions. People crave simplicity in every facet of life — e-commerce shopping carts included. Keep things simple, and you’ll keep things humming right along.
+
+**You should provide Help at check-out**
 
 Lots of e-commerce sites are great about providing help. They feature popups, live chat, and plenty of invitations for a user to get answers to their questions. Some, they’re being so helpful, it becomes over-the-top annoying.
 
