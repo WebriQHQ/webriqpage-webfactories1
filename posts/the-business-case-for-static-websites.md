@@ -2,7 +2,7 @@
 title: The Business Case for Static Websites
 shortdesc: "The current web is a mess. Every week we go to Hackernews and follow a broken link. Not long ago 12 million Drupal sites were infected with malware. 79% of all Wordpress sites are vulnerable to known exploits."
 cmsUserSlug: ""
-date: 2016-01-07T00:00:00+08:00
+date: 2016-01-06T16:00:00.000Z
 banner: /img/uploads/many-reasons-static.jpg
 categories: recent-blog
 writer: Philippe Bodart
@@ -36,7 +36,7 @@ This all means a number of things. All of them good if you are going static.
 
 4. **Cost.** It’s way way way cheaper to scale. And it all happens automatically. So no having to cover yourself by buying into a larger hosting service than you need, or having your servers cave to traffic spikes. 
 
-**Most sites would benefit from being “static”. **
+### Most sites would benefit from being “static”. 
 
 There are two exceptions - sites that absolutely need a database as a back-end and those that need constant updating.
 
