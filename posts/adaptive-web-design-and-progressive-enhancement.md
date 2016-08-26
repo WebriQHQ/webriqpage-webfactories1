@@ -2,13 +2,13 @@
 title: Adaptive web design and Progressive Enhancement
 shortdesc: "IT'S ALL ABOUT THE USER, NOT THE BROWSER or THE TECHNOLOGY THINK OF THE USER, NOT THE BROWSER If you’ve been working on the web for any amount of time, you’ve likely found out (or even used) the term “progressive enhancement” before. It is the gold standard of how to approach web design. But what is progressive enhancement really? What does it mean? How does it work? And how does it fit into our workflow in a time of rapidly evolving languages and browsers?"
 cmsUserSlug: ""
-date: 2013-08-31T00:00:00+08:00
+date: 2013-08-30T16:00:00.000Z
 banner: /img/uploads/adaptive.jpg
 categories: recent-blog
 writer: Philippe Bodart
 ---
 
-**IT'S ALL ABOUT THE USER, NOT THE BROWSER or THE TECHNOLOGY**
+### IT'S ALL ABOUT THE USER, NOT THE BROWSER or THE TECHNOLOGY
 
 THINK OF THE USER, NOT THE BROWSER If you’ve been working on the web for any amount of time, you’ve likely found out (or even used) the term “progressive enhancement” before. It is the gold standard of how to approach web design. But what is progressive enhancement really? What does it mean? How does it work? And how does it fit into our workflow in a time of rapidly evolving languages and browsers?
 
@@ -26,7 +26,7 @@ Fault tolerance is the reason progressive enhancement works and makes it possibl
  
 <p style="text-align:center;"><img src="/img/uploads/THE-RISE-OF-TOLERANCE.jpg" style="width:100%;"></p>
 
-**THE RISE OF TOLERANCE**
+### THE RISE OF TOLERANCE
 
 Over time, smart folks working on the web began to realize that graceful degradation’s emphasis on image over substance was all wrong. They saw that graceful degradation was directly undermining both content availability and accessibility. These designers and developers understood that the web was intended for the distribution and consumption of content— words, images, video, etc.,—and began basing all of their markup, style, and interaction decisions on how each choice would affect the availability of that content. By refocusing their efforts, developers began to embrace the fault tolerant nature of HTML and CSS as well as JavaScript- based feature detection to enrich a user’s experience.
 
