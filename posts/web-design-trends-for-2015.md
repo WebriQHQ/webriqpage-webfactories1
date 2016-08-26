@@ -18,7 +18,7 @@ If somehow you did not jump on the band wagon this year, prepare to redesign you
 
 Already one of the major trends in 2014, this trend will be reinforced in 2015 and will most likely stay one of the major trends in the year to come. With the dominance of tablets and smartphones, not only for viewing content on websites, but for real time transactions, all companies and organizations that are taking the Net seriously need to invest in a website redesign and in a responsive website redesign. Instead of a trend, it becomes a must have for any company that wants to grow the business through the web and inbound marketing. No longer multiple updates of your content and underlying technology, do it once and it's done for all devices out there. The trend is also future proofed, and as many new hardware devices will be coming to market to view online content, a responsive website will be able to adapt seamlessly to all these new devices without updating or upgrading your underlying technology. Get on board whilst you still have the time.
 
-![Responsive Web Design](/img/uploads/trends1.jpg)
+<img src="/img/uploads/trends1.jpg" width="100%">
 
 ## Trend 2 : Less Clicking and far more Scrolling
 
@@ -28,13 +28,13 @@ Bulky sites that fragment your brand’s story over dozens of pages are history.
 
 Swap your outdated textures, patterns, shadows, bubbles, and gradients for a focus on the sweet simplicity of flat design. As more and more site visits are happening on hand-held devices, designers are keen on building elements that appear smooth and minimalism on flat screens. Though flat design has been around for a while, brilliant and effortless flat user interfaces were on the rise in 2014 and will continue to be on the rise in 2015.
 
-![Flat Web Designs](/img/uploads/flatdesign.jpg)
+<img src="/img/uploads/flatdesign.jpg" width="100%">
 
 ## Trend 4 : Typography is King
 
 What content is for your website, is Typography art for your web design. Typographic art is on the fast track toward the mainstream. High-quality fonts are now available at affordable prices to small businesses that have previously had to pay out the wazoo for complete font sets. Rich typography was already a trend in 2014 and will continue to be a dominating design element in 2015 and the years to come.
 
-![Typography](/img/uploads/largefonts.jpg)
+<img src="/img/uploads/largefonts.jpg" width="100%">
 
 ## Trend 5 : Say MORE with LESS
 
@@ -45,7 +45,3 @@ As visual appeal becomes increasingly essential for the Internet, there has been
 Pictures have always been a fantastic way to express ideas online as is very apparent from the popularity of Instagram. An excellent design method is to utilize powerful images with text overlay as a way to quickly market ideas to users. When you consider the mobile user, a picture is more easily digestible than squinting at text. For the mobile medium a great picture is worth a thousand words.
 
 Hand in hand with large images, info graphics are a great way to display a lot of information in one space. It will take a good combination of pictures and words to truly tell a story that is entertaining and informative, but when you do it right the results keep people hooked to your pitch because it is such a user friendly interface. There is even a science behind well-designed info graphics to make them more compelling.
-
-<style>
-img{max-width:100%;}
-</style>  
