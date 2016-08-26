@@ -2,13 +2,13 @@
 title: Search Engine Marketing Trends for 2013
 shortdesc: "The hot trends in search engine marketing are AuthorRank, Publisher Authority and Social Media Behavior  SEO and Search Marketing in general have both seen many changes in the past 24 months. As a webmaster, digital marketer or tech savvy business owner you are surely familiar with the two major algorithm updates, Panda and Penguin, which Google introduced in 2011 and 2012, respectively. Both of these major changes were not events, but rather the beginning of a new way to rank keywords and websites.  "
 cmsUserSlug: ""
-date: 2013-08-30T00:00:00+08:00
+date: 2013-08-29T16:00:00.000Z
 banner: /img/uploads/search-engine-marketing-trends-for-2013.jpg
 categories: recent-blog
 writer: Philippe Bodart
 ---
 
-**The hot trends in search engine marketing are AuthorRank, Publisher Authority and Social Media Behavior**
+### The hot trends in search engine marketing are AuthorRank, Publisher Authority and Social Media Behavior
 
 SEO and Search Marketing in general have both seen many changes in the past 24 months. As a webmaster, digital marketer or tech savvy business owner you are surely familiar with the two major algorithm updates, Panda and Penguin, which Google introduced in 2011 and 2012, respectively.
 
@@ -24,13 +24,13 @@ The common thread in website and keyword ranking becomes quality, not quantity. 
 
 Web marketers have invested countless hours in reacting, adjusting strategies and adopting new ways of managing their online presence. 2013 is under way, and we have already seen the first Panda refresh of the year. Rest assured that there is more to come later in the year.
  
-**SEO Hot Points in 2013**
+### SEO Hot Points in 2013
 
 Although Google rarely gives advanced notice of major updates, it has been very consistent in its overall SEO guidance over the past couple of years. It is adamant about avoiding shortcuts and you will need to earn rankings through hard work.
 
 Content makes your site relevant to viewers and customers. To maximize your online potential, other ranking techniques need to be adopted.
  
-**1.AuthorRank and Publisher Authority**
+### 1.AuthorRank and Publisher Authority
 
 Google has put a lot of effort into cleaning up the state of the SERPs (Search Engine Results Pages).
 
@@ -48,7 +48,7 @@ Google has not revealed exactly how it will use rel=publisher markup in the SERP
 
 For this reason alone, if you have not yet claimed a Google+ page for your brand, make it happen today. It will be important to own that brand presence moving forward, even if you choose to leave it dormant until we learn more.
  
-**2.More Focus on Social Signals**
+### 2.More Focus on Social Signals
 
 To remain relevant in the long term, Google knows that it absolutely MUST figure out a way to incorporate social media signals into rankings. AuthorRank and PublisherRank are key pieces of that puzzle without question.
 
