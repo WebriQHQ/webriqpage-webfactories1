@@ -222,6 +222,7 @@ body .splash-page .modal-content .e-commerce .inquiry strong
 @media (max-width:767px)
 {
   .boxes-body{min-height:90px !important;}
+  .e-commerce {background-size:200% !important}
 }
 
 @media (max-width:580px)
@@ -261,10 +262,10 @@ body .splash-page .modal-content .e-commerce .inquiry strong
 
 .e-commerce {
     color: #fff;
-    padding: 170px 0 80px 0;
-    background: url('/img/general-bg.jpg') center 0;
+    padding: 150px 0 60px 0;
+    background: url('/img/general-bg.jpg') center 0 no-repeat;
     text-align: center;
-    background-size: cover;
+    background-size: 100%;
     background-attachment: fixed;
     width: 100% !important;
     min-width: 100% !important;
