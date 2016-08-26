@@ -44,7 +44,7 @@ The best part about this service is that it is mostly free and helps the user to
 
 Alexa gives you a very discursive analysis of the website, but you can find some discrepancies in the information delivered by the website. This is because they gather information from the one those who have installed their extension for Google Chrome or toolbar for Firefox or Internet Explorer.
 
-**Social Media Analytics**
+### Social Media Analytics
 
 Social media has undoubtedly become one of the most popular platforms for marketing your online stores. The best part about social media marketing is that you can chalk out a complete plan for your social media marketing strategy.
 
