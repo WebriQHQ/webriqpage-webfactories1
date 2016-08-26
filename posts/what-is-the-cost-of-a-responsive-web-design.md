@@ -20,7 +20,7 @@ To illustrate why responsiveness is better, I've taken the stats from an anonymo
 
 ### Mobile vs. Desktop.
 
-<p class="text-center"><img src"/img/uploads/responsive1.png" style="max-width:100%;"></p>
+<p class="text-center"><img src="/img/uploads/responsive1.png" style="max-width:100%;"></p>
 
 This pie chart on the right shows the percentages for visitors coming using mobile, tablet, and desktop devices for the past 12 months. You can view this pie chart for your own website by first selecting the past 12 months for your date range, and then on the left navigating to Audience &gt; Mobile &gt; Overview in Google Analytic. On the lower right you’ll see a small pie chart button. Push that, and you’ll see a chart like this one.
 
