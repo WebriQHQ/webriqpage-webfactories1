@@ -13,7 +13,7 @@ roots_webriq_sitemap = require 'webriq-roots-sitemap-v2'
 monthNames = [ "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec" ]
 
 module.exports =
-  ignores: ['readme.md', '**/layout.*', '**/_*', '.gitignore', 'ship.*conf']
+  ignores: ['readme.md', '**/layout.*', '**/_*', '.gitignore', 'ship.*conf', '**/general_custom.*', '**/general.*']
 
   locals:
     postExcerpt: (html, length, ellipsis) ->
@@ -31,9 +31,9 @@ module.exports =
     js_pipeline(files: 'assets/js/*.coffee'),
     css_pipeline(files: 'assets/css/*.styl'),
     roots_webriq_sitemap (
-      url: "https://webfactories.netlify.com",
+      url: "https://webfactories1.netlify.com",
       folder: "public",
-      directory: ["!admin"],
+      directory: ["!admin", "!includes"],
       file: "**/*.html"
     )
   ]
