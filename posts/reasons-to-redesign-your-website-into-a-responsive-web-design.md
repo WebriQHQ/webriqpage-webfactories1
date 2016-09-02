@@ -12,9 +12,4 @@ In the infographics that is in this blog you will discover the reasons why redes
 
 An essential element in a redesign is the absolute need to do a redesign that is adapted to different hardware devices available in the market. Since more and more viewers are using smartphones and tablets to view your website, the need of a responsive web site becomes obvious. With a responsive web site your websites simply adapts itself to whatever device, be it a desktop, tablet or smartphone and even TV.
 
-  
-![](/img/uploads/website-design-features-ig.jpg)
-
-<style>
-img {max-width:100%;}
-</style>
+<img src="/img/uploads/website-design-features-ig.jpg" width="100%">

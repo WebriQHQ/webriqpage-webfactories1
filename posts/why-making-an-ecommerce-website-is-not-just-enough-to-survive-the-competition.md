@@ -2,7 +2,7 @@
 title: Why making an eCommerce website is not just enough to survive the competition?
 shortdesc: "Every website, be it an eCommerce website or a normal blogging site, everyone needs to know what is happening around them so as to match pace in this competitive world."
 cmsUserSlug: ""
-date: 2015-12-15T00:00:00+08:00
+date: 2015-12-14T16:00:00.000Z
 banner: /img/uploads/ecommerce-website-webposting.jpg
 categories: recent-blog
 writer: Maria Mincey
@@ -12,7 +12,7 @@ Every website, be it an eCommerce website or a normal blogging site, everyone ne
 
 Before we get into the deeper insights of how it works and which tools are required to make it work, we must first know what is the importance of it and how working on it can get us better returns. 
 
-**Take a deep plunge**
+### Take a deep plunge
 
 Your credibility as a web analyst depends on how deeper you can plunge into to get every minutest detail that has the potential to make a difference. As we know that our main aim or the target is to get traffic, so we can start with the categories of traffic which we have and they are as follows: 
 
@@ -26,7 +26,7 @@ For those who have a bit grasp on marketing might be aware of it.
 
 Let's start with the analytics! 
 
-**Integrate Google Analytics with your E-commerce website** 
+### Integrate Google Analytics with your E-commerce website 
 
 Google Analytics is by far one of the most standard tools when it comes to analyzing any traffic related activity on the web. These tools provide a comprehensive analysis and detailed reports that help you to get a cross-sectional view of what is happening in the market. Being a free tool, every business owner of scale can use this powerful analytical tool for their web store that pulls the data from the Google itself. All you need to do is to integrate it to your website, and this enables you to intertwine your sales to sessions that will connect the sales to all your marketing channels. 
 
@@ -34,7 +34,7 @@ To set up a Google Analytics, you need to go through a couple of steps, in which
 
 Then after, you need to make some alterations in the coding part as Google Analytics offers a piece of code using which the website is crawled via the web crawlers of the Google. For those who have no grasp of coding can take some help from the programmers.
 
-**Analyze your Competition**
+### Analyze your Competition
 
 **Alexa**
 
@@ -44,11 +44,11 @@ The best part about this service is that it is mostly free and helps the user to
 
 Alexa gives you a very discursive analysis of the website, but you can find some discrepancies in the information delivered by the website. This is because they gather information from the one those who have installed their extension for Google Chrome or toolbar for Firefox or Internet Explorer.
 
-**Social Media Analytics**
+### Social Media Analytics
 
 Social media has undoubtedly become one of the most popular platforms for marketing your online stores. The best part about social media marketing is that you can chalk out a complete plan for your social media marketing strategy.
 
-**Facebook Analytics Dashboard **– Analytics of social media giant: Facebook- For those who have made a Facebook page might be aware of the Insights section offered by Facebook. 
+**Facebook Analytics Dashboard ** – Analytics of social media giant: Facebook- For those who have made a Facebook page might be aware of the Insights section offered by Facebook. 
 
 Since its launch, we have seen numerous iterations of Facebook page insights. 
 
@@ -58,7 +58,7 @@ And the developers have come up with something new every time and have made the 
 
 In order to make the best tweets ever, you can make use of tools like Sprout Social, Twtrland, or Hootsuite that help you to get analytics on impressions and traffic on your tweets.
 
-**Effectively utilize this strategy**
+### Effectively utilize this strategy
 
 Now in order to get traffic on this website you need to make sure you go into deeper analytics and get to use it in the best possible way you can.
 

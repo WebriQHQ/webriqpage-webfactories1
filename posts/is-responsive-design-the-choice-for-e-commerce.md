@@ -2,7 +2,7 @@
 title: Is Responsive design the choice for E-commerce
 shortdesc: "However, many e-commerce companies are still skeptical of responsive design as a solution to the multi-screen problem. They are concerned with how responsive design will affect the customer experience and overall website metrics."
 cmsUserSlug: ""
-date: 2015-03-01T00:00:00+08:00
+date: 2015-02-28T16:00:00.000Z
 banner: /img/uploads/is-responsive-design-the-choice-for-e-commerce.jpg
 categories: recent
 writer: Philippe Bodart
@@ -12,9 +12,7 @@ However, many e-commerce companies are still skeptical of responsive design as a
 
 To help answer the question of whether responsive design is a good choice for enterprise e-commerce companies, this post includes a high-level overview of:
 
-* Why some enterprise-sized businesses are embracing responsive web design to consolidate their web strategy.
-* The risks of responsive design for e-commerce retailers.
-* Whether it is possible for implement responsive design successfully in an e-commerce environment.
+<ul class="circle-list"><li>Why some enterprise-sized businesses are embracing responsive web design to consolidate their web strategy.</li><li>The risks of responsive design for e-commerce retailers.</li><li>Whether it is possible for implement responsive design successfully in an e-commerce environment.</li></ul>
 
 ### 1. Why some enterprises are choosing to ‘go responsive’
 
@@ -59,7 +57,3 @@ _Definitely_.
 At Mobify, we believe that it is very much the future of the web, and we’re not the only ones; [Google loves responsive web design, too](http://developers.google.com/webmasters/smartphone-sites/details).
 
 However, e-commerce websites pursuing the responsive approach need to understand that the actual responsive design is only one aspect to the strategy.
-
-<style>
-ul li {list-style:circle !important;}
-</style>

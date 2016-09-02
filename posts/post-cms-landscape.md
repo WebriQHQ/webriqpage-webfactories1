@@ -2,13 +2,13 @@
 title: Post CMS Landscape
 shortdesc: "Over the years, we've tried everything from Wordpress, Drupal, Squarespace, custom development app and we came all the way back to a Static approach. There's been quite a groundswell of belief over the past couple of years, we've been doing it all wrong. We've been making servers do all sorts of stuff they shouldn't be doing."
 cmsUserSlug: ""
-date: 2016-03-25T00:00:00+08:00
+date: 2016-03-24T16:00:00.000Z
 banner: /img/uploads/landing-page2.jpg
 categories: recent-blog
 writer: Philippe Bodart
 ---
 
-**The Challenge **
+### The Challenge 
 
 <p>Over the years, we've tried everything from Wordpress, Drupal, Squarespace, custom development app and we came all the way back to a Static approach.</p>
 
@@ -20,7 +20,7 @@ In order to make this idea work at a large and on bigger projects, we needed to 
 
 And we needed to pull this all together in manageable online tools. 
 
-**Putting The Pieces Together**
+### Putting The Pieces Together
 
 <p>We decided to use our own <a href="http://webriq.com" target="_blank">website</a> as a testing ground for using these tools. We migrated our content in to a repository on Github. In ordeback into our Roots project, we used an extension: <a href="https://github.com/carrot/roots-contentful" target="_blank">roots-contentful</a>. Every time our website was compiled, roots-contentful would fetch data through Contentful's API and pass it into our view templates. It would also compile each individual blog post's HTML file using the <a href="https://github.com/carrot/roots-contentful#single-entry-views" target="_blank">single page views</a> feature.</p>
 

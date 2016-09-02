@@ -2,7 +2,7 @@
 title: Increase sales with a responsive web design
 shortdesc: "Luckily, there are a few relatively simple updates you can make to your website that can have a huge impact on customer attraction and retention, sales, revenue and long-term brand loyalty. These steps don't require hundreds of thousands of dollars in investment and can be implemented by small companies and multinational corporations alike."
 cmsUserSlug: ""
-date: 2014-09-20T00:00:00+08:00
+date: 2014-09-19T16:00:00.000Z
 banner: /img/uploads/increase-sales-with-a-responsive-web-design.jpg
 categories: recent
 writer: Philippe Bodart
@@ -12,7 +12,7 @@ Luckily, there are a few relatively simple updates you can make to your website 
 
 There are five common areas that most company websites can improve upon and expect to see an immediate boost in revenue. Taken together, they have the potential to increase your revenue by quite substantially depending, of course, on your industry, location and a variety of other factors.
 
-**1. Add video content**
+### 1. Add video content
 
 Consumers love video — and so should you.
 
@@ -22,7 +22,7 @@ Customers also tend to stay longer on sites with videos, and even better — the
 
 _**Potential opportunity: Up to 86% increase in sales**_
 
-**2. Go multilingual and multicultural**
+### 2. Go multilingual and multicultural
 
 The global economic potential of online communication totals $45 trillion. But if your site only offers content in English, you miss out on a whopping two-thirds of that market potential. Making your website available for multilingual — and multicultural — audiences will help you reach a much bigger slice of the pie, improving your overall market potential by as much as 200%.
 
@@ -34,7 +34,7 @@ In your face marketing and sales messages might not be the best way to position 
 
 _**Potential opportunity: Up to 200% increase in sales**_
 
-**3. Prevent downtime**
+### 3. Prevent downtime
 
 On Cyber Monday, Amazon sold 36.8 million items worldwide. Minutes of downtime could have cost the company a big chunk of change. Same goes for your site. If it isn’t loading fast enough, you can lose customers before they even get a glimpse of your content and products. In fact, 57% of visitors abandon a website if it takes more than six seconds to load. It’s important that your website is resilient and scales to meet demand, since 24% of people cite downtime as the reason they abandoned their shopping carts.
 
@@ -42,7 +42,7 @@ Improving your site’s scalability will prevent slow load-times and downtime, u
 
 _**Potential opportunity: 24% increase in sales**_
 
-**4. Use responsive web designs**
+### 4. Use responsive web designs
 
 The majority of consumers access sites from multiple devices, so implement responsive design to provide a consistent visitor experience no matter where customers are accessing content. This year, over 30% of all ecommerce transactions are expected to take place on mobile or tablet. Responsive design gives you the opportunity to take advantage of those sales, and also eases your back-end site management and ups your SEO.
 
@@ -50,7 +50,7 @@ Make sure you're using a modern Content Management platform like [WebriQ](http:/
 
 _**Potential opportunity: 29% increase in sales**_
 
-**5. Post relevant blogs and customer testimonials**
+### 5. Post relevant blogs and customer testimonials
 
 It’s important to include great content for your site visitors throughout the entire path to purchase, and some of the most important pieces of content on your site are customer reviews.
 
