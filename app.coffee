@@ -8,6 +8,7 @@ collections  = require 'roots-collections'
 excerpt      = require 'html-excerpt'
 moment       = require 'moment'
 cleanUrls    = require 'clean-urls'
+roots_webriq_sitemap = require 'webriq-roots-sitemap-v2'
 
 monthNames = [ "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec" ]
 
