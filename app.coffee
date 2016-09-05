@@ -13,7 +13,7 @@ roots_webriq_sitemap = require 'webriq-roots-sitemap-v2'
 monthNames = [ "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec" ]
 
 module.exports =
-  ignores: ['readme.md', '**/layout.*', '**/_*', '.gitignore', 'ship.*conf', '**/general_custom.*', '**/general.*']
+  ignores: ['readme.md', '**/layout.*', '**/_*', '.gitignore', 'ship.*conf', '**/general_custom.jade', '**/general.jade']
 
   locals:
     postExcerpt: (html, length, ellipsis) ->
