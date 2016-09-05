@@ -33,7 +33,7 @@ module.exports =
     roots_webriq_sitemap (
       url: "https://webfactories1.netlify.com",
       folder: "public",
-      directory: ["!admin", "!includes"],
+      directory: ["!admin"],
       file: "**/*.html"
     )
   ]
